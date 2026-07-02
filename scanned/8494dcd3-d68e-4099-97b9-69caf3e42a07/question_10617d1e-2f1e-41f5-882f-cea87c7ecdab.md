@@ -1,1 +1,0 @@
-[File: 'contracts/interfaces/IRSETH_OFTAdapter.sol -> Scope: Medium. Unbounded gas consumption'] [Function: quoteSend(SendParam,bool)] Can an attacker cause the `KernelVaultETH.getNativeFee` view function to revert with OOG by observing that it calls `kernelOftAdapter.quoteSend` with a `SendParam` whose `extraOptions` is hardcoded to `bytes(\
