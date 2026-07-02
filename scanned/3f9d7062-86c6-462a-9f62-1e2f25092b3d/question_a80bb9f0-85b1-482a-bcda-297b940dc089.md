@@ -1,1 +1,0 @@
-[File: 'contracts/agETH/AGETHRateReceiver.sol -> Scope: Medium. Permanent freezing of unclaimed yield'] [Function: AGETHPoolV3.withdrawFees (CEI violation)] Does AGETHPoolV3.withdrawFees set feeEarnedInETH = 0 before the external ETH transfer 'payable(receiver).call{value: amountToSendInETH}(\
