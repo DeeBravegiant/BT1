@@ -1,1 +1,0 @@
-[File: 'contracts/interfaces/L2/ILineaMessageService.sol -> Scope: Medium. Unbounded gas consumption'] [Function: Recoverable.recoverETH / LineaMessenger] Can an attacker cause unbounded gas consumption in Recoverable.recoverETH by setting the recipient to a contract with an expensive fallback under the precondition that recoverETH uses a bare call{value:amount}(\
