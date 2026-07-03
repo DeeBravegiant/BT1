@@ -1,1 +1,0 @@
-Based on my research, I need to look at `LRTConverter.sol` which also modifies `assetsCommitted`, and examine the `unlockedWithdrawalsCount` decrement more carefully.
