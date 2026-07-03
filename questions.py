@@ -44,604 +44,580 @@ else:
         BASE_URL = repository_urls[run_index - 1]
     else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
-
 scope_files = [
-    "accounts-db/src/account_info.rs",
-    "accounts-db/src/account_locks.rs",
-    "accounts-db/src/account_storage.rs",
-    "accounts-db/src/account_storage/stored_account_info.rs",
-    "accounts-db/src/account_storage_entry.rs",
-    "accounts-db/src/account_storage_reader.rs",
-    "accounts-db/src/accounts.rs",
-    "accounts-db/src/accounts_cache.rs",
-    "accounts-db/src/accounts_db.rs",
-    "accounts-db/src/accounts_db/geyser_plugin_utils.rs",
-    "accounts-db/src/accounts_file.rs",
-    "accounts-db/src/accounts_hash.rs",
-    "accounts-db/src/accounts_index.rs",
-    "accounts-db/src/accounts_index/account_map_entry.rs",
-    "accounts-db/src/accounts_index/accounts_index_storage.rs",
-    "accounts-db/src/accounts_index/bucket_map_holder.rs",
-    "accounts-db/src/accounts_index/in_mem_accounts_index.rs",
-    "accounts-db/src/accounts_index/iter.rs",
-    "accounts-db/src/accounts_index/roots_tracker.rs",
-    "accounts-db/src/accounts_index/secondary.rs",
-    "accounts-db/src/accounts_scan.rs",
-    "accounts-db/src/accounts_update_notifier_interface.rs",
-    "accounts-db/src/ancestors.rs",
-    "accounts-db/src/ancient_append_vecs.rs",
-    "accounts-db/src/append_vec.rs",
-    "accounts-db/src/append_vec/meta.rs",
-    "accounts-db/src/blockhash_queue.rs",
-    "accounts-db/src/contains.rs",
-    "accounts-db/src/is_loadable.rs",
-    "accounts-db/src/is_zero_lamport.rs",
-    "accounts-db/src/lib.rs",
-    "accounts-db/src/obsolete_accounts.rs",
-    "accounts-db/src/partitioned_rewards.rs",
-    "accounts-db/src/pubkey_bins.rs",
-    "accounts-db/src/read_only_accounts_cache.rs",
-    "accounts-db/src/rolling_bit_field.rs",
-    "accounts-db/src/rolling_bit_field/iterators.rs",
-    "accounts-db/src/sorted_storages.rs",
-    "accounts-db/src/stake_rewards.rs",
-    "accounts-db/src/storable_accounts.rs",
-    "accounts-db/src/utils.rs",
-    "accounts-db/src/waitable_condvar.rs",
-    "banking-stage-ingress-types/src/lib.rs",
-    "bls-cert-verify/src/cert_verify.rs",
-    "bls-cert-verify/src/lib.rs",
-    "builtins-default-costs/src/lib.rs",
-    "builtins/src/core_bpf_migration.rs",
-    "builtins/src/lib.rs",
-    "builtins/src/prototype.rs",
-    "bundle/src/lib.rs",
-    "compute-budget-instruction/src/builtin_programs_filter.rs",
-    "compute-budget-instruction/src/compute_budget_instruction_details.rs",
-    "compute-budget-instruction/src/compute_budget_program_id_filter.rs",
-    "compute-budget-instruction/src/instructions_processor.rs",
-    "compute-budget-instruction/src/lib.rs",
-    "compute-budget/src/compute_budget.rs",
-    "compute-budget/src/compute_budget_limits.rs",
-    "compute-budget/src/lib.rs",
-    "connection-cache/src/client_connection.rs",
-    "connection-cache/src/connection_cache.rs",
-    "connection-cache/src/lib.rs",
-    "connection-cache/src/nonblocking/client_connection.rs",
-    "connection-cache/src/nonblocking/mod.rs",
-    "core/src/bam_connection.rs",
-    "core/src/bam_dependencies.rs",
-    "core/src/bam_manager.rs",
-    "core/src/banking_simulation.rs",
-    "core/src/banking_stage.rs",
-    "core/src/banking_stage/committer.rs",
-    "core/src/banking_stage/consume_worker.rs",
-    "core/src/banking_stage/consumer.rs",
-    "core/src/banking_stage/decision_maker.rs",
-    "core/src/banking_stage/latest_validator_vote_packet.rs",
-    "core/src/banking_stage/progress_tracker.rs",
-    "core/src/banking_stage/qos_service.rs",
-    "core/src/banking_stage/scheduler_messages.rs",
-    "core/src/banking_stage/tpu_to_pack.rs",
-    "core/src/banking_stage/transaction_scheduler/bam_receive_and_buffer.rs",
-    "core/src/banking_stage/transaction_scheduler/bam_scheduler.rs",
-    "core/src/banking_stage/transaction_scheduler/bam_utils.rs",
-    "core/src/banking_stage/transaction_scheduler/batch_id_generator.rs",
-    "core/src/banking_stage/transaction_scheduler/greedy_scheduler.rs",
-    "core/src/banking_stage/transaction_scheduler/in_flight_tracker.rs",
-    "core/src/banking_stage/transaction_scheduler/mod.rs",
-    "core/src/banking_stage/transaction_scheduler/receive_and_buffer.rs",
-    "core/src/banking_stage/transaction_scheduler/scheduler.rs",
-    "core/src/banking_stage/transaction_scheduler/scheduler_common.rs",
-    "core/src/banking_stage/transaction_scheduler/scheduler_controller.rs",
-    "core/src/banking_stage/transaction_scheduler/scheduler_error.rs",
-    "core/src/banking_stage/transaction_scheduler/transaction_priority_id.rs",
-    "core/src/banking_stage/transaction_scheduler/transaction_state.rs",
-    "core/src/banking_stage/transaction_scheduler/transaction_state_container.rs",
-    "core/src/banking_stage/vote_packet_receiver.rs",
-    "core/src/banking_stage/vote_storage.rs",
-    "core/src/banking_stage/vote_worker.rs",
-    "core/src/banking_trace.rs",
-    "core/src/block_creation_loop.rs",
-    "core/src/bls_sigverifier.rs",
-    "core/src/bls_sigverify/bls_cert_sigverify.rs",
-    "core/src/bls_sigverify/bls_sigverifier.rs",
-    "core/src/bls_sigverify/bls_vote_sigverify.rs",
-    "core/src/bls_sigverify/errors.rs",
-    "core/src/bls_sigverify/mod.rs",
-    "core/src/bls_sigverify/utils.rs",
-    "core/src/bundle.rs",
-    "core/src/bundle_sigverify_stage.rs",
-    "core/src/bundle_stage.rs",
-    "core/src/bundle_stage/bundle_account_locker.rs",
-    "core/src/bundle_stage/bundle_consumer.rs",
-    "core/src/bundle_stage/bundle_packet_deserializer.rs",
-    "core/src/bundle_stage/bundle_storage.rs",
-    "core/src/cluster_info_vote_listener.rs",
-    "core/src/cluster_slots_service.rs",
-    "core/src/cluster_slots_service/cluster_slots.rs",
-    "core/src/cluster_slots_service/slot_supporters.rs",
-    "core/src/commitment_service.rs",
-    "core/src/completed_data_sets_service.rs",
-    "core/src/consensus.rs",
-    "core/src/consensus/fork_choice.rs",
-    "core/src/consensus/heaviest_subtree_fork_choice.rs",
-    "core/src/consensus/latest_validator_votes_for_frozen_banks.rs",
-    "core/src/consensus/progress_map.rs",
-    "core/src/consensus/tower1_14_11.rs",
-    "core/src/consensus/tower1_7_14.rs",
-    "core/src/consensus/tower_storage.rs",
-    "core/src/consensus/tower_vote_state.rs",
-    "core/src/consensus/tree_diff.rs",
-    "core/src/consensus/vote_stake_tracker.rs",
-    "core/src/cost_update_service.rs",
-    "core/src/drop_bank_service.rs",
-    "core/src/epoch_specs.rs",
-    "core/src/fetch_stage.rs",
-    "core/src/forwarding_stage.rs",
-    "core/src/forwarding_stage/packet_container.rs",
-    "core/src/lib.rs",
-    "core/src/multicast_shred_check_service.rs",
-    "core/src/next_leader.rs",
-    "core/src/optimistic_confirmation_verifier.rs",
-    "core/src/packet_bundle.rs",
-    "core/src/proxy/auth.rs",
-    "core/src/proxy/block_engine_stage.rs",
-    "core/src/proxy/fetch_stage_manager.rs",
-    "core/src/proxy/mod.rs",
-    "core/src/proxy/relayer_stage.rs",
-    "core/src/repair/ancestor_hashes_service.rs",
-    "core/src/repair/block_id_repair_service.rs",
-    "core/src/repair/cluster_slot_state_verifier.rs",
-    "core/src/repair/duplicate_repair_status.rs",
-    "core/src/repair/malicious_repair_handler.rs",
-    "core/src/repair/mod.rs",
-    "core/src/repair/outstanding_requests.rs",
-    "core/src/repair/packet_threshold.rs",
-    "core/src/repair/repair_generic_traversal.rs",
-    "core/src/repair/repair_handler.rs",
-    "core/src/repair/repair_response.rs",
-    "core/src/repair/repair_service.rs",
-    "core/src/repair/repair_weight.rs",
-    "core/src/repair/repair_weighted_traversal.rs",
-    "core/src/repair/request_response.rs",
-    "core/src/repair/result.rs",
-    "core/src/repair/serve_repair.rs",
-    "core/src/repair/serve_repair_service.rs",
-    "core/src/repair/standard_repair_handler.rs",
-    "core/src/replay_stage.rs",
-    "core/src/resource_limits.rs",
-    "core/src/result.rs",
-    "core/src/sample_performance_service.rs",
-    "core/src/scheduler_bindings_server.rs",
-    "core/src/shred_fetch_stage.rs",
-    "core/src/sigverify.rs",
-    "core/src/sigverify_stage.rs",
-    "core/src/snapshot_packager_service.rs",
-    "core/src/snapshot_packager_service/snapshot_gossip_manager.rs",
-    "core/src/staked_nodes_updater_service.rs",
-    "core/src/tip_manager.rs",
-    "core/src/tip_manager/tip_distribution.rs",
-    "core/src/tip_manager/tip_payment.rs",
-    "core/src/tpu.rs",
-    "core/src/tpu_entry_notifier.rs",
-    "core/src/tvu.rs",
-    "core/src/unfrozen_gossip_verified_vote_hashes.rs",
-    "core/src/validator.rs",
-    "core/src/vote_simulator.rs",
-    "core/src/voting_service.rs",
-    "core/src/warm_quic_cache_service.rs",
-    "core/src/window_service.rs",
-    "feature-set/src/lib.rs",
-    "fee/src/lib.rs",
-    "gossip/src/cluster_info.rs",
-    "gossip/src/contact_info.rs",
-    "gossip/src/crds.rs",
-    "gossip/src/crds_data.rs",
-    "gossip/src/crds_entry.rs",
-    "gossip/src/crds_filter.rs",
-    "gossip/src/crds_gossip.rs",
-    "gossip/src/crds_gossip_error.rs",
-    "gossip/src/crds_gossip_pull.rs",
-    "gossip/src/crds_gossip_push.rs",
-    "gossip/src/crds_shards.rs",
-    "gossip/src/crds_value.rs",
-    "gossip/src/deprecated.rs",
-    "gossip/src/duplicate_shred.rs",
-    "gossip/src/duplicate_shred_handler.rs",
-    "gossip/src/duplicate_shred_listener.rs",
-    "gossip/src/epoch_slots.rs",
-    "gossip/src/epoch_specs.rs",
-    "gossip/src/gossip_error.rs",
-    "gossip/src/gossip_service.rs",
-    "gossip/src/legacy_contact_info.rs",
-    "gossip/src/lib.rs",
-    "gossip/src/node.rs",
-    "gossip/src/ping_pong.rs",
-    "gossip/src/protocol.rs",
-    "gossip/src/push_active_set.rs",
-    "gossip/src/received_cache.rs",
-    "gossip/src/restart_crds_values.rs",
-    "gossip/src/tlv.rs",
-    "gossip/src/weighted_shuffle.rs",
-    "jito-protos/src/lib.rs",
-    "leader-schedule/src/lib.rs",
-    "leader-schedule/src/vote_keyed.rs",
-    "ledger/src/ancestor_iterator.rs",
-    "ledger/src/bank_forks_utils.rs",
-    "ledger/src/bigtable_delete.rs",
-    "ledger/src/bigtable_upload.rs",
-    "ledger/src/bigtable_upload_service.rs",
-    "ledger/src/bit_vec.rs",
-    "ledger/src/block_error.rs",
-    "ledger/src/blockstore.rs",
-    "ledger/src/blockstore/blockstore_purge.rs",
-    "ledger/src/blockstore/column.rs",
-    "ledger/src/blockstore/error.rs",
-    "ledger/src/blockstore_cleanup_service.rs",
-    "ledger/src/blockstore_db.rs",
-    "ledger/src/blockstore_meta.rs",
-    "ledger/src/blockstore_metric_report_service.rs",
-    "ledger/src/blockstore_options.rs",
-    "ledger/src/blockstore_processor.rs",
-    "ledger/src/deshred_transaction_notifier_interface.rs",
-    "ledger/src/entry_notifier_interface.rs",
-    "ledger/src/entry_notifier_service.rs",
-    "ledger/src/genesis_utils.rs",
-    "ledger/src/leader_schedule_cache.rs",
-    "ledger/src/lib.rs",
-    "ledger/src/next_slots_iterator.rs",
-    "ledger/src/rooted_slot_iterator.rs",
-    "ledger/src/shred.rs",
-    "ledger/src/shred/common.rs",
-    "ledger/src/shred/filter.rs",
-    "ledger/src/shred/merkle.rs",
-    "ledger/src/shred/merkle_tree.rs",
-    "ledger/src/shred/payload.rs",
-    "ledger/src/shred/shred_code.rs",
-    "ledger/src/shred/shred_data.rs",
-    "ledger/src/shred/traits.rs",
-    "ledger/src/shred/wire.rs",
-    "ledger/src/shredder.rs",
-    "ledger/src/sigverify_shreds.rs",
-    "ledger/src/staking_utils.rs",
-    "ledger/src/transaction_address_lookup_table_scanner.rs",
-    "ledger/src/transaction_balances.rs",
-    "ledger/src/use_snapshot_archives_at_startup.rs",
-    "poh/src/lib.rs",
-    "poh/src/poh_controller.rs",
-    "poh/src/poh_recorder.rs",
-    "poh/src/poh_service.rs",
-    "poh/src/record_channels.rs",
-    "poh/src/transaction_recorder.rs",
-    "precompiles/src/ed25519.rs",
-    "precompiles/src/lib.rs",
-    "precompiles/src/secp256k1.rs",
-    "precompiles/src/secp256r1.rs",
-    "program-runtime/src/cpi.rs",
-    "program-runtime/src/deploy.rs",
-    "program-runtime/src/execution_budget.rs",
-    "program-runtime/src/invoke_context.rs",
-    "program-runtime/src/lib.rs",
-    "program-runtime/src/loaded_programs.rs",
-    "program-runtime/src/loading_task.rs",
-    "program-runtime/src/mem_pool.rs",
-    "program-runtime/src/memory.rs",
-    "program-runtime/src/memory_context.rs",
-    "program-runtime/src/program_cache_entry.rs",
-    "program-runtime/src/serialization.rs",
-    "program-runtime/src/stable_log.rs",
-    "program-runtime/src/sysvar_cache.rs",
-    "program-runtime/src/vm.rs",
-    "programs/system/src/lib.rs",
-    "programs/system/src/system_instruction.rs",
-    "programs/system/src/system_processor.rs",
-    "programs/vote/src/lib.rs",
-    "programs/vote/src/vote_processor.rs",
-    "programs/vote/src/vote_state/handler.rs",
-    "programs/vote/src/vote_state/mod.rs",
-    "quic-client/src/lib.rs",
-    "quic-client/src/nonblocking/mod.rs",
-    "quic-client/src/nonblocking/quic_client.rs",
-    "quic-client/src/quic_client.rs",
-    "reserved-account-keys/src/lib.rs",
-    "rpc/src/cluster_tpu_info.rs",
-    "rpc/src/filter.rs",
-    "rpc/src/lib.rs",
-    "rpc/src/max_slots.rs",
-    "rpc/src/optimistically_confirmed_bank_tracker.rs",
-    "rpc/src/parsed_token_accounts.rs",
-    "rpc/src/rpc.rs",
-    "rpc/src/rpc/account_resolver.rs",
-    "rpc/src/rpc_cache.rs",
-    "rpc/src/rpc_completed_slots_service.rs",
-    "rpc/src/rpc_health.rs",
-    "rpc/src/rpc_pubsub.rs",
-    "rpc/src/rpc_pubsub_service.rs",
-    "rpc/src/rpc_service.rs",
-    "rpc/src/rpc_subscription_tracker.rs",
-    "rpc/src/rpc_subscriptions.rs",
-    "rpc/src/slot_status_notifier.rs",
-    "rpc/src/transaction_notifier_interface.rs",
-    "rpc/src/transaction_status_service.rs",
-    "runtime-transaction/src/instruction_data_len.rs",
-    "runtime-transaction/src/instruction_meta.rs",
-    "runtime-transaction/src/lib.rs",
-    "runtime-transaction/src/runtime_transaction.rs",
-    "runtime-transaction/src/runtime_transaction/sdk_transactions.rs",
-    "runtime-transaction/src/runtime_transaction/transaction_view.rs",
-    "runtime-transaction/src/signature_details.rs",
-    "runtime-transaction/src/transaction_meta.rs",
-    "runtime-transaction/src/transaction_with_meta.rs",
-    "runtime/src/account_saver.rs",
-    "runtime/src/accounts_background_service.rs",
-    "runtime/src/accounts_background_service/pending_snapshot_packages.rs",
-    "runtime/src/bank.rs",
-    "runtime/src/bank/accounts_lt_hash.rs",
-    "runtime/src/bank/address_lookup_table.rs",
-    "runtime/src/bank/bank_hash_details.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/error.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/mod.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/source_buffer.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/target_bpf_v2.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/target_builtin.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/target_core_bpf.rs",
-    "runtime/src/bank/builtins/mod.rs",
-    "runtime/src/bank/check_transactions.rs",
-    "runtime/src/bank/entry_bytes_budget.rs",
-    "runtime/src/bank/fee_distribution.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/calculation.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/distribution.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/epoch_rewards_hasher.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/mod.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/sysvar.rs",
-    "runtime/src/bank/recent_blockhashes_account.rs",
-    "runtime/src/bank/serde_snapshot.rs",
-    "runtime/src/bank/sysvar_cache.rs",
-    "runtime/src/bank_client.rs",
-    "runtime/src/bank_forks.rs",
-    "runtime/src/bank_utils.rs",
-    "runtime/src/block_component_processor.rs",
-    "runtime/src/block_component_processor/vote_reward.rs",
-    "runtime/src/block_component_processor/vote_reward/epoch_inflation_account_state.rs",
-    "runtime/src/commitment.rs",
-    "runtime/src/dependency_tracker.rs",
-    "runtime/src/epoch_stakes.rs",
-    "runtime/src/genesis_utils.rs",
-    "runtime/src/inflation_rewards/mod.rs",
-    "runtime/src/inflation_rewards/points.rs",
-    "runtime/src/installed_scheduler_pool.rs",
-    "runtime/src/leader_schedule_utils.rs",
-    "runtime/src/lib.rs",
-    "runtime/src/loader_utils.rs",
-    "runtime/src/non_circulating_supply.rs",
-    "runtime/src/prioritization_fee.rs",
-    "runtime/src/prioritization_fee_cache.rs",
-    "runtime/src/read_optimized_dashmap.rs",
-    "runtime/src/rent_collector.rs",
-    "runtime/src/reward_info.rs",
-    "runtime/src/serde_snapshot.rs",
-    "runtime/src/serde_snapshot/obsolete_accounts.rs",
-    "runtime/src/serde_snapshot/status_cache.rs",
-    "runtime/src/serde_snapshot/storage.rs",
-    "runtime/src/serde_snapshot/types.rs",
-    "runtime/src/serde_snapshot/utils.rs",
-    "runtime/src/snapshot_bank_utils.rs",
-    "runtime/src/snapshot_controller.rs",
-    "runtime/src/snapshot_minimizer.rs",
-    "runtime/src/snapshot_package.rs",
-    "runtime/src/snapshot_package/compare.rs",
-    "runtime/src/snapshot_utils.rs",
-    "runtime/src/snapshot_utils/snapshot_storage_rebuilder.rs",
-    "runtime/src/stake_account.rs",
-    "runtime/src/stake_history.rs",
-    "runtime/src/stake_utils.rs",
-    "runtime/src/stake_weighted_timestamp.rs",
-    "runtime/src/stakes.rs",
-    "runtime/src/stakes/serde_stakes.rs",
-    "runtime/src/static_ids.rs",
-    "runtime/src/status_cache.rs",
-    "runtime/src/transaction_batch.rs",
-    "runtime/src/validated_block_finalization.rs",
-    "runtime/src/validated_reward_certificate.rs",
-    "runtime/src/vote_sender_types.rs",
-    "send-transaction-service/src/lib.rs",
-    "send-transaction-service/src/send_transaction_service.rs",
-    "send-transaction-service/src/tpu_info.rs",
-    "send-transaction-service/src/transaction_client.rs",
-    "streamer/src/evicting_sender.rs",
-    "streamer/src/lib.rs",
-    "streamer/src/msghdr.rs",
-    "streamer/src/nonblocking/connection_rate_limiter.rs",
-    "streamer/src/nonblocking/mod.rs",
-    "streamer/src/nonblocking/qos.rs",
-    "streamer/src/nonblocking/quic.rs",
-    "streamer/src/nonblocking/simple_qos.rs",
-    "streamer/src/nonblocking/stream_throttle.rs",
-    "streamer/src/nonblocking/swqos.rs",
-    "streamer/src/packet.rs",
-    "streamer/src/quic.rs",
-    "streamer/src/quic_socket.rs",
-    "streamer/src/recvmmsg.rs",
-    "streamer/src/sendmmsg.rs",
-    "streamer/src/streamer.rs",
-    "svm-callback/src/lib.rs",
-    "svm-feature-set/src/lib.rs",
-    "svm-log-collector/src/lib.rs",
-    "svm-measure/src/lib.rs",
-    "svm-measure/src/macros.rs",
-    "svm-measure/src/measure.rs",
-    "svm-timings/src/lib.rs",
-    "svm-transaction/src/instruction.rs",
-    "svm-transaction/src/lib.rs",
-    "svm-transaction/src/message_address_table_lookup.rs",
-    "svm-transaction/src/svm_message.rs",
-    "svm-transaction/src/svm_message/sanitized_message.rs",
-    "svm-transaction/src/svm_message/sanitized_transaction.rs",
-    "svm-transaction/src/svm_transaction.rs",
-    "svm-transaction/src/svm_transaction/sanitized_transaction.rs",
-    "svm-type-overrides/src/lib.rs",
-    "svm/src/account_loader.rs",
-    "svm/src/account_overrides.rs",
-    "svm/src/lib.rs",
-    "svm/src/message_processor.rs",
-    "svm/src/nonce_info.rs",
-    "svm/src/program_loader.rs",
-    "svm/src/rent_calculator.rs",
-    "svm/src/rollback_accounts.rs",
-    "svm/src/transaction_account_state_info.rs",
-    "svm/src/transaction_balances.rs",
-    "svm/src/transaction_commit_result.rs",
-    "svm/src/transaction_execution_result.rs",
-    "svm/src/transaction_processing_callback.rs",
-    "svm/src/transaction_processing_result.rs",
-    "svm/src/transaction_processor.rs",
-    "syscalls/src/cpi.rs",
-    "syscalls/src/lib.rs",
-    "syscalls/src/logging.rs",
-    "syscalls/src/mem_ops.rs",
-    "syscalls/src/sysvar.rs",
-    "tls-utils/src/crypto_provider.rs",
-    "tls-utils/src/lib.rs",
-    "tls-utils/src/notify_key_update.rs",
-    "tls-utils/src/quic_client_certificate.rs",
-    "tls-utils/src/skip_client_verification.rs",
-    "tls-utils/src/skip_server_verification.rs",
-    "tls-utils/src/tls_certificates.rs",
-    "transaction-context/src/instruction.rs",
-    "transaction-context/src/instruction_accounts.rs",
-    "transaction-context/src/lib.rs",
-    "transaction-context/src/transaction.rs",
-    "transaction-context/src/transaction_accounts.rs",
-    "transaction-context/src/vm_addresses.rs",
-    "transaction-context/src/vm_slice.rs",
-    "transaction-view/src/address_table_lookup_frame.rs",
-    "transaction-view/src/bytes.rs",
-    "transaction-view/src/instructions_frame.rs",
-    "transaction-view/src/lib.rs",
-    "transaction-view/src/message_header_frame.rs",
-    "transaction-view/src/resolved_transaction_view.rs",
-    "transaction-view/src/result.rs",
-    "transaction-view/src/sanitize.rs",
-    "transaction-view/src/signature_frame.rs",
-    "transaction-view/src/static_account_keys_frame.rs",
-    "transaction-view/src/transaction_config_frame.rs",
-    "transaction-view/src/transaction_data.rs",
-    "transaction-view/src/transaction_frame.rs",
-    "transaction-view/src/transaction_version.rs",
-    "transaction-view/src/transaction_view.rs",
-    "turbine/src/addr_cache.rs",
-    "turbine/src/broadcast_stage.rs",
-    "turbine/src/broadcast_stage/broadcast_duplicates_run.rs",
-    "turbine/src/broadcast_stage/broadcast_utils.rs",
-    "turbine/src/broadcast_stage/standard_broadcast_run.rs",
-    "turbine/src/cluster_nodes.rs",
-    "turbine/src/lib.rs",
-    "turbine/src/retransmit_stage.rs",
-    "turbine/src/sigverify_shreds.rs",
-    "turbine/src/xdp_sender.rs",
-    "udp-client/src/lib.rs",
-    "udp-client/src/nonblocking/mod.rs",
-    "udp-client/src/nonblocking/udp_client.rs",
-    "udp-client/src/udp_client.rs",
-    "unified-scheduler-logic/src/lib.rs",
-    "unified-scheduler-pool/src/lib.rs",
-    "validator/src/admin_rpc_service.rs",
-    "validator/src/bootstrap.rs",
-    "validator/src/lib.rs",
-    "validator/src/shred_receiver_addresses.rs",
-    "version/src/client_ids.rs",
-    "version/src/lib.rs",
-    "version/src/v1.rs",
-    "version/src/v2.rs",
-    "version/src/v3.rs",
-    "version/src/v4.rs",
-    "vote/src/lib.rs",
-    "vote/src/vote_account.rs",
-    "vote/src/vote_parser.rs",
-    "vote/src/vote_state_view.rs",
-    "vote/src/vote_state_view/field_frames.rs",
-    "vote/src/vote_state_view/frame_v1_14_11.rs",
-    "vote/src/vote_state_view/frame_v3.rs",
-    "vote/src/vote_state_view/frame_v4.rs",
-    "vote/src/vote_state_view/list_view.rs",
-    "vote/src/vote_transaction.rs",
-    "votor-messages/src/consensus_message.rs",
-    "votor-messages/src/fraction.rs",
-    "votor-messages/src/lib.rs",
-    "votor-messages/src/migration.rs",
-    "votor-messages/src/reward_certificate.rs",
-    "votor-messages/src/vote.rs",
-    "votor/src/commitment.rs",
-    "votor/src/common.rs",
-    "votor/src/consensus_pool.rs",
-    "votor/src/consensus_pool/certificate_builder.rs",
-    "votor/src/consensus_pool/parent_ready_tracker.rs",
-    "votor/src/consensus_pool/slot_stake_counters.rs",
-    "votor/src/consensus_pool/vote_pool.rs",
-    "votor/src/consensus_pool_service.rs",
-    "votor/src/consensus_rewards.rs",
-    "votor/src/consensus_rewards/entry.rs",
-    "votor/src/consensus_rewards/entry/notar_entry.rs",
-    "votor/src/consensus_rewards/entry/partial_cert.rs",
-    "votor/src/event.rs",
-    "votor/src/event_handler.rs",
-    "votor/src/lib.rs",
-    "votor/src/root_utils.rs",
-    "votor/src/staked_validators_cache.rs",
-    "votor/src/timer_manager.rs",
-    "votor/src/timer_manager/timers.rs",
-    "votor/src/vote_history.rs",
-    "votor/src/vote_history_storage.rs",
-    "votor/src/voting_service.rs",
-    "votor/src/voting_utils.rs",
-    "votor/src/votor.rs",
-
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/BlockBody.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Core.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Era.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Forecast.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/PParams.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Bbody.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Deleg.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Delegs.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Delpl.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Ledger.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Ledgers.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Pool.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Ppup.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Utxo.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Rules/Utxow.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Scripts.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/State.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/State/Account.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/State/CertState.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/State/Stake.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Transition.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Translation.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/Tx.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/TxAuxData.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/TxBody.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/TxCert.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/TxOut.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/TxWits.hs",
+    "eras/allegra/impl/src/Cardano/Ledger/Allegra/UTxO.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/BlockBody.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/BlockBody/Internal.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Core.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Era.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Forecast.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Genesis.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/PParams.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/Context.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/Evaluate.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/TxInfo.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Bbody.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Deleg.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Delegs.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Delpl.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Ledger.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Ledgers.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Pool.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Ppup.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxo.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxos.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxow.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Scripts.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/State.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/State/Account.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/State/CertState.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/State/Stake.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Transition.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Translation.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Tx.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/TxAuxData.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/TxBody.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/TxCert.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/TxOut.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/TxWits.hs",
+    "eras/alonzo/impl/src/Cardano/Ledger/Alonzo/UTxO.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/BlockBody.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Collateral.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Core.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Era.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Forecast.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/PParams.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Bbody.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Deleg.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Delegs.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Delpl.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ledger.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ledgers.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Pool.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ppup.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxo.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxos.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxow.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Scripts.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/State.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/State/Account.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/State/CertState.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/State/Stake.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Transition.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Translation.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/Tx.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxAuxData.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxBody.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxCert.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxInfo.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxOut.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/TxWits.hs",
+    "eras/babbage/impl/src/Cardano/Ledger/Babbage/UTxO.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Block.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Body.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Boundary.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Header.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Proof.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/Validation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Block/ValidationMode.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Byron/API.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Common.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Mempool.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Protocol.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Validation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/AddrAttributes.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/AddrSpendingData.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/Address.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/AddressHash.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/Attributes.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/BlockCount.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/CBOR.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/ChainDifficulty.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/Compact.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/KeyHash.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/Lovelace.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/LovelacePortion.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/Merkle.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/NetworkMagic.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/TxFeePolicy.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Common/TxSizeLinear.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Constants.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Certificate.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Map.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Payload.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Validation/Activation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Validation/Interface.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Validation/Scheduling.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Epoch/File.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Epoch/Validation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/AvvmBalances.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Config.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Data.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Delegation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Generate.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Hash.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Initializer.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/KeyHashes.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/NonAvvmBalances.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Spec.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/MempoolPayload.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/ProtocolConstants.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochAndSlotCount.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochNumber.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochSlots.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting/SlotCount.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Slotting/SlotNumber.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Ssc.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Compact.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/GenesisUTxO.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Tx.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxAux.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxPayload.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxProof.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxWitness.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/UTxO.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/UTxOConfiguration.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Validation.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/UTxO/ValidationMode.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/ApplicationName.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/InstallerHash.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Payload.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Proof.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Proposal.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/ProtocolParameters.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/ProtocolParametersUpdate.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/ProtocolVersion.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/SoftforkRule.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/SoftwareVersion.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/SystemTag.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Validation/Endorsement.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Validation/Interface.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Validation/Interface/ProtocolVersionBump.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Validation/Registration.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Validation/Voting.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/Update/Vote.hs",
+    "eras/byron/ledger/impl/src/Cardano/Chain/ValidationMode.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/BlockBody.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Core.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Era.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Forecast.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Genesis.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Governance.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Governance/DRepPulser.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Governance/Internal.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Governance/Procedures.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Governance/Proposals.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/PParams.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Bbody.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Cert.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Certs.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Deleg.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Enact.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Epoch.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Gov.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/GovCert.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/HardFork.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Ledger.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Ledgers.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Mempool.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/NewEpoch.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Pool.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Ratify.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Tickf.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Utxo.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Utxos.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Utxow.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Scripts.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/State.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/State/Account.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/State/CertState.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/State/Stake.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/State/VState.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Transition.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Translation.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/Tx.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxAuxData.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxBody.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxCert.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxInfo.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxOut.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/TxWits.hs",
+    "eras/conway/impl/src/Cardano/Ledger/Conway/UTxO.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/BlockBody.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/BlockBody/Internal.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Core.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Era.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Forecast.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Genesis.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Governance.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/PParams.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Bbody.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Cert.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Certs.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Deleg.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Entities.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Gov.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/GovCert.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Ledger.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Ledgers.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Mempool.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Pool.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubCert.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubCerts.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubDeleg.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubEntities.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubGov.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubGovCert.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubLedger.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubLedgers.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubPool.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubUtxo.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubUtxow.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxo.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxos.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxow.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Scripts.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/State.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/State/Account.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/State/CertState.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/State/Stake.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Transition.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Translation.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Tx.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxAuxData.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxBody.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxCert.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxInfo.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxOut.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/TxWits.hs",
+    "eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/UTxO.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/BlockBody.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Core.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Era.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Forecast.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/PParams.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Bbody.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Deleg.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Delegs.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Delpl.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ledger.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ledgers.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Pool.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ppup.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Utxo.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Utxow.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Scripts.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/State.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/State/Account.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/State/CertState.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/State/Stake.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Transition.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Translation.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Tx.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/TxAuxData.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/TxBody.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/TxCert.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/TxOut.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/TxWits.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/UTxO.hs",
+    "eras/mary/impl/src/Cardano/Ledger/Mary/Value.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Chain.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/ByronTranslation.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Forecast.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Mempool.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Types.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Validation.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Wallet.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/AdaPots.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/BlockBody.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/BlockBody/Internal.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Core.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Era.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Forecast.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Genesis.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Governance.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Internal.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/IncrementalStake.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/NewEpochState.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/PulsingReward.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/Types.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/PParams.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/PoolRank.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/RewardProvenance.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/RewardUpdate.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rewards.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Bbody.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Deleg.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Delegs.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Delpl.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Epoch.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ledger.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ledgers.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Mir.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/NewEpoch.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Newpp.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Pool.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/PoolReap.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ppup.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Reports.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Rupd.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Snap.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Tick.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Upec.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Utxo.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Utxow.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Scripts.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/SoftForks.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/StabilityWindow.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/State.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/State/Account.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/State/CertState.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/State/Stake.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Transition.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Translation.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/Tx.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/TxAuxData.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/TxBody.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/TxCert.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/TxOut.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/TxWits.hs",
+    "eras/shelley/impl/src/Cardano/Ledger/Shelley/UTxO.hs",
+    "libs/cardano-data/src/Data/CanonicalMaps.hs",
+    "libs/cardano-data/src/Data/ListMap.hs",
+    "libs/cardano-data/src/Data/Map/NonEmpty.hs",
+    "libs/cardano-data/src/Data/MapExtras.hs",
+    "libs/cardano-data/src/Data/MonoTuple.hs",
+    "libs/cardano-data/src/Data/OMap/Strict.hs",
+    "libs/cardano-data/src/Data/OSet/Strict.hs",
+    "libs/cardano-data/src/Data/Pulse.hs",
+    "libs/cardano-data/src/Data/Set/NonEmpty.hs",
+    "libs/cardano-data/src/Data/Universe.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Era.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Governance.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/PParams.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Scripts.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Scripts/Data.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Scripts/ExUnits.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/State/Query.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/State/Query/Account.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/State/Query/Governance.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Transition.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Address.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/AuxData.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Body.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Cert.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/In.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Out.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Wits.hs",
+    "libs/cardano-ledger-api/src/Cardano/Ledger/Api/UTxO.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Coders.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Crypto.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Annotated.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Coders.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/DecCBOR.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Decoder.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Drop.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sharing.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sized.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Coders.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/EncCBOR.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Encoder.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/FlatTerm.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Group.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Plain.hs",
+    "libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Version.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/BasicTypes.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/LedgerCBOR.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/Blocks/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesAccounts/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesCommittee/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesDReps/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/VRFKeyHashes/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovCommittee/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovConstitution/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovPParams/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovProposals/Roots/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovProposals/V0.hs",
+    "libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/UTxO/V0.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Address.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/BHeaderView.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/BaseTypes.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/BaseTypes/NonZero.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Block.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Coin.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Compactible.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core/Era.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core/PParams.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core/Translation.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core/TxCert.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Core/TxLevel.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Credential.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/DRep.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Genesis.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/HKD.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Hashes.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Keys.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Keys/Bootstrap.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Keys/Internal.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Keys/WitVKey.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/MemoBytes.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/MemoBytes/Internal.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Metadata.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Orphans.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/CostModels.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Data.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Evaluate.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ExUnits.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Language.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ToPlutusData.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/TxInfo.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Rewards.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Rules/ValidationMode.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Slot.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/Account.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/CertState.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/ChainAccount.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/Governance.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/PoolDistr.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/SnapShots.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/Stake.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/StakePool.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/State/UTxO.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Tools.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/TxIn.hs",
+    "libs/cardano-ledger-core/src/Cardano/Ledger/Val.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/Crypto.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/API.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/BHeader.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/OCert.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/OCert.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Overlay.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Prtcl.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Tickn.hs",
+    "libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Updn.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/Orphans.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/Query.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/Schema.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/Transform.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/UTxO.hs",
+    "libs/ledger-state/src/Cardano/Ledger/State/Vector.hs",
+    "libs/non-integral/src/Cardano/Ledger/NonIntegral.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V1.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V2.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V3.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V1.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V2.hs",
+    "libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V3.hs",
+    "libs/small-steps/src/Control/Provenance.hs",
+    "libs/small-steps/src/Control/State/Transition.hs",
+    "libs/small-steps/src/Control/State/Transition/Extended.hs",
+    "libs/small-steps/src/Control/State/Transition/Simple.hs",
+    "libs/vector-map/src/Data/VMap.hs",
+    "libs/vector-map/src/Data/VMap/KVVector.hs",
 ]
+
 target_scopes = [
-    "Critical. Network not being able to confirm new transactions (total network shutdown)",
-    "Critical. Unintended permanent chain split requiring hard fork (network partition requiring hard fork)",
-    "Critical. Direct loss of funds",
-    "High. Permanent freezing of funds (fix requires hardfork)",
-    "High. Unintended chain split (network partition)",
-    "Medium. Temporary freezing of network transactions by delaying one block by 500% or more of the average block time of the preceding 24 hours beyond standard difficulty adjustments",
-    "Medium. Causing network processing nodes to process transactions from the mempool beyond set parameters",
-    "Medium. Increasing network processing node resource consumption by at least 30% without brute force actions, compared to the preceding 24 hours",
-    "Medium. Shutdown of greater than or equal to 30% of network processing nodes without brute force actions, but does not shut down the network",
-    "Low. Layer 0/1/2 network bugs that result in unintended smart contract behavior with no concrete funds at direct risk, shutdown of greater than 10% or equal to but less than 30% of network processing nodes without brute force actions but not total network shutdown, or modification of transaction fees outside of design parameters",
+    "Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition",
+    "Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork",
+    "Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted",
+    "High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork",
+    "High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation",
+    "Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters",
 ]
 
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit + fuzzing questions for one Jito-Solana protocol target.
+    Generate exploit-focused audit + fuzzing questions for one Cardano Ledger target.
 
     ```
     target_file format:
-    "'File Name: runtime/src/bank.rs -> Scope: Critical. Direct loss of funds'"
+    "'File Name: eras/conway/impl/src/Cardano/Ledger/Conway/Rules/Ledger.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'"
     ```
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit and fuzzing questions for this exact Jito-Solana protocol target:
+    Generate exploit-focused security audit and fuzzing questions for this exact Cardano Ledger target:
 
     {target_file}
 
-    Use live context from the project if available: Tower BFT and fork choice, replay and bank execution, PoH/shreds/Turbine, QUIC/TPU/TVU packet flow, gossip and repair, blockstore and snapshots, fee/reward accounting, RPC/P2P entrypoints, Jito bundle and block engine integration, parsing, and cryptography.
+    Use live context from the project if available: ledger STS rules across Byron, Shelley, Allegra, Mary, Alonzo, Babbage, Conway, and Dijkstra; UTxO and UTxOW validation; certificates; withdrawals; rewards; deposits; protocol updates; governance; treasury; protocol parameters; block-body limits; scripts; witnesses; serialization; canonical state; and shared ledger libraries.
 
     Protocol focus:
-    This repository builds Jito's Solana validator, covering consensus, replay, execution, shreds, networking, mempool admission, RPC, storage, fee/reward distribution, and block engine integration. The audit focus is whether chain progress can be halted or split, invalid packets/blocks/transactions can be accepted, funds or fees can be lost or frozen, or public protocol entrypoints can trigger bounty-scoped node failures.
+    This repository contains the formal specifications, executable models, and Haskell implementations of the Cardano Ledger. The audit focus is whether attacker-controlled transactions, blocks, certificates, votes, proposals, witnesses, scripts, or serialized ledger data can make honest nodes accept invalid state, diverge, lose or freeze funds, misapply governance, or exceed bounty-scoped resource limits.
 
     Core invariants:
 
-    * Invalid shreds, repair data, votes, blocks, forks, transactions, or signatures must not be accepted by honest nodes.
-    * Valid transactions and blocks must remain processable without unintended chain split, tower lockout breakage, replay divergence, or network halt.
-    * Bank, fee, reward, rent, and scheduling logic must preserve balances, fee parameters, and account safety under adversarial ordering and load.
-    * TPU, TVU, gossip, repair, QUIC, RPC, and block engine paths must enforce intended admission, limits, and validation under attacker-controlled inputs.
-    * Blockstore, shred processing, snapshots, and serialization paths must reject malformed or adversarial inputs safely.
-    * Cryptographic verification and hashing must preserve consensus, authorization, and protocol safety.
+    * Invalid transactions, witnesses, scripts, certificates, proposals, votes, blocks, or serialized ledger states must not be accepted by honest nodes.
+    * Valid transactions and blocks must remain processable without ledger divergence, unexpected rejection, chain halt, or hard-fork-only recovery.
+    * UTxO, fee, deposit, refund, reward, treasury, withdrawal, donation, update, and governance accounting must preserve all ledger value under adversarial ordering.
+    * Era-specific rules must enforce certificate authorization, protocol updates, hard-fork transitions, governance proposal/vote rules, ratification/enactment, and network/value constraints exactly as specified.
+    * Native scripts, Plutus scripts, reference scripts, datums, redeemers, metadata, CBOR, hashes, and era translation paths must reject malformed or adversarial inputs safely.
+    * Ledger validation must enforce intended limits for attacker-controlled transactions, blocks, certificates, votes, proposals, and scripts.
 
     Rules:
 
@@ -649,35 +625,31 @@ def question_generator(target_file: str) -> str:
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Attacker is unprivileged: transaction sender, bundle sender, RPC caller, QUIC client, gossip/repair peer, malicious shred/block/input producer, or user of public node APIs.
-    * Do not rely on validator operator compromise, leaked keys, malicious supermajority, third-party dependency compromise, Sybil/51% attacks, phishing, spam-only DoS, or public-mainnet testing.
+    * Attacker is unprivileged: transaction sender, block producer below consensus threshold, certificate/vote/proposal author, script author, witness provider, or serialized ledger/input producer.
+    * Do not rely on governance majority, malicious supermajority, validator/operator compromise, leaked keys, third-party dependency compromise, Sybil/51% attacks, phishing, spam-only DoS, public-mainnet testing, or out-of-scope websites/dapps.
     * Generate 20 to 30 high-signal questions.
-    * At least 70% must be multi-step flow, invariant, fuzz, accounting, state-transition, consensus, or cross-module questions.
-    * Every question must be testable by PoC, unit test, fuzz test, invariant test, or differential test.
+    * At least 70% must be multi-step flow, invariant, fuzz, accounting, state-transition, consensus, serialization, governance, or cross-module questions.
+    * Every question must be testable by PoC, unit test, fuzz test, invariant test, model comparison, or differential test.
     * Avoid generic checklist questions and repeated root causes.
     * Note any question u must target valid issue u think could be possible
 
     High-value attack surfaces:
 
-    * Consensus and replay: Tower BFT lockouts, fork choice, vote handling, rooted/frozen bank transitions, optimistic confirmation, duplicate repair, and restart/recovery paths.
-    * Transactions and execution: packet admission, transaction scheduling, bundle execution, nonce/fee accounting, compute budgeting, account locking, cost/QoS rules, and runtime checks.
-    * State and storage: bank state transitions, fee/reward distribution, blockstore writes/reads, shred assembly/verification, snapshots, and serialization.
-    * External entrypoints: JSON-RPC, pubsub, gossip, repair, QUIC/UDP ingress, TPU/TVU paths, send-transaction service, and block engine connectivity.
-    * Jito-specific flows: bundles, trusted packet paths, block engine auth/streaming, and validator-side bundle ordering/locking.
-    * Cryptography and parsing: vote and shred signatures, packet decoding, protobuf/bincode serialization, hashes, and public key/account serialization.
+    * Ledger orchestration: CHAIN, BBODY, LEDGERS, LEDGER, UTXO, UTXOW, CERTS, epoch, reward, pool, update, GOV, RATIFY, ENACT, and era-transition sequencing.
+    * Funds and accounting: UTxO value conservation, fees, deposits, refunds, rewards, withdrawals, treasury donations, treasury withdrawals, MIR/update flows, and protocol-parameter updates.
+    * Governance and updates: Byron/Shelley update rules plus Conway proposal validation, return accounts, guardrails policy, voter authorization, DRep/SPO/committee thresholds, previous-action chains, expiry, ratification, and enactment.
+    * Scripts and witnesses: bootstrap witnesses, vkey witnesses, native scripts, Plutus scripts, redeemers, datums, reference scripts, script integrity hashes, and malformed witnesses.
+    * Serialization and era state: CBOR decoders/encoders, canonical hashes, memo bytes, metadata, transaction bodies, certificates, governance actions, block bodies, and era translations.
+    * Resource limits: max transaction/block sizes, execution units, collateral, reference script size per transaction/block, certificate/proposal/vote growth, and validation cost.
 
     Impact mapping:
 
-    * Critical: Network not being able to confirm new transactions (total network shutdown).
-    * Critical: Unintended permanent chain split requiring hard fork (network partition requiring hard fork).
-    * Critical: Direct loss of funds.
-    * High: Permanent freezing of funds (fix requires hardfork).
-    * High: Unintended chain split (network partition).
-    * Medium: Temporary freezing of network transactions by delaying one block by 500% or more of the average block time of the preceding 24 hours beyond standard difficulty adjustments.
-    * Medium: Causing network processing nodes to process transactions from the mempool beyond set parameters.
-    * Medium: Increasing network processing node resource consumption by at least 30% without brute force actions, compared to the preceding 24 hours.
-    * Medium: Shutdown of greater than or equal to 30% of network processing nodes without brute force actions, but does not shut down the network.
-    * Low: Layer 0/1/2 network bugs that result in unintended smart contract behavior with no concrete funds at direct risk, shutdown of greater than 10% or equal to but less than 30% of network processing nodes without brute force actions but not total network shutdown, or modification of transaction fees outside of design parameters.
+    * Critical: Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition.
+    * Critical: Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork.
+    * Critical: Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted.
+    * High: Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork.
+    * High: Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation.
+    * Medium: Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters.
 
     Each question must include:
 
@@ -700,7 +672,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(question: str) -> str:
     """
-    Generate a focused Jito-Solana protocol exploit-question validation prompt.
+    Generate a focused Cardano Ledger exploit-question validation prompt.
     """
     return f"""# QUESTION SCAN PROMPT
 
@@ -708,44 +680,40 @@ def audit_format(question: str) -> str:
 {question}
 
 ## Scope Rules
-- Audit only production Jito-Solana protocol code.
+- Audit only production Cardano Ledger code covered by the Intersect POSM Bug Bounty Program.
 - Do not ask for repo contents or claim files are missing.
-- Ignore tests, docs, mocks, scripts, configs, build files, IDE files, package metadata, vendored libraries, and local-only fixtures.
+- Ignore tests, docs, mocks, scripts, configs, build files, IDE files, package metadata, vendored libraries, formal-spec documents, and local-only fixtures.
 
 ## Objective
-Decide whether the question leads to a real, reachable Jito-Solana protocol vulnerability.
-The attacker must be unprivileged and enter through transaction submission, bundles, RPC, QUIC/UDP, gossip/repair, block/shred/input construction, or a public node API.
-The impact must match one of the allowed Jito-Solana protocol impacts below.
+Decide whether the question leads to a real, reachable Cardano Ledger vulnerability.
+The attacker must be unprivileged and enter through transaction, block, certificate, vote, proposal, script, witness, CBOR/serialized input, or below-threshold protocol participation.
+The impact must match one of the allowed Cardano Ledger impacts below.
 Prefer #NoVulnerability unless the path is concrete, local-testable, and bounty-grade.
 
 ## Allowed Impact Scope
 Only these impacts are valid:
-- Critical. Network not being able to confirm new transactions (total network shutdown).
-- Critical. Unintended permanent chain split requiring hard fork (network partition requiring hard fork).
-- Critical. Direct loss of funds.
-- High. Permanent freezing of funds (fix requires hardfork).
-- High. Unintended chain split (network partition).
-- Medium. Temporary freezing of network transactions by delaying one block by 500% or more of the average block time of the preceding 24 hours beyond standard difficulty adjustments.
-- Medium. Causing network processing nodes to process transactions from the mempool beyond set parameters.
-- Medium. Increasing network processing node resource consumption by at least 30% without brute force actions, compared to the preceding 24 hours.
-- Medium. Shutdown of greater than or equal to 30% of network processing nodes without brute force actions, but does not shut down the network.
-- Low. Layer 0/1/2 network bugs that result in unintended smart contract behavior with no concrete funds at direct risk, shutdown of greater than 10% or equal to but less than 30% of network processing nodes without brute force actions but not total network shutdown, or modification of transaction fees outside of design parameters.
+- Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition.
+- Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork.
+- Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted.
+- High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork.
+- High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation.
+- Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters.
 
 ## Method
 1. Trace the attacker-controlled entrypoint.
-2. Map it to exact production Jito-Solana files/functions.
-3. Check the relevant guard: consensus or replay validation, shred/signature checks, fee/reward accounting, bank/runtime checks, QoS or mempool limits, block engine trust boundaries, parser bounds, or crypto verification.
+2. Map it to exact production Cardano Ledger files/functions.
+3. Check the relevant guard: STS rule order, UTxO value conservation, witness/script checks, fee/deposit/refund/reward/treasury accounting, certificate/update/governance authorization, ratification/enactment thresholds where applicable, CBOR/canonical encoding bounds, or resource limits.
 4. Decide whether the questioned invariant can actually break under intended deployment.
 5. Prove root cause with file/function/line references.
 6. Confirm realistic likelihood and exact scoped impact.
 7. Reject if current validation already prevents the exploit.
 
 ## Reject Immediately
-- Requires trusted role, leaked key, malicious supermajority, or privileged operator access.
+- Requires governance majority, malicious supermajority, trusted role, leaked key, or privileged operator access.
 - Requires third-party dependency compromise, Sybil/51% attack, phishing, public-mainnet testing, or spam-only DoS.
-- Only affects tests, docs, configs, scripts, mocks, local fixtures, vendored libraries, or local deployment choices.
+- Only affects tests, docs, configs, scripts, mocks, local fixtures, formal specs, vendored libraries, or local deployment choices.
 - External dependency behavior is the only cause.
-- Impact is only logging, observability, local misconfiguration, non-security correctness, harmless revert, stale read, rejected update, or theoretical risk.
+- Impact is only logging, observability, local misconfiguration, non-security correctness, harmless reject, stale read, or theoretical risk.
 - No concrete scoped impact or no realistic exploit path.
 
 ## Output
@@ -768,7 +736,7 @@ If invalid, output exactly:
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for Jito-Solana protocol.
+    Generate a short cross-project analog scan prompt for Cardano Ledger.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -776,45 +744,41 @@ def scan_format(report: str) -> str:
 {report}
 
 ## Access Rules (Strict)
-- Treat production Jito-Solana protocol files in the provided scope as accessible context.
+- Treat production Cardano Ledger files in the provided scope as accessible context.
 - Do not claim missing/inaccessible files.
 - Do not ask for repository contents.
-- Do not scan tests, docs, build files, IDE files, configs, resources, local fixtures, vendored libraries, or package metadata as audited targets.
+- Do not scan tests, docs, build files, IDE files, configs, resources, formal-spec documents, local fixtures, vendored libraries, or package metadata as audited targets.
 
 ## Objective
-Use the external report's vulnerability class as a hint to find valid issues based on the Jito-Solana bounty scope.
-Focus on reachable issues triggered by an unprivileged transaction sender, bundle sender, RPC caller, QUIC client, gossip/repair peer, malicious shred/block/input producer, or public node API user.
-Only report an analog if this codebase has its own reachable root cause and the impact matches one of the allowed Jito-Solana protocol impacts below.
+Use the external report's vulnerability class as a hint to find valid issues based on the Intersect POSM Bug Bounty scope for Cardano Ledger.
+Focus on reachable issues triggered by an unprivileged transaction sender, block producer below consensus threshold, certificate/vote/proposal author, script author, witness provider, or serialized ledger/input producer.
+Only report an analog if this codebase has its own reachable root cause and the impact matches one of the allowed Cardano Ledger impacts below.
 
 ## Allowed Impact Scope
 Only these impacts are valid:
-- Critical. Network not being able to confirm new transactions (total network shutdown).
-- Critical. Unintended permanent chain split requiring hard fork (network partition requiring hard fork).
-- Critical. Direct loss of funds.
-- High. Permanent freezing of funds (fix requires hardfork).
-- High. Unintended chain split (network partition).
-- Medium. Temporary freezing of network transactions by delaying one block by 500% or more of the average block time of the preceding 24 hours beyond standard difficulty adjustments.
-- Medium. Causing network processing nodes to process transactions from the mempool beyond set parameters.
-- Medium. Increasing network processing node resource consumption by at least 30% without brute force actions, compared to the preceding 24 hours.
-- Medium. Shutdown of greater than or equal to 30% of network processing nodes without brute force actions, but does not shut down the network.
-- Low. Layer 0/1/2 network bugs that result in unintended smart contract behavior with no concrete funds at direct risk, shutdown of greater than 10% or equal to but less than 30% of network processing nodes without brute force actions but not total network shutdown, or modification of transaction fees outside of design parameters.
+- Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition.
+- Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork.
+- Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted.
+- High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork.
+- High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation.
+- Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters.
 
 ## Method
-1. Classify vuln type: consensus/replay bypass, chain split, network halt, invalid transaction acceptance, fee/reward accounting bug, shred/blockstore flaw, bundle or mempool control bug, RPC/P2P exploit, parser bounds issue, or crypto verification flaw.
-2. Map to Jito-Solana protocol components and exact production files.
+1. Classify vuln type: invalid state transition, funds/accounting bug, certificate/update/governance bypass, ratification/enactment flaw, witness/script validation bypass, serialization/canonicalization bug, resource-limit bug, or ledger divergence.
+2. Map to Cardano Ledger components and exact production files.
 3. Prove root cause with exact file/function/module/line references.
 4. Confirm concrete scoped impact and realistic likelihood.
 5. Explain the attacker-controlled entry path and why this repository's code is a necessary vulnerable step.
-6. Reject if the impact does not match one of the allowed Jito-Solana protocol impacts above.
+6. Reject if the impact does not match one of the allowed Cardano Ledger impacts above.
 
 ## Disqualify Immediately
 - No reachable attacker-controlled entry path.
-- Requires trusted role, leaked key, malicious supermajority, or privileged operator access.
+- Requires governance majority, trusted role, leaked key, malicious supermajority, or privileged operator access.
 - Requires third-party dependency compromise, Sybil/51% attack, phishing, public-mainnet testing, or spam-only DoS.
 - External dependency behavior is the only cause.
-- Test/docs/config/build-only issue.
+- Test/docs/config/build/formal-spec-only issue.
 - Theoretical-only issue with no protocol impact.
-- Impact is only local misconfiguration, observability noise, logging noise, harmless revert, stale read, or non-security correctness.
+- Impact is only local misconfiguration, observability noise, logging noise, harmless reject, stale read, or non-security correctness.
 - Impact or likelihood missing.
 
 ## Output (Strict)
@@ -838,10 +802,9 @@ No extra text.
     return prompt
 
 
-
 def validation_format(report: str) -> str:
     """
-    Generate a strict Jito-Solana protocol bounty-style validation prompt for security claims.
+    Generate a strict Cardano Ledger bounty-style validation prompt for security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -850,60 +813,56 @@ def validation_format(report: str) -> str:
 
 ## Rules
 - Validate only the submitted claim.
-- Check SECURITY.md, Researcher.md if present, and the Jito-Solana bounty scope for scope, exclusions, and valid impact classes.
+- Check SECURITY.md, Researcher.md if present, and the Intersect POSM Bug Bounty Program for scope, exclusions, and valid severity.
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject admin-only, consensus-threshold/validator-majority corruption, trusted-operator, leaked-key, host-compromise, best-practice, docs/style, config/build-only, gas-fee-only, and purely theoretical issues.
+- Reject admin-only, governance-majority, consensus-threshold/validator-majority corruption, trusted-operator, leaked-key, host-compromise, best-practice, docs/style, config/build-only, fee-only, and purely theoretical issues.
 - Reject if the exploit requires unrealistic assumptions, victim mistakes, phishing/social engineering, DNS/BGP hijack, third-party exchange/dapp/oracle compromise, public-mainnet DoS testing, raw volumetric DDoS, missing external context, or unsupported protocol behavior.
-- A valid report must be triggerable by an unprivileged user or by a Byzantine protocol peer below the consensus fault threshold, unless the claim proves privilege escalation from an unprivileged path.
+- A valid report must be triggerable by an unprivileged user or by a Byzantine protocol participant below the consensus fault threshold, unless the claim proves privilege escalation from an unprivileged path.
 - The final impact must match an in-scope bounty impact, not just a generic code bug.
-- Reject any issue whose final impact is not one of the allowed Jito-Solana protocol impacts listed below.
+- Reject any issue whose final impact is not one of the allowed Cardano Ledger impacts listed below.
 - Prefer #NoVulnerability over speculative reports.
 
 ## In-Scope Protocol Areas
-The claim must affect production in-scope Jito-Solana protocol code or systems, such as:
-- Core validator protocol: Tower BFT, fork choice, vote handling, replay, bad-block handling, chain reorg, repair, gossip, shreds, Turbine, QUIC/TPU/TVU, and node APIs.
-- Transaction and execution paths: packet admission, transaction scheduling, bundle execution, account locking, nonce/compute/fee checks, mempool limits, runtime execution, and fork-rule enforcement.
-- State and storage: bank state transitions, fee/reward distribution, snapshots, blockstore, shred assembly/verification, serialization, and root/hash derivation.
-- External protocol entrypoints: JSON-RPC, pubsub, send-transaction service, public client/node APIs, block engine connectivity, and trusted packet flows.
-- Cryptography and parsing: vote/shred/transaction signatures, hashes, protobuf/bincode/packet decoding, and account/public-key serialization.
+The claim must affect production in-scope Cardano Ledger code or systems, such as:
+- Era ledger rules: CHAIN, BBODY, LEDGERS, LEDGER, UTXO, UTXOW, CERTS, epoch, reward, pool, update, GOV, RATIFY, ENACT, mempool, hard-fork, and era-transition validation.
+- Transaction and state paths: UTxO spending, value conservation, witnesses, scripts, validity intervals, collateral, withdrawals, certificates, fees, deposits, refunds, rewards, donations, MIR/update flows, and treasury accounting.
+- Governance and update paths: Byron/Shelley protocol updates, proposal creation, return accounts, guardrails policy, votes, DRep/SPO/committee authorization, thresholds, previous-action chains, expiry, ratification, enactment, protocol parameters, hard forks, constitution, and committee changes.
+- Serialization and hashing: CBOR decoders/encoders, canonical state, memo bytes, transaction bodies, metadata, certificates, governance actions, script integrity hashes, block bodies, and era translation.
+- Resource limits: transaction size, block size, block reference script size, per-transaction reference script size, execution units, collateral counts, proposal/vote/certificate growth, and validation cost.
 
-Reject third-party dapps, unlisted public websites, tests, docs, examples, mocks, generated files, local deployment helpers, vendored libraries, and issues that only affect local developer tooling unless the submitted claim proves a direct in-scope Jito-Solana protocol security impact.
+Reject third-party dapps, unlisted public websites, tests, docs, examples, mocks, generated files, formal specifications, local deployment helpers, vendored libraries, and issues that only affect local developer tooling unless the submitted claim proves a direct in-scope Cardano Ledger security impact.
 
 ## Allowed Impact Scope
 Only these impacts are valid:
-- Critical. Network not being able to confirm new transactions (total network shutdown).
-- Critical. Unintended permanent chain split requiring hard fork (network partition requiring hard fork).
-- Critical. Direct loss of funds.
-- High. Permanent freezing of funds (fix requires hardfork).
-- High. Unintended chain split (network partition).
-- Medium. Temporary freezing of network transactions by delaying one block by 500% or more of the average block time of the preceding 24 hours beyond standard difficulty adjustments.
-- Medium. Causing network processing nodes to process transactions from the mempool beyond set parameters.
-- Medium. Increasing network processing node resource consumption by at least 30% without brute force actions, compared to the preceding 24 hours.
-- Medium. Shutdown of greater than or equal to 30% of network processing nodes without brute force actions, but does not shut down the network.
-- Low. Layer 0/1/2 network bugs that result in unintended smart contract behavior with no concrete funds at direct risk, shutdown of greater than 10% or equal to but less than 30% of network processing nodes without brute force actions but not total network shutdown, or modification of transaction fees outside of design parameters.
+- Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition.
+- Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork.
+- Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted.
+- High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork.
+- High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation.
+- Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters.
 
 Informational, non-security correctness, observability/logging-only, harmless reject/revert, stale read without consensus/state/accounting/security impact, local misconfiguration, and non-demonstrably-exploitable reports are invalid for this validation output.
 
-If the submitted claim does not concretely prove one of the allowed Jito-Solana protocol impacts above, it is invalid.
+If the submitted claim does not concretely prove one of the allowed Cardano Ledger impacts above, it is invalid.
 
 ## Required Validation Checks
 All must pass:
 1. Exact in-scope file, function, and line/code references.
-2. Clear root cause and broken protocol/security/accounting/authentication/certification assumption.
+2. Clear root cause and broken protocol/security/accounting/authorization/certification assumption.
 3. Reachable exploit path: preconditions -> attacker action -> trigger -> bad result.
 4. Existing checks/guards reviewed and shown insufficient.
-5. Concrete impact that exactly matches one allowed Jito-Solana protocol impact above, with realistic likelihood.
-6. Reproducible safe proof path: unit PoC, local private validator network, deterministic integration test, invariant/fuzz test, differential test, or exact local manual steps.
+5. Concrete impact that exactly matches one allowed Cardano Ledger impact above, with realistic likelihood.
+6. Reproducible safe proof path: unit PoC, local private testnet, deterministic integration test, invariant/fuzz test, differential test, model comparison, or exact local manual steps.
 7. No obvious rejection reason from SECURITY.md, Researcher.md if present, known issues, privileges, or scope exclusions.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- Can a normal external user or below-threshold Byzantine protocol peer trigger this?
+- Can a normal external user or below-threshold Byzantine protocol participant trigger this?
 - Does the code actually behave as claimed?
-- Is the impact caused by Jito-Solana production protocol code, not by an external dependency alone?
-- Is the consensus/replay/network/funds-loss/accounting impact concrete, not hypothetical?
-- Does the claim avoid governance-majority, validator-majority, trusted operator, leaked key, mainnet DoS, and third-party compromise assumptions?
+- Is the impact caused by Cardano Ledger production protocol code, not by an external dependency alone?
+- Is the ledger divergence/funds-loss/accounting/governance/resource impact concrete, not hypothetical?
+- Does the claim avoid governance majority, validator-majority, trusted operator, leaked key, mainnet DoS, and third-party compromise assumptions?
 - Would a bounty triager accept the proof?
 - What exact test would prove it?
 
@@ -922,7 +881,7 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete allowed Jito-Solana protocol bounty impact and severity rationale]
+[Concrete allowed Cardano Ledger bounty impact and severity rationale]
 
 ## Likelihood Explanation
 [Attacker capability, required conditions, feasibility, repeatability]
@@ -931,7 +890,7 @@ Audit Report
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or fuzz/invariant/fork test plan]
+[Minimal reproducible steps or fuzz/invariant/model-comparison test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
