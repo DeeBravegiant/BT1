@@ -1,1 +1,0 @@
-Let me look at the unstaking adapters, which handle NFTs similar to the original vulnerability pattern.
