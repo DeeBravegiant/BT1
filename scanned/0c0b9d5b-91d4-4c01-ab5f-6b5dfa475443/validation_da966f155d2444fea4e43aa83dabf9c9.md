@@ -1,1 +1,0 @@
-Let me look at the KERNEL staking pool more carefully, as it has a direct staking/unstaking mechanism analogous to the report.
