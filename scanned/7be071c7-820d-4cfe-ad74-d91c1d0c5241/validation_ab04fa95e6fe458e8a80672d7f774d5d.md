@@ -1,1 +1,0 @@
-Let me look at the `LRTConverter` and `NodeDelegator` contracts, and also examine the `LRTOracle` fee minting logic more carefully.
