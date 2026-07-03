@@ -1,1 +1,0 @@
-Let me look at the pools directory and L2 pool system for state transition issues.
