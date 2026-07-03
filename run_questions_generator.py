@@ -53,7 +53,6 @@ def main():
         print(f"Chrome headless: {should_run_chrome_headless()}")
 
         bot = GenerateQuestions(teardown=True)
-
         # Process questions
         for i, question in enumerate(questions, 1):
             print(f"[{i}/{total}] Processing: {question[:50]}...")
