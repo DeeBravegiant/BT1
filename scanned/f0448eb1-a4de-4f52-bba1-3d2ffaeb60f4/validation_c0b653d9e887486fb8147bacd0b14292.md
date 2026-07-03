@@ -1,1 +1,0 @@
-Let me look at the pool oracle contracts and the NodeDelegator to check for decimal scaling issues.
