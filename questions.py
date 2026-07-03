@@ -6,7 +6,7 @@ from decouple import config
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 30
 # todo: the path from https:///github.com/dfinity/ICRC-1
-SOURCE_REPO = "IntersectMBO/cardano-ledger "
+SOURCE_REPO = "IntersectMBO/cardano-ledger"
 # todo: the name of the repository
 REPO_NAME = "cardano-ledger "
 run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
