@@ -1,1 +1,0 @@
-Let me look more carefully at the `RSETHPoolV3ExternalBridge.sol` and the `LRTWithdrawalManager.sol` for off-by-one patterns.
