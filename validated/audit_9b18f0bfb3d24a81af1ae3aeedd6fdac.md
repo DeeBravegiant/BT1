@@ -1,0 +1,1 @@
+I found a strong candidate. Let me verify the exact return order of `getReserveCaps` in the Aave interface vs how it's consumed in `LRTWithdrawalManager.sol`.
