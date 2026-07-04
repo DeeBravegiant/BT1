@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3232007-e3a3-42fe-90da-0634a3abb97e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/ByronTranslation.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d895fc7-0b86-4125-9674-83374502f893?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Forecast.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_afadbac0-a571-4fcf-851d-02e77dced766?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Mempool.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_408a859e-c274-41b9-a302-c266bcb5e9c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Types.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a00e8cd1-3ffe-40da-b4b0-e61a32d9249f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Validation.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9f0f6f3-46c1-4aff-95e0-86d2de32e11c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Wallet.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74beb41f-5994-452d-af31-56f1c204d36c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/AdaPots.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41c83adb-4e45-452c-80f2-f006b34f6897?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/BlockBody.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46ce2531-9367-473f-8865-debc3a35de97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/BlockBody/Internal.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2b779b18-e8ba-4be4-8d87-e7975da47c6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Core.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e70779c3-f0d1-4632-86a1-492da3b740a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Era.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d4e96c3-0402-4dce-adc7-3892d7977773?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Forecast.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f0c6b28-2a0b-4a18-95fa-d6fa23527e65?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Genesis.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02d1c511-5567-4cc5-858c-619949baf7da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Governance.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c6823a9-f702-4dd6-bb6b-6b9006df211a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Internal.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4f5082d-7d2c-4890-953d-77a31b80235b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d28203da-5dd9-43db-92d9-85af9e4a56fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/IncrementalStake.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8df2c4af-f01c-450f-8e71-b5a8d896d7de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/NewEpochState.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21cacaa9-f9ea-430b-9ed5-e11f2321d243?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/PulsingReward.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fdaa231b-df97-4cc9-975e-4d072ce131e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/LedgerState/Types.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5add928c-ed57-42fd-8b7d-6aabc6fe3e1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/PParams.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f96ca9e-8d3f-482d-8001-2dc7759602d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/PoolRank.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_36431667-4851-45c7-b05e-8b353979f0db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/RewardProvenance.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cb7addc-1cf4-4458-b87b-1a8c7dfff358?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/RewardUpdate.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81a99b8d-2a49-4dc4-977c-03b35df83419?mode=deep",
+    "questions_generated": false
+  }
+]
