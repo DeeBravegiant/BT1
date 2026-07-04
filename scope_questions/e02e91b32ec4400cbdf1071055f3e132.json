@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/TxAuxData.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c79af443-0630-4d30-a633-0722008855e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/TxBody.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c247a076-44f7-43ec-89f0-1c4991334a63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/TxCert.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_89b4a6b7-72ef-4e58-b6db-df255a9ce9b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/TxOut.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_56bf59be-820e-4d1a-b3be-e9073a607f40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/TxWits.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ffff1b6-6c1b-4a27-ba47-65f2c41296e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/allegra/impl/src/Cardano/Ledger/Allegra/UTxO.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f435e20-8b6e-4a4b-8b84-bf31da4df92b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b866dba1-ebef-47c2-a9dd-f9cdff9c3de6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/BlockBody.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20b134ed-4142-49e5-9ab6-2595e2a2f843?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/BlockBody/Internal.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98e857f5-ba1a-4fb5-8a43-5b0643ec3751?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Core.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b299f1a7-6a92-4c36-a13a-8bf8434d50b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Era.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdf705cc-b31f-4cfa-94c0-41ff8368b490?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Forecast.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a24a4ce3-0c5b-4191-9dd7-31b0f66865d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Genesis.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_881a3ff2-91fc-4cda-857c-e5631c0c93ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/PParams.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec5e6465-fc41-4514-90b9-299d396baf8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/Context.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d845287e-6876-45ab-99c5-21efe084b599?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/Evaluate.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14bb3a30-f1b2-4f3c-8609-51d37ecfe5f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Plutus/TxInfo.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96544d53-2d81-4641-94fb-3f9fcf984947?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b90e087f-5f29-46a5-b9d9-4ad4d44b3f68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Bbody.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b52aec29-108d-4a70-9559-6eda762eed7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Deleg.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce14829e-1995-440c-a267-9617981baa47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Delegs.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c01cb4c-a469-4fe3-bd87-a3bf565f9aa3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Delpl.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9102517b-78a2-4618-9a17-2248386fb8ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Ledger.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90e88879-728f-4aa1-9fba-8e331b44f748?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Ledgers.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fff70988-c92e-4919-a051-f4aad30cd772?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Pool.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c0ddb3d-d0be-4d28-9e0e-61d2d37f0c07?mode=deep",
+    "questions_generated": false
+  }
+]
