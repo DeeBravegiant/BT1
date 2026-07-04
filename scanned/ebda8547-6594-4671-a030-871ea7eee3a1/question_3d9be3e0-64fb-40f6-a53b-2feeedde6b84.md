@@ -1,1 +1,0 @@
-[File: 'libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ToPlutusData.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'] [Function: toPlutusData @Nonce / fromPlutusData @Nonce] Can an unprivileged actor trigger a runtime error (error \
