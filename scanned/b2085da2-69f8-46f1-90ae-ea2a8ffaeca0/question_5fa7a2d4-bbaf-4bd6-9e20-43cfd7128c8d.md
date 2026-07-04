@@ -1,1 +1,0 @@
-[File: 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxos.hs'] [Function: alonzoToConwayUtxosPredFailure / absurdEraRule] Can an unprivileged transaction author, by submitting a Dijkstra-era transaction whose UTXOS failure path exercises the Alonzo UpdateFailure constructor (tag 2) during CBOR round-trip or cross-era injection, trigger absurdEraRule @\

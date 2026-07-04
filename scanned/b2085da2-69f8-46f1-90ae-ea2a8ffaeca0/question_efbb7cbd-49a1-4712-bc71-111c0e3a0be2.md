@@ -1,1 +1,0 @@
-[File: 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxos.hs' + 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Utxo.hs'] [Function: conwayToDijkstraUtxoPredFailure / dijkstraUtxoTransition] Can an unprivileged transaction author trigger the partial error \
