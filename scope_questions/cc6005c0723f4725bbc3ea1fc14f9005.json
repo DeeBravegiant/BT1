@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/MemoBytes/Internal.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a327dc71-5aef-4441-afc8-224b2cc8e537?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Metadata.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0d997d9-b4d2-42a2-8dd9-6c6a132be9d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Orphans.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8aee008c-c3f1-4742-9c3d-b27309b879e8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25ce6876-c0b8-4c0f-b467-5f706de832bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/CostModels.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abdfbf32-c4c4-4069-8830-5b8eddeca92e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Data.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7adda4c2-666c-4718-9d89-6cdb2d5a7de3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Evaluate.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81388838-83e0-4af1-9c3c-0ac4731a117a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ExUnits.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7a69ccb-c0e9-427f-98b8-9a9aaee22421?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Language.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eea2af99-0a6c-4beb-9880-88911c2b3376?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ToPlutusData.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b20389c6-9349-44f4-a57d-19cf7baa5310?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/TxInfo.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58d734aa-43bc-4eaa-81f9-dd6102e5619e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rewards.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d6b8ef6-9ae0-477e-bb4e-c54ba299c643?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rules/ValidationMode.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5287c640-b70e-4fba-82c7-880a88825a32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Slot.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0d8e5fa-ab34-4be0-baf9-b702f63cb849?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_583c278c-ceea-4bd5-9896-ef762e782108?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Account.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bc9d09e-165b-4fae-b0a9-ca45c2daab13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/CertState.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62d08d91-504d-4ea2-9297-1b6dc91bbe97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/ChainAccount.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6396fc2a-7d39-473f-9464-8c23513f7412?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Governance.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2de93a9d-b8f1-4aaf-8990-d12fbda4812a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/PoolDistr.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e260241-70f6-4e40-bfd1-de37eafcf8a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/SnapShots.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c87f8cd-d293-47bb-9f74-21df19ba5067?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Stake.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87464301-0508-4df7-bf44-dfe685f4029a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/StakePool.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7619f9c7-4d7d-47e1-b758-dff975a48ece?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/UTxO.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9b30ac0-f6fe-43e1-841a-f8c990ba6ada?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Tools.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bb7fd61-fe8f-45ed-8215-963fe7b50ed4?mode=deep",
+    "questions_generated": false
+  }
+]
