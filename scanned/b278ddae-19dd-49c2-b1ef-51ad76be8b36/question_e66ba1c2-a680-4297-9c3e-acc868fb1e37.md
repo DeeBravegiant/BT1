@@ -1,1 +1,0 @@
-[File: 'eras/byron/ledger/impl/src/Cardano/Chain/Block/ValidationMode.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'] [Function: toNumGenKeys / updateBody] Can an unprivileged operator configure a genesis with more than 255 allowed delegators, causing toNumGenKeys to panic (panic \
