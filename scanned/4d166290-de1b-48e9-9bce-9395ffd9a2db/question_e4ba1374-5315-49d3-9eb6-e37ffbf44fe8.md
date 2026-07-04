@@ -1,0 +1,1 @@
+[File: 'eras/mary/impl/src/Cardano/Ledger/Mary/Scripts.hs'] [Function: scriptPrefixTag / hashScript in Cardano.Ledger.Core] Can an unprivileged attacker exploit the fact that scriptPrefixTag for MaryEra is nativeMultiSigTag (\

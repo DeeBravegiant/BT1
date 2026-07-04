@@ -1,0 +1,1 @@
+[File: 'eras/shelley/impl/src/Cardano/Ledger/Shelley/Scripts.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'] [Function: shelleyBasedEraNativeScriptJSONParser / mkRequireMOf] Can an unprivileged script author submit a JSON-encoded MultiSig script with a negative 'required' field (e.g., {\

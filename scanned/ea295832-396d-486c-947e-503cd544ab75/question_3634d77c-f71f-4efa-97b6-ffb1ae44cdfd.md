@@ -1,0 +1,1 @@
+[File: 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubUtxow.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'] [Function: dijkstraSubUtxowTransition / dijkstraSubUtxoTransition] Can an unprivileged sub-transaction author, under the precondition that `ValueNotConservedUTxO` is mapped to `error \

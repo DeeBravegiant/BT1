@@ -1,0 +1,1 @@
+[File: 'eras/alonzo/impl/src/Cardano/Ledger/Alonzo/Scripts.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'] [Function: upgradePlutusPurposeAsIx / error] Can an unprivileged block producer trigger the 'error \

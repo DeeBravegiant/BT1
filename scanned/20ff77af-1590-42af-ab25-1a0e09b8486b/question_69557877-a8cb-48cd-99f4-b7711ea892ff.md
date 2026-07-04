@@ -1,0 +1,1 @@
+[File: 'eras/mary/impl/src/Cardano/Ledger/Mary/Era.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'] [Function: 'scaledMinDeposit' in eras/mary/impl/src/Cardano/Ledger/Mary/TxOut.hs + 'ppupTransitionNonEmpty' in eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ppup.hs (EraRule \

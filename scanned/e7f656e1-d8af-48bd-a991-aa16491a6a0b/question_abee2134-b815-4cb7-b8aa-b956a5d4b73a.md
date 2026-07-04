@@ -1,0 +1,1 @@
+[File: 'libs/cardano-data/src/Data/MapExtras.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'] [Function: fromKeys / RULES pragma 'fromKeys/fromSet'] Can an unprivileged script author trigger a code path where the GHC RULES pragma '{-# RULES \
