@@ -1,0 +1,1 @@
+[File: 'eras/conway/impl/src/Cardano/Ledger/Conway/Era.hs'] [Function: EraRule 'UPEC'/'NEWPP'/'PPUP'/'MIR' ConwayEra = VoidEraRule / shelleyToConwayUtxowPredFailure (Utxow.hs)] Can an unprivileged transaction sender submit a CBOR-encoded transaction or witness that, when decoded and processed by the Conway UTXOW rule, triggers the 'error \

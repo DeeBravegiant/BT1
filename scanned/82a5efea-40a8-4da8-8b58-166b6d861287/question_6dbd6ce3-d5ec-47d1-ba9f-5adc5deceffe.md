@@ -1,0 +1,1 @@
+[File: 'eras/conway/impl/src/Cardano/Ledger/Conway.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'] [Function: internalApplyTxWithValidation / defaultApplyTxWithValidation @\
