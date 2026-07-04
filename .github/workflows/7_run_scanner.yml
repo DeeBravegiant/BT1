@@ -164,7 +164,7 @@ jobs:
         if: steps.check_audited.outputs.run_workflow == 'true' && steps.queue_guard.outputs.can_dispatch == 'true'
         uses: nick-fields/retry@v3
         with:
-          max_attempts: 2
+          max_attempts: 1
           timeout_seconds: 60
           retry_on: 'error'
           retry_wait_seconds: 500
