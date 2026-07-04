@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/MemoBytes/Internal.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93ba3277-9f7b-4c66-88b3-e793f491ca0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Metadata.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b534f67e-f305-45fb-93ed-ccb93e27be00?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Orphans.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_237e5e2c-22d2-44b5-b2d1-6384fcf4a22f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad47f565-6710-40ef-a632-5f864504ae9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/CostModels.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6643047-970d-4c4b-a6f5-6dc8912cd128?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Data.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42553e03-9f1c-4ab5-a26b-891b96f11f1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Evaluate.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cc61be5-6c04-49b9-8cf4-7ae611383c5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ExUnits.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3589617-399e-4cdc-b823-ad9829070623?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Language.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62f5e888-28e5-487d-b8fc-5b16f5d945fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ToPlutusData.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac05f3c5-fcd6-4182-a9cb-6f9d8d5d3cfa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/TxInfo.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fe14e7f-6b0d-4081-91da-148e3b3bdbb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rewards.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c4037b3-ceb1-42dc-a92e-14e2e9cf2ee2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rules/ValidationMode.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e99c306a-aa53-41f9-8a1d-00d13007f39d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Slot.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64c48072-6ab7-4c6c-8567-c27d8eb7534c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c80fb68-1904-42b0-9d4f-584364fc3d6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Account.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2fe23398-debc-47ae-b5c5-5b4d8e287324?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/CertState.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c3a4c413-3a25-4ab3-97d8-74515a2313e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/ChainAccount.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00b9aa28-8c5d-4c38-a4f0-6578cd2b6102?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Governance.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db41c2c2-843f-4e55-917f-7ae34c264cc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/PoolDistr.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b965e63f-d836-4a8c-96a7-7e205ee87f41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/SnapShots.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4a40065-5125-402b-b807-d2c84208c662?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Stake.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e0a991c-2ce9-4abe-b856-c3d0ea35da83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/StakePool.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd6ed05c-68dc-438a-a916-6cc495954126?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/UTxO.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78d82069-da5b-4669-924e-3d7678f1d4ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Tools.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_789176fb-3774-4588-9ef2-27eac67430ee?mode=deep",
+    "questions_generated": false
+  }
+]
