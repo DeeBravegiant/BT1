@@ -1,1 +1,0 @@
-[File: 'eras/babbage/impl/src/Cardano/Ledger/Babbage/BlockBody.hs'] [Function: blockBodySize / numSegComponents = 4] Can an unprivileged block producer craft a Babbage block whose CBOR encoding uses a different number of top-level array elements than `numSegComponents = 4` (e.g., by including extra padding segments or omitting the isValid segment), causing `decodeRecordNamed \
