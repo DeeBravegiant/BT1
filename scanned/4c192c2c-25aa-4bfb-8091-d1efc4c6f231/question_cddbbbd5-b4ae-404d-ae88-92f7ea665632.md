@@ -1,1 +1,0 @@
-[File: 'eras/conway/impl/src/Cardano/Ledger/Conway/Era.hs'] [Function: EraRule 'DELEGS' ConwayEra = VoidEraRule / shelleyToConwayLedgerPredFailure (Ledger.hs)] Can an unprivileged transaction sender trigger the 'error \
