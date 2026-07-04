@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Decoder.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3abaafd2-32c1-4ef9-aed0-f989f7148b56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Drop.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb410185-c760-4736-8d93-2cda03af8bb0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sharing.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85102f42-0cd9-400c-98c6-555af325a2f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sized.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f52df2f-8a81-4acb-87c4-b7466fc8065f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d90c9b3c-484e-41d3-961c-2539f3be4b3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Coders.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f69b2e88-b7f5-4c9f-9a39-9acb81d434a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/EncCBOR.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29193be6-3d41-49b4-ab62-8de9418fb31b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Encoder.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57c4eea7-2a59-4bda-8fbf-6d95a59305c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/FlatTerm.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0dd7b3d-ea90-4686-8251-8ebebcc76a31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Group.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f8f158d-06c6-409a-b149-3b520ab7cb81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Plain.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b59c71d-f51c-4e27-ac5a-e88af0cf62dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Version.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9ade572-0ac5-4b53-8f78-8cb4ee9ac26f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/BasicTypes.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1f1f6eb-3d8f-4df2-bbba-2b53f508c0b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/LedgerCBOR.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f7d638f-3de6-45df-8b2a-d03fff45eeb1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93ad4c55-9947-4ea1-807c-2ad34ca58f34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/Blocks/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d398ad9-98b7-4469-8c6c-8ef00064b157?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesAccounts/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22a74b9e-e538-4d70-ba01-540a6fad3aab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesCommittee/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7421587-0dde-4973-8a0d-6617a2e923dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesDReps/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef8ecef6-8f52-41c6-95b5-2021ad3f0dbf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80a33fd6-3eac-4e1f-9389-9a3893947518?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/VRFKeyHashes/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ad7429b-e570-4953-9b9d-b44ee67e0426?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovCommittee/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f85676b-9159-45ea-8b5e-3a7bf4d721ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovConstitution/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfa5fa82-db3a-4ec6-aa59-31d8ede161c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovPParams/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73f37797-6505-4c47-bbbf-2016b400e369?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovProposals/Roots/V0.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_285bdee4-bbc6-486a-a5e5-973e8bdf34a0?mode=deep",
+    "questions_generated": false
+  }
+]
