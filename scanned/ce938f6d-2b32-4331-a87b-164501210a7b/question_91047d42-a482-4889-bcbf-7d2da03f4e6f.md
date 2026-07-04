@@ -1,1 +1,0 @@
-[File: 'libs/cardano-ledger-api/src/Cardano/Ledger/Api/Tx/Cert.hs'] [Function: upgradeTxCert (DijkstraEra instance) / error 'Impossible' wildcard] Can an unprivileged transaction sender trigger the wildcard branch '_ -> error \
