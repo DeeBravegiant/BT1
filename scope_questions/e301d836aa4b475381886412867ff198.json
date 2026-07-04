@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/TxIn.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f0564b1-bce3-484b-a279-3e5076bef157?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Val.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f24f0e5-4d6c-45ef-8644-eb94c02226fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/Crypto.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b14dbe6-ab1c-482f-9485-108553abb120?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/API.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44c663d3-b22a-4400-9383-9480fb00a411?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/BHeader.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91c1df1f-f7ff-4fb0-b5f3-07e701c661c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/OCert.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3b9ed42-c4e4-4b75-b0ea-205264864e99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/OCert.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0ba13ca-9f2e-4702-a865-4b843f0bef64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Overlay.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9641793f-29f7-4efe-82f6-e1482fe1e64b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Prtcl.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a934b8a0-b6b1-481d-b00b-d97be6d84610?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Tickn.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8eee8ce9-c25a-48b4-b9b4-4c1e69eb6e68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-protocol-tpraos/src/Cardano/Protocol/TPraos/Rules/Updn.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19b67db7-eb16-4d70-9375-dcb2318af91d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/Orphans.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cae47209-2ac0-4fb3-a933-cbb5bd858901?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/Query.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e2acf27-522c-4c89-b7a0-b6b266db6019?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/Schema.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d708ece-560f-41b1-979b-8ba7362aabae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/Transform.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e10808d5-1210-4e79-ad57-9f7485413026?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/UTxO.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9992024f-01e4-4b4c-b111-782bb26df95b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/ledger-state/src/Cardano/Ledger/State/Vector.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_899e1331-d3c4-4a7e-aa87-8c588e5c22ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/non-integral/src/Cardano/Ledger/NonIntegral.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d0fda1b-c6a6-4dfb-80fd-f43fb340a3ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d75d237e-8b21-4e78-9c11-0d641b7d65fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V1.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60bd6c26-c71e-45f8-b625-f9013accd625?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V2.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2b15b0e-e697-436c-90b9-f85589cfb457?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Binary/V3.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80c70d4e-04f3-42f6-b836-4856bc96d393?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V1.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7353f300-4f81-457f-b7c0-9603ef608d10?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V2.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f2d0d4c-4ba5-48fc-b86f-199a450d67f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/plutus-preprocessor/src/Cardano/Ledger/Plutus/Preprocessor/Source/V3.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_407d3dbf-c465-4f5a-a53a-c5e4d38c1a5a?mode=deep",
+    "questions_generated": false
+  }
+]
