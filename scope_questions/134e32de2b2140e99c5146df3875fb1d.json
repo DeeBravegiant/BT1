@@ -1,0 +1,32 @@
+[
+  {
+    "question": "'File Name: libs/small-steps/src/Control/Provenance.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_986f6f3b-4a6d-4a90-bbbd-98b8a4f1f768?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/small-steps/src/Control/State/Transition.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a43c52e8-486b-48b5-a0b9-3d832dbaf670?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/small-steps/src/Control/State/Transition/Extended.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d1bedeb-a3e9-4b52-ba74-123f4fccb215?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/small-steps/src/Control/State/Transition/Simple.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6568e8e-3bdb-43c8-8057-86e16c7ba805?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/vector-map/src/Data/VMap.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1820a9f8-2e08-4228-aaa0-da21a338a288?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/vector-map/src/Data/VMap/KVVector.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb5c8a9c-41f1-4b8a-ba8e-a194e5a34c57?mode=deep",
+    "questions_generated": false
+  }
+]
