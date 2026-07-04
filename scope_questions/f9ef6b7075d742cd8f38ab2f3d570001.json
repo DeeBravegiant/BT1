@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxWits.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eff295c5-92b5-49e7-9a9b-250515e343a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/UTxO.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07ea209a-929f-475e-91ac-5b6a1d7d4f0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_857c4d17-a3f7-4fb6-84c4-3d79fcf8fdf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Block.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4317eecf-2b85-45df-9925-c74ca83ac3d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Body.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ff80328-644c-4b7d-b55d-69bd61604ff0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Boundary.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e7c6636-96a4-42a9-907c-96c423fa5df0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Header.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2baadc45-689c-4b9d-9b3b-1fc5f476035f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Proof.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1eb7f5d3-c08c-4ae4-b49c-24cd69b34ded?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/Validation.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ec23df1-8009-479b-aff6-c7a838687fc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Block/ValidationMode.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_658831b6-3c65-4ef3-9644-1a4b6c8a761d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Byron/API.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e32c736-2b4b-4ea3-906e-e1d59cf5e7ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Common.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3f6c774-518c-4f04-8528-7d4f7365ecf8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Mempool.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c4d795e-2208-45e0-9fb3-1fb5460c32ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Protocol.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c218d85f-aeca-4667-964d-c1037b34b469?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Byron/API/Validation.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3380b00-090a-4b54-96eb-1da3b1dc02e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7e19f6d-ac5c-4318-8641-19087c1edaab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/AddrAttributes.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_824f400f-8303-405b-907e-9d098c63c5df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/AddrSpendingData.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd539aa3-6068-4b62-a81f-770426e4bb01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/Address.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ea090fc-7ea6-4571-b154-495dbff5c324?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/AddressHash.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5878e68-5822-4381-b273-51cbe5a1d723?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/Attributes.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_010f69c6-7fce-4754-b6b2-07ef8d9467b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/BlockCount.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_890f36a7-8950-478c-861d-2f6dd32af6b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/CBOR.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_068c4a5c-bd88-4e25-b12b-1e0caf4d965b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/ChainDifficulty.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbe982e8-c5a9-4b91-8d2c-e62f4017d1b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Common/Compact.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8bbd73a-ae6e-4c30-a0fd-34a1d3b410af?mode=deep",
+    "questions_generated": false
+  }
+]
