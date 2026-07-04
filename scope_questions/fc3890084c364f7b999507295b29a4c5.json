@@ -123,5 +123,130 @@
     "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
     "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_868b9c50-24d8-4bbd-b3ed-6e0104edccd7?mode=deep",
     "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Delegs.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc07390e-c9cf-43bf-a859-a093a67abfc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Delpl.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a580b51-4389-4576-b36a-162ef08a238b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ledger.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4a7311f9-ac3b-43d7-b160-20b6d7480b15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ledgers.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58b1c572-7025-4729-8524-c9b8cf761517?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Pool.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f0d1521-fa07-4701-964d-481a298cc7ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Ppup.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67cf5260-5326-4a9b-8c2e-955f6e25b300?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Utxo.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c53b328f-484e-4516-9800-fc89a4cf6a17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Rules/Utxow.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15873560-8a04-4e72-ad40-195e7e66e4fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Scripts.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_adc33084-da2b-4a74-9902-77feaf7886af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/State.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d710047-867e-4e46-927e-5ab23eba4d53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/State/Account.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a94c71c9-7299-48c4-b6c2-c665157a6a38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/State/CertState.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddab6d06-b204-4b4d-90d8-d51f25bd33c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/State/Stake.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6cfbe5b1-af9c-4c05-a45b-82d81b624d1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Transition.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1d405f2-fa2a-4abc-9868-d2a047fdc974?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Translation.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dcf3628a-563a-4648-a72f-2da6b7b5c0b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Tx.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2db4657-89b4-4136-b4aa-2b3076712168?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/TxAuxData.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79531410-ee72-469d-a4f1-82ce7a58bc1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/TxBody.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b4baf70-a95d-4fff-9d86-2dcd1bd04b2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/TxCert.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3951e0b5-0106-423f-b33e-008bb2e01d4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/TxOut.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68dc7919-ee54-4754-bdcb-9f14a93d2367?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/TxWits.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dc177fb-9aa7-4c21-8b48-38e2a3705103?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/UTxO.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0db2018-f2a8-4b3d-9f2e-edca27f6b058?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/mary/impl/src/Cardano/Ledger/Mary/Value.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee028c04-deaa-4778-a763-a7b1c21a3ddf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Chain.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d834e1b7-f094-43b1-90cd-cd27e899230b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29681233-e232-4de6-a0e7-de56ee9321f9?mode=deep",
+    "questions_generated": false
   }
 ]
