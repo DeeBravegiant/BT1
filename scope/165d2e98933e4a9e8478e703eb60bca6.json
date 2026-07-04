@@ -1,8 +1,0 @@
-[
-  "'File Name: libs/small-steps/src/Control/Provenance.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
-  "'File Name: libs/small-steps/src/Control/State/Transition.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
-  "'File Name: libs/small-steps/src/Control/State/Transition/Extended.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
-  "'File Name: libs/small-steps/src/Control/State/Transition/Simple.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
-  "'File Name: libs/vector-map/src/Data/VMap.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'",
-  "'File Name: libs/vector-map/src/Data/VMap/KVVector.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'"
-]
