@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_798c5c19-84d6-4502-ac98-86d95e796699?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Bbody.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e8d9cb6-8805-4ce6-bac0-5c405ba38429?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Deleg.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78e412de-1314-4629-b06f-06a9e9d000d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Delegs.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6448c540-4b9a-45b7-b202-e077d8903d53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Delpl.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ad44416-beb1-4435-b6fa-5277ce7d4089?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ledger.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b7309a9-a29e-48fe-9f2c-53d3437fd6ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ledgers.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bace311f-bb81-49e9-8c19-83716d40c627?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Pool.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ff31987-6faf-4af5-8c8c-ed249940050a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Ppup.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4dd2ac21-598c-4645-9b5c-98989878636b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxo.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ee5291a-086d-4ea3-8475-e40cb6a82336?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxos.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9883ae24-ba42-430e-b0da-2d09a236d318?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Rules/Utxow.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a49f8d3-29f5-46ba-a7dc-3dab78e43aa5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Scripts.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7373f49-7fa0-4741-b2f5-3353abdf6bb0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/State.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7579a7d-80e1-419d-a2dc-01dc8627cd9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/State/Account.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ff5ca79-f2d9-498e-beec-011ba45e9625?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/State/CertState.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c9976d4-2729-4cf6-ab84-f5330cf6eb35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/State/Stake.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb5a3c25-bbc6-4e5f-8fdf-f21e4b7ca54e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Transition.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bfff538-da5f-4599-8f0e-fc81700aa607?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Translation.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86c535c2-aec9-4f71-976a-6043198b23fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/Tx.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1addcdd0-7dea-4ace-8c0c-8efa31bfd385?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxAuxData.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20db7137-83b7-49ee-9e2f-a81bdc485288?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxBody.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bd9ed7a8-d77f-4017-bcae-5879e6778ec1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxCert.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f963bf53-d864-4096-b7c9-7adc65a1fd61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxInfo.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_31238f78-56b7-4ada-a27a-ad7bdeae027c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/babbage/impl/src/Cardano/Ledger/Babbage/TxOut.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f9bdba7-f83a-4220-9997-590205bd58d6?mode=deep",
+    "questions_generated": false
+  }
+]
