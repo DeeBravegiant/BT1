@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rewards.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07f3b7ec-a8f4-40b0-a144-8a26b5057c67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_089e2a67-4e72-4288-9de5-c02a85568731?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Bbody.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a96b21b-5c3e-4631-90d8-55a865e99cd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Deleg.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1086ebc-4882-471f-bdcc-2073e90021b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Delegs.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ec97e50-b55c-46c2-b0b0-937dcd8e306f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Delpl.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ba52690-d58b-4d7e-9414-573a6fc77664?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Epoch.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa5b1db0-0338-4734-9534-8216de7c4020?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ledger.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee46d34d-d3ac-47f6-a271-55f2ac45772a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ledgers.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ebd99d14-11ee-4984-91c0-25ed6a1b5f0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Mir.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_458aa51b-f95f-46a6-9897-2a3a042896c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/NewEpoch.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0639151-886f-48d0-9973-f92be0658af5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Newpp.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b329014-9ccc-436a-ab9e-3a13b9330efb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Pool.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c50edd46-94e9-4054-a709-ae2d9c02684d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/PoolReap.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b58a5f6-b514-412d-8dbe-69c0a92c5eff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Ppup.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c53d006-3599-4227-84ed-9ed670de860f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Reports.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92ff0941-5646-4879-aaa3-8663dc6d1427?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Rupd.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_063c1ca4-aed1-4543-8056-2367a64f5467?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Snap.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_484bb7c1-88b6-435e-a587-ab7e86a6e4f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Tick.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88eebf66-ead1-49ed-a117-2e4bcc2208f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Upec.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2d1e670-ed87-4310-a49c-1eac64d4f5c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Utxo.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_479aedc0-50ed-4ca4-bdb3-f52910f81d94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Rules/Utxow.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f340e80-9c69-412b-97d7-faf94bc34807?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/Scripts.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e8287f0-e70e-407f-8d6b-ab35140e14f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/SoftForks.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_384ad20d-344a-4add-88bc-cbadb4176391?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/shelley/impl/src/Cardano/Ledger/Shelley/StabilityWindow.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db696a75-acca-4f10-a6b1-985a79ecd964?mode=deep",
+    "questions_generated": false
+  }
+]
