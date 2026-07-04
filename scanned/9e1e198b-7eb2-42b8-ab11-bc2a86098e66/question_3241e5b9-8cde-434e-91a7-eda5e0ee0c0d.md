@@ -1,1 +1,0 @@
-[File: 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/Mempool.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'] [Function: mempoolTransition / STS MEMPOOL / EraRuleFailure SUBLEDGERS / DijkstraSubLedgersPredFailure CBOR] Can an unprivileged transaction sender exploit the constraint EraRuleFailure \
