@@ -1,0 +1,1 @@
+[File: 'eras/shelley/impl/src/Cardano/Ledger/Shelley/API/Mempool.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'] [Function: ConwayEra ApplyTx instance / internalApplyTxWithValidation @\

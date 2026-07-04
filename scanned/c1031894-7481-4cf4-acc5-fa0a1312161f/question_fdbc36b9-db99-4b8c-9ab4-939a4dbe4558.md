@@ -1,0 +1,1 @@
+[File: 'libs/cardano-ledger-api/src/Cardano/Ledger/Api/Scripts.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'] [Function: upgradeTimelock / evalDijkstraNativeScript wildcard] Can an unprivileged transaction author trigger the `error \

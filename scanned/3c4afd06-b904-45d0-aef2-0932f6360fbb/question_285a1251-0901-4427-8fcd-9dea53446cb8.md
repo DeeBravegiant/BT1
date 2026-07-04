@@ -1,0 +1,1 @@
+[File: 'libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/BasicTypes.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'] [Function: FromCanonicalCBOR \
