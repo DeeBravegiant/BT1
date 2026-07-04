@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Decoder.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b3bdd6f-4497-4b63-a57a-c4448b393d93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Drop.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9e9bea6-9bce-470b-a936-2c7ce00678c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sharing.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6dadcc04-372d-47a3-9a6d-e5811e9d0230?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Decoding/Sized.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8689a9e2-f9f9-4cff-aa4a-7329e7948904?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0f87445-4b6f-4cbb-8563-6e40902a4cfa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Coders.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a471014-70b2-4fdc-8a75-bf1ac780a9f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/EncCBOR.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_716c1e3b-8d95-459d-a7c5-53ba84603fb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Encoding/Encoder.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bb0ec1e-c521-46b8-9dd6-0d6ecea42b30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/FlatTerm.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24f90207-d1c5-44f7-9ed1-f5aa2f45854c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Group.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5d905dd-d35f-4b63-bf2e-c823c676f53d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Plain.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9901efec-fd95-48cc-8d75-9e31b7c69393?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-binary/src/Cardano/Ledger/Binary/Version.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6055263-ea76-44c3-be25-1d6a4d1843a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/BasicTypes.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2430824-8f3e-4f9b-b64c-415e9acbd15d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/LedgerCBOR.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b02eaa93-9545-456b-8b9b-315d1f38222a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6889a4d-1bdb-412a-9a22-88222a1a1173?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/Blocks/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bc03022-7c51-4906-818d-8625ea01ff2c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesAccounts/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1112819-78b4-44de-b7dd-b4b9927e98ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesCommittee/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bf03c0f-1c6e-4c02-937f-f9af9ba29484?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesDReps/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fbb7b5b-2f8a-487d-8702-115337ffa0e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2ca819a-4db1-4d63-979f-51b802fcc7ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/EntitiesStakePools/VRFKeyHashes/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ee665f1-c785-4801-a883-39557a9ad905?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovCommittee/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a71d0e09-e0a8-4460-9f31-6b9ba35f8ed4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovConstitution/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_980ca8ab-1d7b-4b21-bf36-f8697ddf3e9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovPParams/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_928ee0ee-b83e-441c-a61c-a7e7eec2205a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-canonical-state/src/Cardano/Ledger/CanonicalState/Namespace/GovProposals/Roots/V0.hs -> Scope: Medium. Attacker-controlled transactions, blocks, certificates, votes, proposals, scripts, witnesses, or serialized inputs exceed intended validation limits or modify fees, deposits, refunds, rewards, treasury donations, or withdrawals outside design parameters'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e03da617-6023-41d0-8522-5e7d3521a695?mode=deep",
+    "questions_generated": false
+  }
+]
