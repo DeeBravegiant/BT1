@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/MemoBytes/Internal.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_952cdde6-73f0-40c7-8875-cf38c3b77fee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Metadata.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f79b35e-0c32-492d-a0e3-d1cdf50df828?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Orphans.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43aca192-187f-4126-872d-8cb0593a5b09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7325b6b-51d5-446d-925e-95751a590751?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/CostModels.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_149dc28f-faff-4352-8b7f-8bcffde63cb0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Data.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45865edf-30c2-4e19-94df-a8d1333d3e2c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Evaluate.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7803acbd-7072-41ba-bd44-08795a9c5992?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ExUnits.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0fdf044b-b35b-4241-8262-fadda493bd88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/Language.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c8177c9-04a3-4e5f-a66b-7ded51484837?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/ToPlutusData.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4ba6db4-ffee-444b-a469-7a396f3af024?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Plutus/TxInfo.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71514680-87d3-4ce3-ad25-9bd1f6649e6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rewards.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18bc3721-3728-4025-9cca-e8a4ce06d227?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Rules/ValidationMode.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dde76ffc-3d1b-4acd-add5-17bab81cc4f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Slot.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d782a11-0c05-4cfd-b3ff-013f9191f66d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a99386f2-91b1-4eb6-bded-8a425ae5b66b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Account.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34dcc5bb-dfaf-4500-abf4-ef2a01b8fe52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/CertState.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_114674e5-d668-46f0-97b3-8181541fcda3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/ChainAccount.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_015f4e7c-f34e-4685-808b-aa767cb2ca99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Governance.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9101685-2e00-4916-929f-f00b34680e8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/PoolDistr.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98da74d5-d3bc-4c51-a98a-77d331c3c074?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/SnapShots.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88748737-d7a4-4806-bd67-0f3484896710?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/Stake.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4a11733-34f3-4414-9520-c69885346380?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/StakePool.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8678e053-1078-4d9f-9f63-6efe9b7edd34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/State/UTxO.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1652de45-18e0-490c-9bd4-900ed5e91735?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libs/cardano-ledger-core/src/Cardano/Ledger/Tools.hs -> Scope: Critical. Unauthorized governance, treasury, protocol-parameter, committee, constitution, or hard-fork action is enacted'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9461412b-c545-49bb-9ed4-cbff47c82e8b?mode=deep",
+    "questions_generated": false
+  }
+]
