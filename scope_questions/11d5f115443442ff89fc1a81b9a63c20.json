@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Genesis/KeyHashes.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c44e84eb-8844-4f7b-8a99-833af1fd5364?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Genesis/NonAvvmBalances.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf2f1711-8b0e-42e6-b117-fdebc5832451?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Spec.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c4dc2d2-47df-453c-83d1-f1831f38eeda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/MempoolPayload.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_31d11dde-e1a2-4778-a7b1-eb501e2d5bf8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/ProtocolConstants.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7831ae41-8ae0-4cb3-904a-e18b10a828b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64b69cc8-3611-4db8-b6da-364aacdda375?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochAndSlotCount.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b8a381b-37e7-44f9-8f9a-34e75952a87f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochNumber.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ad39bbf-edef-4c4f-96f8-40590fa8dc48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting/EpochSlots.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5c97bde-dbbe-40fd-ba2d-cb8f87f6bb55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting/SlotCount.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfe0fd5c-f519-4b21-9521-2ca3ef8c3a93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Slotting/SlotNumber.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45bbb9ef-cfc5-4f16-8cf1-2bd1b68ba906?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Ssc.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a064c106-c001-424c-bf11-e5d0368c78dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2401455b-0584-4e1b-a08e-d9be59c7504c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Compact.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83903341-217c-4e61-8c2e-c1ef9a1c6653?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/GenesisUTxO.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ffb3374e-72b4-4611-8589-00c13cc4eef9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Tx.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa28fca2-7f35-4728-8d30-bb305db7bc06?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxAux.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bd992b0f-f90d-45fe-87f9-152e2f58a2d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxPayload.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d78a6b1-e3cd-4cad-bc31-d226c94f60a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxProof.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47f143c0-b157-4a14-835b-3e918938a0a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/TxWitness.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2acf021-4fc3-4471-81a0-a1e4c3c0de71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/UTxO.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eae662fc-e4ba-455c-b043-1647a038dc54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/UTxOConfiguration.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_469ab71f-4b6d-4f3b-93c2-e4e697608496?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/Validation.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed426098-8a75-4b97-81ba-16456d0bbaf7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/UTxO/ValidationMode.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42bc3102-ebbb-420a-8dc0-05b6c481da3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: eras/byron/ledger/impl/src/Cardano/Chain/Update.hs -> Scope: High. Deterministic disagreement between honest nodes from ledger rule evaluation, era transition, serialization, or script/witness validation'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1fdb0bf9-3e98-41ac-97d7-27d09bc27296?mode=deep",
+    "questions_generated": false
+  }
+]
