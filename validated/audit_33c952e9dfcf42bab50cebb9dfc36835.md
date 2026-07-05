@@ -1,0 +1,1 @@
+Let me look at the Dijkstra UTXOS rule and how sub-transactions are processed in the state transition.
