@@ -1,1 +1,0 @@
-[File: 'eras/byron/ledger/impl/src/Cardano/Chain/Genesis/Generate.hs -> Scope: Critical. Direct loss, creation, or destruction of ADA or native assets through an invalid ledger state transition'] [Function: generateGenesisConfigWithEntropy / genesisHash] Can an unprivileged GenesisSpec author exploit the fact that genesisHash is always hardcoded to serializeCborHash(\
