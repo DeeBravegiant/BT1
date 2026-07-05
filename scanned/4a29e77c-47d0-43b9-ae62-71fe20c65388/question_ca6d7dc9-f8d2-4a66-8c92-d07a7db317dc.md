@@ -1,1 +1,0 @@
-[File: 'libs/cardano-ledger-core/src/Cardano/Ledger/Keys.hs -> Scope: Critical. Honest nodes accept an invalid block or transaction causing permanent ledger divergence requiring a hard fork'] [Function: bootstrapWitKeyHash / prefix hardcoded as \
