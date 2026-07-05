@@ -1,0 +1,1 @@
+Let me look at the Dijkstra Ledger rule and the `accountBalanceIntervals` validation specifically.
