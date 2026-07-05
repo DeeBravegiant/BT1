@@ -1,1 +1,0 @@
-[File: 'eras/byron/ledger/impl/src/Cardano/Chain/Delegation/Certificate.hs -> Scope: High. Permanent freezing of funds, deposits, rewards, or withdrawals where recovery requires a hard fork'] [Function: isValid / serialize' byronProtVer / mappend \
