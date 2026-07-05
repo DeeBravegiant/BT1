@@ -1,0 +1,1 @@
+Let me look at the Shelley Epoch rule and the `applyEnactedWithdrawals` function more carefully to trace the full accounting flow.
