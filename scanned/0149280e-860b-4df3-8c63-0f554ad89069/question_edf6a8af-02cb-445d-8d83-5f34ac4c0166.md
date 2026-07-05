@@ -1,1 +1,0 @@
-[File: 'eras/dijkstra/impl/src/Cardano/Ledger/Dijkstra/Rules/SubDeleg.hs -> Scope: Medium'] [Function: conwayToDijkstraSubCertsPredFailure] Can an unprivileged sub-transaction author craft a sub-tx that causes the WithdrawalsNotInRewardsCERTS branch of conwayToDijkstraSubCertsPredFailure to be reached, triggering the 'error \
