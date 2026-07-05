@@ -1,0 +1,1 @@
+Let me look at the Dijkstra UTXO rule and the Ledger rule to confirm the full picture.
