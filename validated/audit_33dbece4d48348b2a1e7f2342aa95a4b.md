@@ -1,0 +1,1 @@
+I need to trace the full call sequence: UTXO conservation check → ENTITIES → `applyDirectDeposits`, and verify whether `directDeposits` amounts are included in either side of the conservation equation.
