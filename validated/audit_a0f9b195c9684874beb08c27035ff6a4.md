@@ -1,0 +1,1 @@
+I need to trace the full deposit accounting path for sub-transactions to evaluate this claim. Let me look at the remaining critical pieces.
