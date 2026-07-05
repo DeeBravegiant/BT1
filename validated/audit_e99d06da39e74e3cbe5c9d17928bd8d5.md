@@ -1,0 +1,1 @@
+Let me check `getBabbageScriptsProvided` to understand what it includes.

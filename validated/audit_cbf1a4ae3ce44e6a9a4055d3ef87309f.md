@@ -1,0 +1,1 @@
+Let me check where `validateWitness` is called in the validation flow to confirm it's always enforced.
