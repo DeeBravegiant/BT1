@@ -1,0 +1,1 @@
+Let me look at the `proposalsApplyEnactment` function and the Epoch rule to understand how enacted actions affect pending proposals.
