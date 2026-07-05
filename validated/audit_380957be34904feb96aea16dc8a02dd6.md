@@ -1,0 +1,1 @@
+Let me look at the Dijkstra Ledger rule and how sub-transactions are processed relative to the top-level value conservation check.
