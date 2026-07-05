@@ -1,0 +1,1 @@
+Let me read the `hardforkAlonzoValidatePoolAccountAddressNetID` definition and the `AccountId`/`AccountAddress` types to complete the analysis.
