@@ -1,1 +1,0 @@
-I need to read the `SubLedgers.hs` and the rest of `Deleg.hs` to understand the exact mechanism before writing the final report.

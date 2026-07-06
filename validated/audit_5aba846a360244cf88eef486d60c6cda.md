@@ -1,1 +1,0 @@
-Let me look at the Dijkstra UTxO consumed/produced value calculation and how direct deposits are handled in value conservation.

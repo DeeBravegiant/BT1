@@ -1,1 +1,0 @@
-Now let me check the Conway UTxO rules to understand when `BabbageNonDisjointRefInputs` is enforced and whether it's protocol-version-gated.

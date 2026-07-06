@@ -1,1 +1,0 @@
-Looking at the Dijkstra era's sub-transaction batch processing, I found a directly analogous vulnerability to the PoolTogether hook-based fee stealing pattern.

@@ -1,1 +1,0 @@
-Let me check the pool reap implementation to see if pool deposit refunds use stored or current protocol parameter values.

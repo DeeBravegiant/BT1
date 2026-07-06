@@ -1,1 +1,0 @@
-Looking at the vulnerability class from the external report — a shared index keyed only by token ID (not owner+tokenID), causing wrong deletion when multiple owners share the same token — I need to find an analogous pattern in Cardano Ledger where a shared mapping keyed by a single dimension causes incorrect removal when multiple entities share the same key.

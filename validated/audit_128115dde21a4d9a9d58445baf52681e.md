@@ -1,1 +1,0 @@
-Let me look at the key functions more carefully before concluding.

@@ -1,1 +1,0 @@
-Let me look at the SUBLEDGER rule and how value conservation is checked for subtransactions.

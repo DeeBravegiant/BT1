@@ -1,1 +1,0 @@
-Let me look at the Dijkstra UTxO module and the SubUtxow rule more carefully to understand the guard script validation flow.

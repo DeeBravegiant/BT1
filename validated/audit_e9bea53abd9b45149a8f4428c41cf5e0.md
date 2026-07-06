@@ -1,1 +1,0 @@
-Let me look at the `authorizedElectedHotCommitteeCredentials` function and the `committeeAcceptedRatio` to understand the full impact chain.

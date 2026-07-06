@@ -1,1 +1,0 @@
-Let me look at the critical `getTotalDepositsTxBody` function and how it's used in Conway vs the `conwayTotalDepositsTxCerts` function.

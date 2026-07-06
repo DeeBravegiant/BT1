@@ -1,1 +1,0 @@
-Based on my research, I need to look at the `SubLedgers` rule to understand how multiple sub-transactions are processed, and also check the `SubLedgers.hs` file for any replay issues.

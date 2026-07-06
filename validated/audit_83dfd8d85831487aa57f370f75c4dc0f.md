@@ -1,1 +1,0 @@
-Let me look at the Conway UTXO transition more carefully to understand the ordering of `updateTreasuryDonation` relative to validation checks.

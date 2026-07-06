@@ -1,1 +1,0 @@
-Let me look at how `proposalsDeposits` maps deposits to staking credentials, which is the critical piece.

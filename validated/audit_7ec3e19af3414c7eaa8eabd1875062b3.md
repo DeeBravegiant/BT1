@@ -1,3 +1,0 @@
-Looking at the external report's vulnerability class: an adversary exploits a low `minBidAmount` to place a valid bid with an extreme price ratio, blocking all future legitimate bids. The vulnerability class is **adversarial manipulation of a minimum-threshold parameter to create a valid extreme-ratio state that blocks legitimate participants**.
-
-Let me map this to Cardano Ledger components systematically.

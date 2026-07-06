@@ -1,3 +1,0 @@
-Looking at the vulnerability class from the external report — **authorization check applied to one entity while the actual actor is a different entity that bypasses the check** — I need to find an analog in the Cardano Ledger codebase where a validation check is applied to one transaction-level entity but the actual actor operates at a different level, bypassing the check.
-
-Let me trace the Dijkstra era's nested-transaction (sub-transaction) handling.

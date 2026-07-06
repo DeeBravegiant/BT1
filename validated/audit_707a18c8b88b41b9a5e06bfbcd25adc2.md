@@ -1,1 +1,0 @@
-I need to look deeper at the block header decoding and how the decoder version is set in that context.

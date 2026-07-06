@@ -1,1 +1,0 @@
-Let me look at the Conway `NEWEPOCH` rule to understand the order of operations.
