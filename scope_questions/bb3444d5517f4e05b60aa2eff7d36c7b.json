@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/attestation/src/app_compose.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77aed88d-0a02-461b-adf2-27cfb389234f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/attestation.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2fc0612-5d1f-4382-b0a7-cb1bb8ec8008?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/collateral.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2813bf61-b74c-402f-9c67-b6c441e17b45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/dcap_conversions.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6563758d-0eeb-48af-b215-47b878e0c526?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/lib.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_170588b2-7e45-4ed2-b5ae-37ec6070113e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/measurements.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_309c02b3-ba2f-4018-bde3-e33499a72b03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/quote.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22c46fb7-6c64-45ab-8b58-a72b363df0b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/report_data.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b912d44-1b7e-45ea-8e36-f0552c9acc8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/attestation/src/tcb_info.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f61ad5cd-877c-4347-b689-d802a0d87516?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/chain_gateway.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48351e29-52ae-40f8-9063-db376ca2b4d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/errors.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b380b9f-55b5-4d30-9005-12197516cf1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d24d8592-56c1-4937-a444-5208f1b05793?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/block_events.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85e1a5c2-9dc8-443c-9594-733626d9c40d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/consts.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_879582ff-fd24-433b-b2fe-66a08c0d9404?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/metrics.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e991ed2-3407-4d0e-8a0f-7c2bd7cef2b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/recent_blocks_tracker.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d326fb0-5b7a-4e29-8fe8-21dd302b3227?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/stats.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_35d9121f-69e4-4d44-9f9b-8028da29a95e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/streamer.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff4e5228-5e72-4948-b47f-9ba8a986411b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/streamer/block_processor.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7539fed6-4049-430e-bc16-00ac80492ac3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/streamer/config.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9097f3d9-48a7-4ff1-b0fc-d168df4156ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/event_subscriber/subscriber.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_009aa7c1-5657-41c4-8e73-4a6cda17e3fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/lib.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24059f52-2dce-4640-9b07-4245e4699348?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/near_internals_wrapper.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e25604a-5d4f-4bfe-89ee-90d2cd914950?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/near_internals_wrapper/client.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32aab1fd-f656-41c5-ba25-16532a468fb1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/near_internals_wrapper/rpc.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c3526bc-f26c-47e3-a286-8e7b4c146c0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/near_internals_wrapper/view_client.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65c8a97d-f914-497a-abae-c310c37baa09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/primitives.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d5ee839-edb0-43ca-80c8-d2b03ec59fed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/state_viewer.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a85b57a-7ece-45ec-970c-4839f7f8a129?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/state_viewer/monitoring.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40de10de-b886-4db4-af7f-da666b2189b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/chain-gateway/src/state_viewer/subscription.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eaaac0cc-ec78-4443-9040-3a851cbc4456?mode=deep",
+    "questions_generated": false
+  }
+]
