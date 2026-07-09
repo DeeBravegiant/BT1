@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/polygon.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d16f135-bc8e-486a-8826-ba0d0b0f0368?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/polygon/inspector.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4c9b60b-5a21-46d6-82b0-1699d356b201?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/starknet.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1be1957d-76e2-47ec-a048-daac77c259e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/starknet/inspector.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8468e3b4-ec4a-4ab9-be37-d23588082c33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-auth/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13f84fcf-f572-4f19-b89e-b12b7aa2d7f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-interfaces/src/aptos.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e59c5e6-a741-492a-a08e-6254ede146bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-interfaces/src/bitcoin.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3e7f91a-e635-431c-a02b-3f57d42b9743?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-interfaces/src/evm.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_014e4664-0658-4321-84b8-9c923635e4ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-interfaces/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0177111d-714e-4b5b-a47f-7a6e7334cde6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-rpc-interfaces/src/starknet.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9627f522-c95b-4090-b33f-13de7aa6d20b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/include-measurements/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4848d59-2063-40db-b6fc-13ad8779731c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/launcher-interface/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb921e77-42a6-429e-b484-0669b7e22e17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/launcher-interface/src/types.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c30e926c-4e84-424b-a698-0337590e3aef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/mpc-attestation/src/attestation.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9508f2bd-21e5-4c42-b504-4887e2b66884?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/mpc-attestation/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0401a8b-c2ff-4386-b6a9-c6f4ea0716dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/mpc-attestation/src/report_data.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_faf561e6-68a0-4de6-be47-6e20519b0b40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/mpc-call-args/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb7997b9-7bb3-4dbf-8c8f-1690a09051f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-bounded-collections/src/bounded_vec.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64b50368-0248-413f-bb8c-217ab609582b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-bounded-collections/src/btreemap.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aea70d0f-a730-4ca0-8504-15c695d007fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-bounded-collections/src/btreeset.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86c23cb4-3039-4b05-bb00-9001f51ceceb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-bounded-collections/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60f68319-3737-4d53-ae57-5776057b341d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/call_args.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45478670-9209-45eb-8511-23cca8a5423b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/lib.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc67af91-f69b-444a-bdd9-e55fba52d028?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/method_names.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0b4e13b-4dd7-44f3-b7c5-85e72ecd3f7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/attestation.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f678af2-6006-4f80-9b64-456018b40abf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/ckd.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd9a39f5-d541-4ed1-89fa-63d7ddedb093?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/config.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_486e5020-aaa3-4614-a4d3-04aaf28f5767?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/foreign_chain.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3356b77b-a19e-43ca-b0da-628919bd02f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/metrics.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e6bc5f2-2015-4d1f-8cae-6650a698442a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/near-mpc-contract-interface/src/types/node_migrations.rs -> Scope: Critical. Bypass of threshold-signature requirements or unauthorized access to MPC key shares, signing capability, or secret material that materially enables forgery or secret recovery.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4140d3f4-b22c-4034-8780-2a9f995c8933?mode=deep",
+    "questions_generated": false
+  }
+]
