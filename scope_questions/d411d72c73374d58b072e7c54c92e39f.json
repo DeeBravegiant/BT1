@@ -1,0 +1,52 @@
+[
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/redjubjub/sign.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0f56e08-ec91-4188-9fde-6fbbb1604881?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/sign_utils.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c44db22-de58-4b07-ad54-4daf000348b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/lib.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca0c6cde-0d67-4d3f-b50a-cee43e1fcefc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/macros.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16daaf10-9d78-4fb0-b382-79aefae524a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/participants.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9d5631b-e0df-49df-9394-084d7695bac2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/protocol.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c3a8dfa3-bc98-4f5d-b5a8-709f040b287b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/protocol/echo_broadcast.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_141dc02d-8ddb-4bfd-8fad-a5f88e4b4f74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/protocol/helpers.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90075bb3-5558-406f-a0a0-1643a700f1b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/protocol/internal.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb882ede-14cd-4f55-8bfd-1286852dd0e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/thresholds.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c6c287d-0f2f-48a7-9b75-030bf7ef0753?mode=deep",
+    "questions_generated": false
+  }
+]
