@@ -58,8 +58,8 @@ def main():
             print(f"[{i}/{total}] Processing: {question[:50]}...")
             bot.ask_question(question)
 
-            if i >= 25:  # Process maximum 25 questions
-                print("Reached the limit of 25 questions")
+            if i >= 30:  # Process maximum 30 questions
+                print("Reached the limit of 30 questions")
                 break
 
         # If we get here, processing was successful
