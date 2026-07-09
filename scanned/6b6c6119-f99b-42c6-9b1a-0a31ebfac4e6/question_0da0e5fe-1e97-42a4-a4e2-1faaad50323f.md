@@ -1,0 +1,1 @@
+[File: 'crates/threshold-signatures/src/crypto/constants.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'] [Function: NEAR_DLOG_ENCODE_LABEL_STATEMENT / NEAR_DLOGEQ_ENCODE_LABEL_STATEMENT (both b\

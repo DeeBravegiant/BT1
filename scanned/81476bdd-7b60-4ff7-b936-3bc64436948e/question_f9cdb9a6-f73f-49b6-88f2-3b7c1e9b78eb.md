@@ -1,0 +1,1 @@
+[File: 'crates/foreign-chain-inspector/src/aptos.rs'] [Function: AptosExtractor::extract_value + normalize_event_data] Can an unprivileged attacker who controls an Aptos RPC provider (or can influence provider responses) return event data where a numeric field is represented as a JSON number (e.g., {\

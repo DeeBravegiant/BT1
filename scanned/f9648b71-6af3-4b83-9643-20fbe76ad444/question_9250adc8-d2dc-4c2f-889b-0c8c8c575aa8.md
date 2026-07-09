@@ -1,0 +1,1 @@
+[File: 'crates/threshold-signatures/src/macros.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds.'] [Function: impl_secret_debug! arm 2 with empty show:[], macros.rs:35-44; TripleShare, triples.rs:80-83] Can an unprivileged attacker with log access infer the internal structure of `TripleShare` from the arm-2 debug output `TripleShare { a: \
