@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/node/src/primitives.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f14e0515-b6f3-4aa7-b28a-51db5358a1e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/profiler.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ada81152-a518-4410-a4e9-695fbba55d19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/profiler/jemalloc.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2d6542f-d079-40b0-b1bc-d6bc2321dcb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/profiler/pprof.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_663d6658-aff7-4dbe-9ded-14e818a07c27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/profiler/web_server.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ddf0355-a0ef-402d-8e9f-5489ade2b3a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/protocol.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dee95059-bdb8-4ae5-b7b6-ce849341a654?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/protocol_version.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_578bd7b4-422e-4a2c-bf6e-85474ce9664f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b74a4883-9280-4f5f-9d87-74673258cc47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ckd.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0728ff96-482a-421f-bf91-4504a7799096?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ckd/key_generation.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37df369c-930a-4990-9df3-a3d79dc44ce9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ckd/key_resharing.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a40ea15-9b99-425d-ac22-c3b0618ac69a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ckd/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b413804-109d-4c4a-af2d-a1ddd013dbfa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f2caf00-d14f-4e4f-bda7-fc7555a1eb12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa/key_generation.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_754c0520-5afc-4cdf-8baf-d7360d367478?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa/key_resharing.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e0f0ffa-db17-474f-9427-00b55be0a733?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa/presign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ccde82c2-1a61-4076-a8a3-1725d9d2ad7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae71851b-4c2d-4065-b6e3-8321f18195ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/ecdsa/triple.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_866c1eaa-13e2-4340-bee1-1a4933e06cc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/eddsa.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b51f36aa-b6e7-415a-912c-8ed072b73ac4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/eddsa/key_generation.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7bd4624-bca3-4b48-9c64-00f3c4e70c8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/eddsa/key_resharing.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5908b79-44c0-43b7-9a3e-f93699b98ebd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/eddsa/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfd5b66b-5dbb-4001-880e-b38c7ff5c4d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/robust_ecdsa.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a78fc5c-a9ee-41af-9b42-fcfb96e1a382?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/robust_ecdsa/presign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_582f809d-7a86-447b-9e24-edccb13a5d02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/robust_ecdsa/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e86e31b3-7b5b-406e-a2c6-20918d9be1f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/verify_foreign_tx.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b423bcc-227c-48b5-8aae-7381b49039ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/providers/verify_foreign_tx/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74f85a89-a0b5-485e-be96-de1cd9a0f1ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/requests.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10b352d2-6018-4cc7-b77a-670a7e82f958?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/requests/debug.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a165b966-0b73-4fce-862c-cb8325766968?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/node/src/requests/metrics.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation that breaks production safety/accounting invariants without relying on network-level DoS or operator misconfiguration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6bd6bba3-786e-4cc0-a622-acd39399b0c3?mode=deep",
+    "questions_generated": false
+  }
+]
