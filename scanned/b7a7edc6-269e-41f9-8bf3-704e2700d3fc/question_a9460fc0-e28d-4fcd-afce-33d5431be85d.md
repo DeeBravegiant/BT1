@@ -1,0 +1,1 @@
+[File: 'crates/chain-gateway/src/state_viewer/traits.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'] [Function: SubscribeToContractMethod::subscribe_to_contract_method (lines 143-154)] Can an unprivileged attacker exploit the hardcoded b\

@@ -1,0 +1,1 @@
+[File: 'crates/near-mpc-sdk/src/sign.rs -> Scope: Medium. Balance, request-lifecycle, participant-state, or contract execution-flow manipulation.'] [Function: SignRequestBuilder::build / MpcContract::sign / SignatureRequest::new] Can an unprivileged caller use SignRequestBuilder to construct a SignRequestArgs with an empty string path (\

@@ -1,0 +1,1 @@
+[File: 'crates/near-mpc-crypto-types/src/sign.rs (SignRequestArgsCompat)'] [Function: SignRequestArgs::deserialize / contract sign() / SignatureRequest::new] Can an unprivileged contract caller submit a sign request with payload_v2: {\
