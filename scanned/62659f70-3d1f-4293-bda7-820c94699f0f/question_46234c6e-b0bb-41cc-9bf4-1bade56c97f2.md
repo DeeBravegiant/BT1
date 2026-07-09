@@ -1,0 +1,1 @@
+[File: 'crates/near-mpc-crypto-types/src/kdf.rs'] [Function: derive_from_path] Can an unprivileged contract caller craft a derivation path containing a comma character under the precondition that the NEAR account ID separator in derive_from_path is a literal ',' and path is fully attacker-controlled, by submitting path=\

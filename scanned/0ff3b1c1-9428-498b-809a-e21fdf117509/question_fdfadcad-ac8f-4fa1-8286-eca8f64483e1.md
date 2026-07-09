@@ -1,0 +1,1 @@
+[File: 'crates/chain-gateway/src/state_viewer/monitoring.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'] [Function: subscribe_to_contract_method hardcoded b\

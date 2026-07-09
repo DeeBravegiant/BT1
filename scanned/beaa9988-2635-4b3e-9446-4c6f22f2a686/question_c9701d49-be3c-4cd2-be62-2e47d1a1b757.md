@@ -1,0 +1,1 @@
+[File: 'crates/node/src/tracing.rs -> Scope: Critical. Unauthorized transaction execution, threshold signature issuance, or confidential key derivation output without the required participant authorization.'] [Function: init_logging (ordering relative to RocksDB/SecretDB initialization in run.rs)] Can an unprivileged attacker who sets `log.filter = \
