@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/contract/src/state/key_event.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_516e100a-099b-4373-a833-89afe06f95b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/state/resharing.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dcc1783-8c33-4139-9a04-eefe6719da93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/state/running.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9952ced1-c58e-481f-8ef7-f048a6e3d7a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/storage_keys.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00392a53-3c1f-44d1-bd89-f8e2b0f80e3b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/tee.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a814106e-9b9d-4486-8e63-cfedf0e866c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/tee/measurements.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2d90707-514b-4a13-bb8c-b25d446c6eeb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/tee/proposal.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ee1f9c3-6ef9-4933-8449-b50a53fe15ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/tee/tee_state.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86943c2f-6d88-4131-8a42-051e0bab32e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/tee/verifier_votes.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6aab831e-207c-42f9-9309-3bad6ec38bab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/update.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_559d6cbf-b207-41a5-ab82-f27011595168?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/utils.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_31fb6bac-ebcf-4234-8122-99632565e345?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/contract/src/v3_12_0_state.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25449e3a-358c-477b-8920-49294844574b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/abstract_chain.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bb0d75d-e502-4697-aa39-988faba4d5bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/abstract_chain/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14d2c5f3-71a9-4143-ba05-286e936147bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/aptos.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_850312af-179a-463c-89e2-a9383663f1ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/aptos/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ff2101c-2752-4e5c-9cfc-c4fef9e15bf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/arbitrum.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73299f70-9dfc-4e64-b55d-dbd1c97b392d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/arbitrum/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f18a1998-3462-41ae-a3d4-586c772aec4d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/base.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00280574-329c-4868-9656-04dd73dd89c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/base/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_207eabee-d862-4dca-9f30-b1abdeba3c74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/bitcoin.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0a2c7d3-de8f-42cd-8540-edbe2b55b996?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/bitcoin/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4cbc1ea-2532-4f24-bcb1-597f5e91c5bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/bnb.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d0bf926-db48-463a-b3c8-704b84a61c36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/bnb/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5809883c-2427-4ed8-899c-d0bf9da3bc3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/contract_interface_conversions.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34418214-35c6-433f-85b1-321948533f24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/evm.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0353ad6-012c-4540-9f89-5a6fe270f599?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/evm/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92980b33-19cd-4abe-9ee8-1216b05a83a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/hyperevm.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ce15b96-7d68-4ca7-bc1c-7b4b919942e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/hyperevm/inspector.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87e028b3-9f89-43d5-a8de-7af81f27611c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/foreign-chain-inspector/src/lib.rs -> Scope: High. Cross-chain replay, forged foreign-chain verification, light-client-style verification bypass, or participant/attestation authorization bypass that causes invalid bridge execution or double-spend conditions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26ce6192-d26d-4f77-bb13-c9014a8650f2?mode=deep",
+    "questions_generated": false
+  }
+]
