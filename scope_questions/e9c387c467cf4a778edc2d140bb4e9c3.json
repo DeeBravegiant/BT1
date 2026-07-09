@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/threshold-signatures/src/crypto/proofs/dlogeq.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ece0f00-8ba7-49c8-a3e8-7004f527653f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/crypto/proofs/strobe.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_938eb250-b05a-41d8-9536-a64577201321?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/crypto/proofs/strobe_transcript.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f4696e5-7d63-4f75-9e30-00770ff33581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/crypto/random.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_388005b2-befa-40f5-9554-1d9fbb4b569f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/dkg.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6061aa0-788b-40b5-bb05-f05fcc42769d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fa98262-25f7-42aa-a2b3-1898922b5064?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38db4624-9260-447f-bcb9-6f034a58a502?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/presign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bc2d994-aa8e-42dd-acf7-12cc4ba0422a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/sign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c710a4e-5b1e-4294-884b-a2f7c8aa8ee4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64ced1d3-23bd-457e-9a05-b1e0f53c73e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/batch_random_ot.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ed2067b-6dcd-4fa9-b33d-f420625dbe35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/bits.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_457ea5be-5b17-47e5-8a32-72b4a4bedc30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/correlated_ot_extension.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94f0b23d-8121-45b6-9a8c-686b77bf10da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/generation.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd0f73cd-30af-4cba-b32c-e7777d677a14?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/mta.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfd32c43-1b38-4d63-aa19-9be61020c2b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/multiplication.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f73b07d-05ec-4db1-965b-052600a4f166?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/ot_based_ecdsa/triples/random_ot_extension.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dfa17539-0147-479f-b6a1-c61070814e71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/rerandomization.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42e6cf95-6c3e-4eea-8e2b-a135a7c17374?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/robust_ecdsa.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_487b55a8-d031-41be-8b9e-dfeb2c3e81ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/robust_ecdsa/presign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b8fb58e-8b72-4821-8893-8fbb27ecfab4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/robust_ecdsa/sign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52b1767e-b290-417b-baa8-024f323a6c70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/ecdsa/signature.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e06cef1-8daa-4754-b208-1ee33f47792f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/errors.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9979d918-b5c2-4e6a-902b-4dc29c7eaff5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80a40c7d-d16d-4711-9d0a-49854cce7f5a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/eddsa.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27b727f7-d842-4553-bb92-c2f1299f1a0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/eddsa/presign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18d87a8f-2745-4919-a83a-3be2f599a31a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/eddsa/sign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_564ae9a6-56ea-4aee-9601-4f6476ce8274?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/presign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8507c904-13be-444b-8b37-8d8acbad5c39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/redjubjub.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dda0952c-775c-4137-bafb-9aa2f3886ff2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/threshold-signatures/src/frost/redjubjub/presign.rs -> Scope: Critical. Theft, direct loss, or permanent freezing of funds controlled by the MPC network, chain-signature contract, or verified foreign-chain flow.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c6454a6-89f2-438d-8339-54f766cf08de?mode=deep",
+    "questions_generated": false
+  }
+]
