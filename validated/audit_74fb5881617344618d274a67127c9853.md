@@ -1,0 +1,1 @@
+Looking at the `respond_ckd` function in `lib.rs` for an asymmetric validation analog — one code path validates the CKD output, the parallel path does not.
