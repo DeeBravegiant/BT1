@@ -1,0 +1,1 @@
+Let me look at the `assert_caller_is_attested_participant_and_protocol_active` function and the TEE state's `is_caller_an_attested_participant` to understand the full picture.
