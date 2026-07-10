@@ -1,0 +1,1 @@
+Let me examine the relevant code to trace the signing flows and domain separation.
