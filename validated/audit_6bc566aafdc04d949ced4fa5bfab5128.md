@@ -1,0 +1,1 @@
+Let me look at the `AddDomainsVotes` type and the `vote_add_domains` flow more carefully, as well as the `recompute_available_foreign_chains` function.
