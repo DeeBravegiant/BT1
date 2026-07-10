@@ -1,0 +1,3 @@
+Looking at the external report's vulnerability class — **user-supplied parameter pair that should be consistent but isn't validated for consistency, allowing a mismatch that doesn't revert and produces exploitable state** — I need to find an analog in the NEAR MPC codebase where two caller-supplied parameters should be bound to each other but the contract doesn't enforce that binding.
+
+Let me examine the `respond_verify_foreign_tx` function and compare it to `respond`.
