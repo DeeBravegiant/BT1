@@ -1,0 +1,1 @@
+Let me look at the `respond` function and the full sign request lifecycle more carefully.
