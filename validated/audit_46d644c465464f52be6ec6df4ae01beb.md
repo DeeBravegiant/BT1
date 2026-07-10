@@ -1,0 +1,1 @@
+Let me look at the `respond` function and the `SignatureRequest` structure to understand the full picture.
