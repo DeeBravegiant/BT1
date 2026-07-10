@@ -1,1 +1,0 @@
-[File: 'crates/chain-gateway/src/state_viewer/monitoring.rs'] [Function: monitor / SubscribeToContractMethod] Can an unprivileged attacker exploit the fact that `SubscribeToContractMethod::subscribe_to_contract_method` always passes hardcoded `b\
