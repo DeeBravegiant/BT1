@@ -1,0 +1,1 @@
+Looking at the NEAR MPC contract for an analog to the `notifyRewardAmount()` vulnerability class — where an insufficiently-restricted caller can reset/extend a lifecycle timer, corrupting protocol state — I need to examine functions that manipulate key-event lifecycle state with weak access controls.
