@@ -1,0 +1,1 @@
+Looking at the codebase, I need to find an analog to the "missing initiator check" vulnerability class — specifically, a response/callback function that fails to verify the origin or content of what it receives, allowing a malicious party to inject wrong values.
