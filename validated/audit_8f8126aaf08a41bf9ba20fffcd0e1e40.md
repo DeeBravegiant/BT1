@@ -1,0 +1,1 @@
+Let me check the `add_verify_foreign_tx_request` function and the `args_into_verify_foreign_tx_request` conversion to confirm the full replay path.
