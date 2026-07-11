@@ -1,1 +1,0 @@
-Let me look at the `dto_mapping.rs` and the `VerifyForeignTransactionRequest` type definition more carefully.

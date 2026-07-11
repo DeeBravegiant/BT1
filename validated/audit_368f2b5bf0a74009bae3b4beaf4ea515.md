@@ -1,3 +1,0 @@
-Looking at the vulnerability class — **insufficient input/response validation leading to a discrepancy between what is stored and what is actually used** — I need to find an analog in the NEAR MPC codebase where a critical parameter or response is accepted without proper validation, causing a user to rely on incorrect data.
-
-Let me examine the `respond_ckd` function and the CKD response verification logic.

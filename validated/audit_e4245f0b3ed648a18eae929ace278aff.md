@@ -1,3 +1,0 @@
-Looking at the external report's vulnerability class — **missing bounds on a user-controlled parameter that governs a critical operation** — I need to find an analog in the NEAR MPC codebase where a user-controlled value is accepted without a minimum bound, allowing an adversary to obtain a weaker-than-intended security guarantee from the MPC network.
-
-Let me examine the `verify_foreign_transaction` flow and the `BlockConfirmations` parameter.

@@ -1,1 +1,0 @@
-Let me look at the contract initialization and `init_running` to check for missing invariant checks there.

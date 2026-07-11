@@ -1,1 +1,0 @@
-Let me look at the `resolve_yields_for` function and the `VerifyForeignTransactionResponse` type to complete my analysis.

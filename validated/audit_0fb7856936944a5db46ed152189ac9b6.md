@@ -1,1 +1,0 @@
-Looking at the codebase, I need to find an analog to the FrankenDAO M-10 pattern: state/counters incremented during a lifecycle action are not decremented when that action is "vetoed" or cancelled.

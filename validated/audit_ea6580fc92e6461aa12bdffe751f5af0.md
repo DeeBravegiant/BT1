@@ -1,1 +1,0 @@
-Looking at the codebase, I need to trace the full `verify_foreign_transaction` signing and verification flow to find any field-in-hash vs. declared-schema mismatch analogous to the external report.

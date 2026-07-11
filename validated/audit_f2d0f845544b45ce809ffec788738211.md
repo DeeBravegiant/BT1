@@ -1,1 +1,0 @@
-Looking at the NEAR MPC codebase for an analog to the "state-changing interrupt that silently voids in-flight operations" vulnerability class.

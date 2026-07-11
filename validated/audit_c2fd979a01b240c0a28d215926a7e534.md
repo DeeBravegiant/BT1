@@ -1,1 +1,0 @@
-Looking at the M-18 vulnerability class — funds permanently frozen because the only authorized party to claim them is structurally unable to do so — I need to find an analog in the NEAR MPC codebase where deposited funds have no reachable reclaim path.

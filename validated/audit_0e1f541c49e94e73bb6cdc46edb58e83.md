@@ -1,1 +1,0 @@
-Looking at the external report's vulnerability class — a state flag (`disputer != address(0)`) not checked alongside a time-based condition, allowing operations on data that should be considered invalid — I need to find an analog in the NEAR MPC codebase where an "invalid/expired" state flag is not checked in the critical signing path.

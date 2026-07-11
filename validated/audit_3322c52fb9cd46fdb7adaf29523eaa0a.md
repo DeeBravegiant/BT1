@@ -1,1 +1,0 @@
-Looking at the codebase, I need to find an analog to the `syncRewards()` timing vulnerability — a state-update function that should be called during critical operations but isn't, leading to a broken safety invariant. Let me examine the TEE attestation re-verification flow.

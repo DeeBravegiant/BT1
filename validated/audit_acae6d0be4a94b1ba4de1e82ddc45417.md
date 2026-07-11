@@ -1,1 +1,0 @@
-Looking at the three `respond*` functions in the contract to find the analog of "invariant check enforced in one code path but missing in an equivalent code path."

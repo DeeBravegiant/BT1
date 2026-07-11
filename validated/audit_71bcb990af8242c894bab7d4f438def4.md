@@ -1,1 +1,0 @@
-Looking at the external report's vulnerability class — **a required lifecycle action gated to a single party, with no fallback, causing state to be permanently stuck** — I need to find the same pattern in the NEAR MPC codebase.

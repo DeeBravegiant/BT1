@@ -1,1 +1,0 @@
-Let me look at the `respond_verify_foreign_tx` function and the `args_into_verify_foreign_tx_request` mapping to understand the tweak handling for foreign chain transactions.

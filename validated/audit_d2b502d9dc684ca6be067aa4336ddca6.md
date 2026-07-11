@@ -1,1 +1,0 @@
-Let me look at the full node-side verify_foreign_tx signing flow and the quorum enforcement.

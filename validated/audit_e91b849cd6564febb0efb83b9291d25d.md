@@ -1,1 +1,0 @@
-Looking at the three `respond*` functions in the contract, I need to compare their verification patterns to find the analog to the "missing state-maintenance call in some code paths" vulnerability class.
