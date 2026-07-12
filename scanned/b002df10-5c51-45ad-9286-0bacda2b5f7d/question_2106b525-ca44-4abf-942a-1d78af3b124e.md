@@ -1,0 +1,1 @@
+[File: 'src/cbmpc/c_api/ecdsa_mp.cpp -> Scope: Medium'] [Function: cbmpc_ecdsa_mp_dkg_ac -> to_cpp_quorum_party_names -> to_internal_party_set] Can an unprivileged API caller supplying a quorum_party_names array containing duplicate party name strings (e.g., [\

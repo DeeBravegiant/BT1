@@ -1,0 +1,1 @@
+[File: 'src/cbmpc/crypto/base_hash.cpp'] [Function: hmac_t::init / ro::hmac_state_t constructor] Can an unprivileged attacker controlling the global HMAC key bytes in `ro.cpp` under the precondition that `hmac_state_t::hmac_state_t()` initializes with a hardwired 16-byte key `global_key` derived from `SHA256(\

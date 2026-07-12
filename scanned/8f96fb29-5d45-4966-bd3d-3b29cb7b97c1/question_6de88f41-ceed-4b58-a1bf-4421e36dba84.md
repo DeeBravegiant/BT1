@@ -1,0 +1,1 @@
+[File: 'src/cbmpc/crypto/secret_sharing.cpp -> Scope: Critical'] [Function: ac_owned_t::convert / validate_tree] Can a malicious serialized-blob provider controlling `mem_t` bytes supply a THRESHOLD node with `threshold == n` (all children required) but with `n` children whose names are all the empty string `\
