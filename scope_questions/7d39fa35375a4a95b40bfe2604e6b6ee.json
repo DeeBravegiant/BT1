@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: src/cbmpc/api/access_structure_util.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02317ea1-6ced-4d18-84f5-bb99ae454c95?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/curve_util.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07ab3b4f-dc81-41e8-a387-71261a812b75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/ecdsa2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05ddb8cf-46ac-4021-89f0-01bbf62d1c40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/ecdsa_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed0a4432-ac17-4f07-876e-9e5950b2f0d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/eddsa2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_35d21925-e723-4004-b798-15cf922f7f55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/eddsa_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96651d5a-1860-4cfb-bd2d-d804df619d76?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/hd_keyset_ecdsa_2p.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8cb7fd48-dadc-463c-a19b-f20c25af4296?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/hd_keyset_eddsa_2p.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1172caa4-6693-4e47-8b30-6d687bbf486d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/hd_keyset_util.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c382fc7f-a714-45af-9c31-0047e076dca0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/job_util.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d5b3385-6def-43e3-8cb0-2d252b7c8d7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/mem_util.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cb5cb2b-8f62-4eca-b6b4-aad2c82d4b18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/pve_base_pke.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7695615-8590-4378-a700-cc70ea6d9f84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/pve_batch_ac.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_36fb549b-60fb-4f89-8cdb-259b6ff16f6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/pve_batch_single_recipient.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02ab525e-b95f-4f2a-829a-da4dce570ba4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/pve_internal.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8392f646-1267-4464-88f6-2a29bf7cabbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/schnorr2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77bd8e3f-1da5-41ea-95e3-91e5d5c273fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/schnorr_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e8bc2455-5b62-4491-a358-ca02e7085526?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/api/tdh2.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f85458c-83ce-4dd4-b516-fbb0df5c9090?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/access_structure_adapter.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_010b251a-9411-4e4c-a341-0de65dd687d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/common.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa61be17-ec4a-4fea-9a37-bd6bea7b9dd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/ecdsa2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_600e693b-a921-4815-8208-83a322d23750?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/ecdsa_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fbb8dbd-8005-41b4-88d0-1f37b20fe7ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/eddsa2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67eb1878-8927-4887-8472-b9cb95f76f61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/eddsa_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d547203e-23fe-4c7a-b517-b6b4a020d12a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/pve_base_pke.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad70419b-7fe6-49f6-b711-dc40d74c1e4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/pve_batch_ac.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41cce36e-d6b2-49bf-a80d-5a859334aac3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/pve_batch_single_recipient.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63809ec4-4dd0-4f96-ae50-3d4575507cfd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/pve_internal.h -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b30e5be-8970-49a3-9f1b-a3baee0106c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/schnorr2pc.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32814289-3bc9-4af2-b12e-1538aece0585?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/c_api/schnorr_mp.cpp -> Scope: Critical. A single malicious peer or below-threshold coalition obtains a valid ECDSA, EdDSA, Schnorr, HD-derived key, PVE recovery, or TDH2 decryption result without the required honest participants.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a110cbd2-ec40-4edc-8360-2fede4b463d3?mode=deep",
+    "questions_generated": false
+  }
+]
