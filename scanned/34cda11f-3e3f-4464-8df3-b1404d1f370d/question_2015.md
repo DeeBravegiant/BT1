@@ -1,0 +1,13 @@
+# Q2015: HD ECDSA-2PC ElGamal commitment reuse in hd_keyset_ecdsa_2p.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript after successful DKG and before signing, reach `include/cbmpc/api/hd_keyset_ecdsa_2p.h` `extract_root_public_key_compressed`, and use ElGamal commitment values replayed across sessions or statement contexts to bypass the requirement that commitments are rerandomized or transcript-bound before proofs/signing equations, causing commitment relation leaks share information or validates a false statement and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include/cbmpc/api/hd_keyset_ecdsa_2p.h::extract_root_public_key_compressed`
+- Entrypoint: `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys via include/cbmpc/api/hd_keyset_ecdsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically ElGamal commitment values replayed across sessions or statement contexts after successful DKG and before signing
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` in `include/cbmpc/api/hd_keyset_ecdsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript after successful DKG and before signing. The malicious side supplies ElGamal commitment values replayed across sessions or statement contexts. Investigate whether `include/cbmpc/api/hd_keyset_ecdsa_2p.h` `extract_root_public_key_compressed` assumes commitments are rerandomized or transcript-bound before proofs/signing equations was already enforced and therefore lets commitment relation leaks share information or validates a false statement.
+- Invariant to test: The HD ECDSA-2PC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` through `include/cbmpc/api/hd_keyset_ecdsa_2p.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical key compromise or significant disclosure/substitution of sensitive key material through supported public APIs.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate ElGamal commitment values replayed across sessions or statement contexts; assert rejection before `include/cbmpc/api/hd_keyset_ecdsa_2p.h` `extract_root_public_key_compressed` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

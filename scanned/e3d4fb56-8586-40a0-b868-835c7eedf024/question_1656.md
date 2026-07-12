@@ -1,0 +1,13 @@
+# Q1656: HD ECDSA-2PC public share substitution in hd_keyset_ecdsa_2p.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript when parties disagree on recipient or quorum ordering, reach `include-internal/cbmpc/internal/protocol/hd_keyset_ecdsa_2p.h` `dkg`, and use public_share_compressed from one blob paired with scalar from another blob to bypass the requirement that attach APIs bind scalar to blob role, curve, public share, public key, and party, causing attacker restores scalar into a blob that should not be sign-capable and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include-internal/cbmpc/internal/protocol/hd_keyset_ecdsa_2p.h::dkg`
+- Entrypoint: `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys via include/cbmpc/api/hd_keyset_ecdsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically public_share_compressed from one blob paired with scalar from another blob when parties disagree on recipient or quorum ordering
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` in `include/cbmpc/api/hd_keyset_ecdsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript when parties disagree on recipient or quorum ordering. The malicious side supplies public_share_compressed from one blob paired with scalar from another blob. Investigate whether `include-internal/cbmpc/internal/protocol/hd_keyset_ecdsa_2p.h` `dkg` assumes attach APIs bind scalar to blob role, curve, public share, public key, and party was already enforced and therefore lets attacker restores scalar into a blob that should not be sign-capable.
+- Invariant to test: The HD ECDSA-2PC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` through `include-internal/cbmpc/internal/protocol/hd_keyset_ecdsa_2p.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical key compromise or significant disclosure/substitution of sensitive key material through supported public APIs.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate public_share_compressed from one blob paired with scalar from another blob; assert rejection before `include-internal/cbmpc/internal/protocol/hd_keyset_ecdsa_2p.h` `dkg` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

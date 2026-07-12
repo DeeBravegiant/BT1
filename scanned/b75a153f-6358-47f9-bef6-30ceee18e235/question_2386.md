@@ -1,0 +1,13 @@
+# Q2386: access-structure access-tree duplicate leaves in secret_sharing.cpp
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::pve::combine_ac` with ciphertext, attempt_index, label, and quorum_shares after refresh but before public-key export, reach `src/cbmpc/crypto/secret_sharing.cpp` `reconstruct_recursive`, and use access_structure with duplicate leaves, shadowed names, or non-canonical equivalent trees to bypass the requirement that access-structure validation enforces unique leaves and exact party-name matching, causing below-threshold shares satisfy reconstruction and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/crypto/secret_sharing.cpp::reconstruct_recursive`
+- Entrypoint: `coinbase::api::pve::combine_ac via include/cbmpc/api/pve_batch_ac.h`
+- Attacker controls: ciphertext, attempt_index, label, and quorum_shares; specifically access_structure with duplicate leaves, shadowed names, or non-canonical equivalent trees after refresh but before public-key export
+- Exploit idea: Start from supported public API `coinbase::api::pve::combine_ac` in `include/cbmpc/api/pve_batch_ac.h` with ciphertext, attempt_index, label, and quorum_shares after refresh but before public-key export. The malicious side supplies access_structure with duplicate leaves, shadowed names, or non-canonical equivalent trees. Investigate whether `src/cbmpc/crypto/secret_sharing.cpp` `reconstruct_recursive` assumes access-structure validation enforces unique leaves and exact party-name matching was already enforced and therefore lets below-threshold shares satisfy reconstruction.
+- Invariant to test: The access-structure path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::pve::combine_ac` through `src/cbmpc/crypto/secret_sharing.cpp`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High public-API reachable validation bypass in a supported high-level protocol.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate access_structure with duplicate leaves, shadowed names, or non-canonical equivalent trees; assert rejection before `src/cbmpc/crypto/secret_sharing.cpp` `reconstruct_recursive` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

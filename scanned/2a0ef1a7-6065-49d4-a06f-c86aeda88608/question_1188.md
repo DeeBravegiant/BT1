@@ -1,0 +1,13 @@
+# Q1188: HD ECDSA-2PC HD path context confusion in hd_keyset_ecdsa_2p.cpp
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript when public extraction is compared with signing output, reach `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys`, and use hardened_path with edge indices, repeated components, empty path, or equivalent encodings to bypass the requirement that every HD path element is bound into transcript and output key identity, causing derived key is accepted for the wrong HD path and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp::derive_keys`
+- Entrypoint: `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys via include/cbmpc/api/hd_keyset_ecdsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically hardened_path with edge indices, repeated components, empty path, or equivalent encodings when public extraction is compared with signing output
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` in `include/cbmpc/api/hd_keyset_ecdsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript when public extraction is compared with signing output. The malicious side supplies hardened_path with edge indices, repeated components, empty path, or equivalent encodings. Investigate whether `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys` assumes every HD path element is bound into transcript and output key identity was already enforced and therefore lets derived key is accepted for the wrong HD path.
+- Invariant to test: The HD ECDSA-2PC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` through `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical key compromise or significant disclosure/substitution of sensitive key material through supported public APIs.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate hardened_path with edge indices, repeated components, empty path, or equivalent encodings; assert rejection before `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

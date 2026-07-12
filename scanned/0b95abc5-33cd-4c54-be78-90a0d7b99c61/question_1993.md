@@ -1,0 +1,13 @@
+# Q1993: HD-MPC public key extraction mismatch in hd_tree_bip32.cpp
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript after refresh but before public-key export, reach `src/cbmpc/protocol/hd_tree_bip32.cpp` `hd_tree_bip32 module`, and use key_blob whose public-key extraction path and signing path parse different fields to bypass the requirement that exported public key is derived from the same validated state used by signing, causing caller authorizes one public key while protocol signs with another and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/protocol/hd_tree_bip32.cpp::hd_tree_bip32 module`
+- Entrypoint: `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys via include/cbmpc/api/hd_keyset_ecdsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically key_blob whose public-key extraction path and signing path parse different fields after refresh but before public-key export
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` in `include/cbmpc/api/hd_keyset_ecdsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript after refresh but before public-key export. The malicious side supplies key_blob whose public-key extraction path and signing path parse different fields. Investigate whether `src/cbmpc/protocol/hd_tree_bip32.cpp` `hd_tree_bip32 module` assumes exported public key is derived from the same validated state used by signing was already enforced and therefore lets caller authorizes one public key while protocol signs with another.
+- Invariant to test: The HD-MPC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` through `src/cbmpc/protocol/hd_tree_bip32.cpp`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High accepted cryptographic output bound to the wrong curve, key, label, session, party set, or protocol version.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate key_blob whose public-key extraction path and signing path parse different fields; assert rejection before `src/cbmpc/protocol/hd_tree_bip32.cpp` `hd_tree_bip32 module` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

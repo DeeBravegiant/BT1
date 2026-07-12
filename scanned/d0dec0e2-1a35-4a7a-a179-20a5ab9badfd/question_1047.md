@@ -1,0 +1,13 @@
+# Q1047: access-structure public-private blob downgrade in secret_sharing.cpp
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::tdh2::combine_ac` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext when the same caller alternates valid and mutated blobs, reach `src/cbmpc/crypto/secret_sharing.cpp` `validate_tree`, and use scalar-detached public blob edited to look like a full signing key blob to bypass the requirement that redacted blobs are tagged and rejected by sign/refresh until attach succeeds, causing signing or refresh uses absent, stale, or attacker-supplied private scalar and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/crypto/secret_sharing.cpp::validate_tree`
+- Entrypoint: `coinbase::api::tdh2::combine_ac via include/cbmpc/api/tdh2.h`
+- Attacker controls: access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext; specifically scalar-detached public blob edited to look like a full signing key blob when the same caller alternates valid and mutated blobs
+- Exploit idea: Start from supported public API `coinbase::api::tdh2::combine_ac` in `include/cbmpc/api/tdh2.h` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext when the same caller alternates valid and mutated blobs. The malicious side supplies scalar-detached public blob edited to look like a full signing key blob. Investigate whether `src/cbmpc/crypto/secret_sharing.cpp` `validate_tree` assumes redacted blobs are tagged and rejected by sign/refresh until attach succeeds was already enforced and therefore lets signing or refresh uses absent, stale, or attacker-supplied private scalar.
+- Invariant to test: The access-structure path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::tdh2::combine_ac` through `src/cbmpc/crypto/secret_sharing.cpp`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical key compromise or significant disclosure/substitution of sensitive key material through supported public APIs.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate scalar-detached public blob edited to look like a full signing key blob; assert rejection before `src/cbmpc/crypto/secret_sharing.cpp` `validate_tree` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

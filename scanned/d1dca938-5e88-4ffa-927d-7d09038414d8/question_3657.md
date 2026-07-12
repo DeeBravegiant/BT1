@@ -1,0 +1,13 @@
+# Q3657: TDH2 non-canonical signature or key encoding in tdh2.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::tdh2::combine_ac` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext when parties disagree on recipient or quorum ordering, reach `include-internal/cbmpc/internal/crypto/tdh2.h` `check_partial_decryption_helper`, and use DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings to bypass the requirement that signature and public-key encodings are canonical before comparison/export, causing modules disagree about the same key or signature and accept attacker binding and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include-internal/cbmpc/internal/crypto/tdh2.h::check_partial_decryption_helper`
+- Entrypoint: `coinbase::api::tdh2::combine_ac via include/cbmpc/api/tdh2.h`
+- Attacker controls: access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext; specifically DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings when parties disagree on recipient or quorum ordering
+- Exploit idea: Start from supported public API `coinbase::api::tdh2::combine_ac` in `include/cbmpc/api/tdh2.h` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext when parties disagree on recipient or quorum ordering. The malicious side supplies DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings. Investigate whether `include-internal/cbmpc/internal/crypto/tdh2.h` `check_partial_decryption_helper` assumes signature and public-key encodings are canonical before comparison/export was already enforced and therefore lets modules disagree about the same key or signature and accept attacker binding.
+- Invariant to test: The TDH2 path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::tdh2::combine_ac` through `include-internal/cbmpc/internal/crypto/tdh2.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High accepted cryptographic output bound to the wrong curve, key, label, session, party set, or protocol version.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings; assert rejection before `include-internal/cbmpc/internal/crypto/tdh2.h` `check_partial_decryption_helper` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

@@ -1,0 +1,13 @@
+# Q1262: PVE callback context confusion in pve_base.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::pve::decrypt_batch` with dk, ek, ciphertext, and label when labels or sids are reused across supported flows, reach `include-internal/cbmpc/internal/protocol/pve_base.h` `pve_base_decrypt`, and use base-PKE or HSM callback output with valid length but wrong ek, dk, ciphertext, rho, or label context to bypass the requirement that callback outputs are bound to expected key type, label, ciphertext, and encryption context, causing PVE accepts scalar material from the wrong encryption context and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include-internal/cbmpc/internal/protocol/pve_base.h::pve_base_decrypt`
+- Entrypoint: `coinbase::api::pve::decrypt_batch via include/cbmpc/api/pve_batch_single_recipient.h`
+- Attacker controls: dk, ek, ciphertext, and label; specifically base-PKE or HSM callback output with valid length but wrong ek, dk, ciphertext, rho, or label context when labels or sids are reused across supported flows
+- Exploit idea: Start from supported public API `coinbase::api::pve::decrypt_batch` in `include/cbmpc/api/pve_batch_single_recipient.h` with dk, ek, ciphertext, and label when labels or sids are reused across supported flows. The malicious side supplies base-PKE or HSM callback output with valid length but wrong ek, dk, ciphertext, rho, or label context. Investigate whether `include-internal/cbmpc/internal/protocol/pve_base.h` `pve_base_decrypt` assumes callback outputs are bound to expected key type, label, ciphertext, and encryption context was already enforced and therefore lets PVE accepts scalar material from the wrong encryption context.
+- Invariant to test: The PVE path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::pve::decrypt_batch` through `include-internal/cbmpc/internal/protocol/pve_base.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical key compromise or significant disclosure/substitution of sensitive key material through supported public APIs.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate base-PKE or HSM callback output with valid length but wrong ek, dk, ciphertext, rho, or label context; assert rejection before `include-internal/cbmpc/internal/protocol/pve_base.h` `pve_base_decrypt` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

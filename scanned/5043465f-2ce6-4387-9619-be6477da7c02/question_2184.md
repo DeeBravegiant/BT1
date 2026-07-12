@@ -1,0 +1,13 @@
+# Q2184: TDH2 public key extraction mismatch in tdh2.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::tdh2::combine_ac` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext while two sessions run concurrently, reach `include-internal/cbmpc/internal/crypto/tdh2.h` `combine_additive`, and use key_blob whose public-key extraction path and signing path parse different fields to bypass the requirement that exported public key is derived from the same validated state used by signing, causing caller authorizes one public key while protocol signs with another and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include-internal/cbmpc/internal/crypto/tdh2.h::combine_additive`
+- Entrypoint: `coinbase::api::tdh2::combine_ac via include/cbmpc/api/tdh2.h`
+- Attacker controls: access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext; specifically key_blob whose public-key extraction path and signing path parse different fields while two sessions run concurrently
+- Exploit idea: Start from supported public API `coinbase::api::tdh2::combine_ac` in `include/cbmpc/api/tdh2.h` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext while two sessions run concurrently. The malicious side supplies key_blob whose public-key extraction path and signing path parse different fields. Investigate whether `include-internal/cbmpc/internal/crypto/tdh2.h` `combine_additive` assumes exported public key is derived from the same validated state used by signing was already enforced and therefore lets caller authorizes one public key while protocol signs with another.
+- Invariant to test: The TDH2 path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::tdh2::combine_ac` through `include-internal/cbmpc/internal/crypto/tdh2.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High accepted cryptographic output bound to the wrong curve, key, label, session, party set, or protocol version.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate key_blob whose public-key extraction path and signing path parse different fields; assert rejection before `include-internal/cbmpc/internal/crypto/tdh2.h` `combine_additive` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

@@ -1,0 +1,13 @@
+# Q2213: access-structure party-name aliasing in access_structure_util.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::tdh2::combine_ac` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext while one malicious peer deviates and one honest party is unmodified, reach `src/cbmpc/api/access_structure_util.h` `to_internal_access_structure`, and use duplicate, reordered, empty, or colliding party_names and quorum_party_names to bypass the requirement that party names map one-to-one to stable pids and access-structure leaves, causing a below-threshold set is treated as a valid quorum or share owner and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/api/access_structure_util.h::to_internal_access_structure`
+- Entrypoint: `coinbase::api::tdh2::combine_ac via include/cbmpc/api/tdh2.h`
+- Attacker controls: access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext; specifically duplicate, reordered, empty, or colliding party_names and quorum_party_names while one malicious peer deviates and one honest party is unmodified
+- Exploit idea: Start from supported public API `coinbase::api::tdh2::combine_ac` in `include/cbmpc/api/tdh2.h` with access_structure, party_names, public_shares, label, partial names, partial decryptions, and ciphertext while one malicious peer deviates and one honest party is unmodified. The malicious side supplies duplicate, reordered, empty, or colliding party_names and quorum_party_names. Investigate whether `src/cbmpc/api/access_structure_util.h` `to_internal_access_structure` assumes party names map one-to-one to stable pids and access-structure leaves was already enforced and therefore lets a below-threshold set is treated as a valid quorum or share owner.
+- Invariant to test: The access-structure path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::tdh2::combine_ac` through `src/cbmpc/api/access_structure_util.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High public-API reachable validation bypass in a supported high-level protocol.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate duplicate, reordered, empty, or colliding party_names and quorum_party_names; assert rejection before `src/cbmpc/api/access_structure_util.h` `to_internal_access_structure` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

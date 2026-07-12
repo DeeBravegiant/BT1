@@ -1,0 +1,13 @@
+# Q720: HD-MPC non-canonical signature or key encoding in hd_tree_bip32.h
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_eddsa_2p::derive_eddsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript during backup verification before recovery, reach `include-internal/cbmpc/internal/protocol/hd_tree_bip32.h` `hd_tree_bip32 module`, and use DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings to bypass the requirement that signature and public-key encodings are canonical before comparison/export, causing modules disagree about the same key or signature and accept attacker binding and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `include-internal/cbmpc/internal/protocol/hd_tree_bip32.h::hd_tree_bip32 module`
+- Entrypoint: `coinbase::api::hd_keyset_eddsa_2p::derive_eddsa_2p_keys via include/cbmpc/api/hd_keyset_eddsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings during backup verification before recovery
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_eddsa_2p::derive_eddsa_2p_keys` in `include/cbmpc/api/hd_keyset_eddsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript during backup verification before recovery. The malicious side supplies DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings. Investigate whether `include-internal/cbmpc/internal/protocol/hd_tree_bip32.h` `hd_tree_bip32 module` assumes signature and public-key encodings are canonical before comparison/export was already enforced and therefore lets modules disagree about the same key or signature and accept attacker binding.
+- Invariant to test: The HD-MPC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_eddsa_2p::derive_eddsa_2p_keys` through `include-internal/cbmpc/internal/protocol/hd_tree_bip32.h`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): High accepted cryptographic output bound to the wrong curve, key, label, session, party set, or protocol version.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate DER, SEC1 compressed, or BIP340 x-only bytes with alternate parseable encodings; assert rejection before `include-internal/cbmpc/internal/protocol/hd_tree_bip32.h` `hd_tree_bip32 module` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.

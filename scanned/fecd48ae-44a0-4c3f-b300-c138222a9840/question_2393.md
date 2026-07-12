@@ -1,0 +1,13 @@
+# Q2393: HD ECDSA-2PC message digest semantic confusion in hd_keyset_ecdsa_2p.cpp
+
+## Question
+Can an unprivileged attacker enter through `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` with keyset_blob, hardened_path, and malicious derivation transcript when the same caller alternates valid and mutated blobs, reach `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys`, and use signing input with wrong length, leading zeros, or raw-message-versus-digest ambiguity to bypass the requirement that ECDSA/Schnorr enforce exact digest semantics while EdDSA binds raw message, causing valid signature is produced over unintended message bytes and producing an in-scope cb-mpc bounty impact?
+
+## Target
+- File/function: `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp::derive_keys`
+- Entrypoint: `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys via include/cbmpc/api/hd_keyset_ecdsa_2p.h`
+- Attacker controls: keyset_blob, hardened_path, and malicious derivation transcript; specifically signing input with wrong length, leading zeros, or raw-message-versus-digest ambiguity when the same caller alternates valid and mutated blobs
+- Exploit idea: Start from supported public API `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` in `include/cbmpc/api/hd_keyset_ecdsa_2p.h` with keyset_blob, hardened_path, and malicious derivation transcript when the same caller alternates valid and mutated blobs. The malicious side supplies signing input with wrong length, leading zeros, or raw-message-versus-digest ambiguity. Investigate whether `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys` assumes ECDSA/Schnorr enforce exact digest semantics while EdDSA binds raw message was already enforced and therefore lets valid signature is produced over unintended message bytes.
+- Invariant to test: The HD ECDSA-2PC path must preserve curve, key/blob version, party identity, session or label context, access-structure semantics, and validated encodings from `coinbase::api::hd_keyset_ecdsa_2p::derive_ecdsa_2p_keys` through `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp`.
+- Expected Immunefi impact: Coinbase cb-mpc bounty (HackerOne, not Immunefi): Critical valid signing result without required honest two-party or threshold participation.
+- Fast validation: Write a local public-API harness with one honest unmodified party and malicious fake transport or buffers; mutate signing input with wrong length, leading zeros, or raw-message-versus-digest ambiguity; assert rejection before `src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp` `derive_keys` can produce a valid-looking signature, key blob, proof, ciphertext, plaintext, public share, or recovered scalar.
