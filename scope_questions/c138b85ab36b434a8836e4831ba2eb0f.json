@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/core/convert.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_090f6fc2-282b-4fd4-b374-3bff00b63eb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/core/extended_uint.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cba1ffa4-4fa3-4c82-ba05-644cdea0f1a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/core/log.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b61f049-d1ed-48ce-aecc-a41283357e94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/core/strext.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_409434a8-73da-4303-93c3-75c27bc0c181?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/core/utils.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2aac0717-0467-474b-bf36-eef9e0eec1bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc3b1d2e-a18e-4e25-b458-ae0253983105?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_bn.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0f04874-2f3a-4a25-bb75-7ed93addf0b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_bn256.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8d47689-c860-463c-8941-617b468ebfc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_ec_core.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eece2a0b-95bf-42b8-91bd-d69923a9fcc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_ecc.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6261af47-fcd3-45e5-aa19-4fa3ad99e407?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_ecc_secp256k1.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac313a89-0d6b-487d-a64a-2ed39c19d720?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_eddsa.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1768f99-0e90-41d5-9267-ef8386140dbf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_hash.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6de4afcd-5f12-4d34-8309-0ab86cda15ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_mod.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1122ea7f-4775-4337-a3da-0fceb2f47999?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_paillier.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63e12ae2-6e07-43bf-8650-b691e6061ff2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_pki.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22983aaf-0d31-47a7-ad2d-c8ee3aac44ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/base_rsa.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5afb805-ea9d-472b-b188-2f6112d84cb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/commitment.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9d2ce67-85a9-4736-8ba7-a5a46a0badee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/ec25519_core.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a52e2f03-69a7-460e-bc3c-38db490d3ba3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/elgamal.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_581e2afd-47d8-40c8-87cf-1cf2989f2772?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/lagrange.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f083c9e3-f2ab-45a4-b102-98f52c0d5272?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/mlkem768.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98cfa3d6-d096-4508-a546-846343ed6172?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/ro.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9327fda6-f703-400f-9a0a-bfdec76f4d4b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/scope.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd0d8ccc-00cf-4817-a8be-545ed0aa5f5d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/secret_sharing.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_796a7f32-def8-41a5-87e6-360c072e6e89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/crypto/tdh2.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef004862-77ba-40f7-91b0-e03ff46a24ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/protocol/agree_random.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3918746b-ace7-40ca-841b-d4eba877e314?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/protocol/committed_broadcast.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dc0fa10-4953-4061-ada7-47b5bb98990f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/protocol/ec_dkg.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83a4bf85-f711-4aba-8bc7-3a7697053bc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: include-internal/cbmpc/internal/protocol/ecdsa_2p.h -> Scope: High. Attacker-controlled blobs, proofs, ciphertexts, points, scalars, party names, access structures, labels, or session data are accepted under the wrong curve, key, party set, label, transcript, or protocol version.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2588a5bf-dff6-40e6-86e6-ede09eee486e?mode=deep",
+    "questions_generated": false
+  }
+]
