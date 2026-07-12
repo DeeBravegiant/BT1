@@ -256,6 +256,7 @@ def main():
 
         # Remove .git directory
         shutil.rmtree(".git", ignore_errors=True)
+        shutil.rmtree(".github", ignore_errors=True)
 
         # Create and push repositories
         for i in range(1, num_repos + 1):
