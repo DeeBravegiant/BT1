@@ -1,1 +1,0 @@
-[File: 'include/cbmpc/c_api/eddsa_mp.h -> Scope: Critical'] [Function: cbmpc_eddsa_mp_sign_ac / deserialize_ac_key_blob(mem_t, key_t&)] Can an unprivileged API caller controlling a crafted ac_key_blob cmem_t under the precondition that the blob has version=2, valid x_share*G==Qis[self], but Qis_compressed contains a party name with embedded null bytes (e.g., \
