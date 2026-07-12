@@ -1,0 +1,1 @@
+[File: 'include/cbmpc/c_api/eddsa_mp.h -> Scope: Critical'] [Function: cbmpc_eddsa_mp_dkg_ac / cbmpc_eddsa_mp_sign_ac] Can an unprivileged API caller controlling the quorum_party_names array and quorum_party_names_count under the precondition that quorum_party_names contains duplicate entries (e.g., [\

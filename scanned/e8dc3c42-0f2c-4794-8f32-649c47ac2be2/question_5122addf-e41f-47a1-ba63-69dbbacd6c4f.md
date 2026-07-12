@@ -1,0 +1,1 @@
+[File: 'include/cbmpc/c_api/common.h -> Scope: Critical'] [Function: cbmpc_pve_ac_encrypt / cbmpc_pve_ac_combine] Can an unprivileged caller controlling quorum_leaf_names (char* array) under the precondition that cbmpc_pve_ac_combine accepts quorum_leaf_names that are not validated as a subset of the access structure leaves trigger cbmpc_pve_ac_combine(quorum_leaf_names=[\
