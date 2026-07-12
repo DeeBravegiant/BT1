@@ -1,0 +1,117 @@
+[
+  {
+    "question": "'File Name: src/cbmpc/protocol/ec_dkg.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d15b580-2f1f-4310-b65b-4eebc86db0d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/ecdsa_2p.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8f361ae-c007-4c2d-b7cf-96df495e4e7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/ecdsa_mp.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c41d7af-d51c-4397-8e85-b61e4faaad11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/eddsa.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c4fd0fa-d74b-40f3-8479-2ecb73082a22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/hd_keyset_ecdsa_2p.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce1087d9-b89c-45e0-aa00-2cf83bdd2791?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/hd_keyset_eddsa_2p.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec4cb226-c757-4b98-aca3-ee9c467eebcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/hd_tree_bip32.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91a77db9-0c29-48a1-9b21-d7d751b284fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/int_commitment.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b3087e7-34c5-4433-8286-279fe554909a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/mpc_job.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27944be8-7033-4591-a5f4-198139503420?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/ot.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86be5960-d96b-4020-98f6-4349fb6919b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/pve.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3e3b23d-0ea2-4eb8-a50f-f8ebbb63de3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/pve_ac.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c907f424-549a-4052-b179-d4356b5a9f8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/pve_base.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b84d891-27d8-405f-bc13-002f7055c144?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/pve_batch.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4cf82ed9-9ecb-4c88-8349-499fa12f6395?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/schnorr_2p.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_570692a6-e1cb-4117-83a6-f23e28521270?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/protocol/schnorr_mp.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bf88f9d-089a-4cfb-9afd-6575eae21174?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/fischlin.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8ae52fd-c91f-464e-b2cf-20e34f644880?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/small_primes.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5efc2fda-51de-4ca8-bf22-f403ca72fb5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/zk_ec.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0526f45d-53a4-4eff-a0a4-bb1564bebe13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/zk_elgamal_com.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_385b2fa1-8139-4243-a4af-deeec82a2346?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/zk_paillier.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91fe1b39-cf5a-457a-a5df-affaf9c37628?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/zk_pedersen.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_928c4b5c-90fa-4743-a3f7-ece7524880b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/cbmpc/zk/zk_unknown_order.cpp -> Scope: Critical. A shipped API or protocol-peer path lets an attacker recover, forge, or substitute key shares, private scalars, Paillier secrets, TDH2 shares, or equivalent secret material.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_035cd2bf-f4a7-4098-ab66-d375e68bd26d?mode=deep",
+    "questions_generated": false
+  }
+]
