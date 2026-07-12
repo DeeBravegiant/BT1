@@ -1,1 +1,0 @@
-[File: 'src/cbmpc/core/buf128.cpp'] [Function: buf128_t::reverse_bytes / aes_ctr_t::init] Can an unprivileged malicious serialized-input provider controlling a `buf128_t` value that is used as an AES-CTR IV after `reverse_bytes()` under the precondition that `buf128_t::reverse_bytes()` on x86 requires SSSE3 (`__attribute__((target(\
