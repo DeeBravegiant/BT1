@@ -1,0 +1,1 @@
+Let me look at the `masked_select` and `constant_time_mask_64` functions, and also the `MODULO` macro to understand the full picture.
