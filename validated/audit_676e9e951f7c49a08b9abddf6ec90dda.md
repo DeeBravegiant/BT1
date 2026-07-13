@@ -1,0 +1,1 @@
+Let me look at the `zk_flag` enum and the `zk_util.h` file to understand all possible values, and also check the ECDSA 2P signing protocol which uses `pdl_t`.
