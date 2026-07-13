@@ -1,0 +1,1 @@
+Let me read the header file and check how `w0` is serialized/deserialized.
