@@ -1,1 +1,0 @@
-Let me look more carefully at the ECDSA 2PC key structure and the signing protocol for any uninitialized field usage.

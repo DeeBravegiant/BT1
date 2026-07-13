@@ -1,1 +1,0 @@
-Let me look at the EC DKG code to understand how `Q1` is validated before being passed to `pdl_t::verify`.

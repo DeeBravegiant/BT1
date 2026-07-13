@@ -1,1 +1,0 @@
-Let me look at the signing code to see how additive shares are used, and also check for any other potential double-scaling patterns.

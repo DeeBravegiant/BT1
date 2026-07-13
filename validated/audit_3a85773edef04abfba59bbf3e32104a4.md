@@ -1,1 +1,0 @@
-Let me look more carefully at the HD derivation and the `reconstruct_additive_share` AND node logic to understand the formula composition.

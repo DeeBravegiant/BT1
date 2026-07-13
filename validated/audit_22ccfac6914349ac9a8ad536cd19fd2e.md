@@ -1,1 +1,0 @@
-Let me look at the EdDSA `sign_ac` function and the `to_additive_share` function to complete the analysis.

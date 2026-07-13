@@ -1,1 +1,0 @@
-Let me look at the `to_additive_share` function and the access structure validation in `sign_ac`.

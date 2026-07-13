@@ -1,1 +1,0 @@
-I'll analyze the bug class from the report (double-accounting/value reuse where a single value serves two purposes) and search for analogs in the cb-mpc codebase.

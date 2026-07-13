@@ -1,1 +1,0 @@
-Let me look at the HD key derivation code, which involves index arithmetic similar to the calendar arithmetic in the report.

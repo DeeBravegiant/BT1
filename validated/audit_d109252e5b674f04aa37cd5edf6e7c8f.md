@@ -1,3 +1,0 @@
-Looking at the bug class from the report — a critical parameter excluded from the signed/hashed data enabling replay and context-switching attacks — I need to find an analog in cb-mpc where a parameter that should be bound to a proof/signature is omitted from the hash, allowing the same proof to be used in a different context.
-
-I examined the most relevant candidate: the TDH2 partial decryption proof in `

@@ -1,1 +1,0 @@
-Let me look at the `sign_ac` function in `ecdsa_mp.cpp` and the `to_additive_share` validation more carefully.

@@ -1,1 +1,0 @@
-Let me first understand the bug class from the reference, then search the cb-mpc codebase for analogous issues.

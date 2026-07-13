@@ -1,1 +1,0 @@
-Let me look at how `ecc_point_t` serializes (to determine if curve tags are included in the hash) and examine the ZK proof verification to understand if the attack could actually succeed end-to-end.

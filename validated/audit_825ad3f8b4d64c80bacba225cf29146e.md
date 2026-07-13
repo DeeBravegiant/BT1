@@ -1,3 +1,0 @@
-Let me analyze the bug class from the report: a boundary condition (`>` vs `>=`) in an expiry/state check that allows a batch to be simultaneously open for new entries AND executable, causing pro-rata share calculations to be violated when a denominator grows after execution begins.
-
-I'll search the cb-mpc codebase for analogous patterns involving state transitions, batch/round finalization, and threshold/quorum checks.

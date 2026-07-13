@@ -1,1 +1,0 @@
-Let me look at the `sign_additive` function and the additive key blob deserialization to check if the same binding check exists there.

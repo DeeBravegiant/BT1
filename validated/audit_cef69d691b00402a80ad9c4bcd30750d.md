@@ -1,1 +1,0 @@
-I'll analyze the bug class (same-source/destination validation bypass in a cross-party protocol) and search for analogous patterns in the cb-mpc codebase.

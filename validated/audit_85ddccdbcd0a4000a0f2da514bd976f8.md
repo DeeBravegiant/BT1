@@ -1,1 +1,0 @@
-Let me look at the `range_pedersen` proof and the `zk_pedersen.cpp` file more carefully for arithmetic issues.

@@ -1,1 +1,0 @@
-Let me look at the `bits_t::alloc` behavior more carefully and how `bits_t` is used in OT/secret-sharing protocols.

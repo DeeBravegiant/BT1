@@ -1,1 +1,0 @@
-Let me analyze the bug class from this report: **insufficient/bypassable access control on a privileged operation** — a caller satisfies a "stake" check without real commitment, allowing griefing of shared state. I need to find an analog in cb-mpc where a caller validation or access check on a sensitive cryptographic operation can be bypassed or is insufficient.

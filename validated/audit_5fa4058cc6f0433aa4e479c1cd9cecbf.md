@@ -1,1 +1,0 @@
-Let me look more carefully at the `reconstruct_additive_share` function in `ec_dkg.cpp` and the full context of how `to_additive_share` works.

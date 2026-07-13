@@ -1,1 +1,0 @@
-Let me check the `node_t::validate_tree()` declaration to confirm the no-parameter version exists.

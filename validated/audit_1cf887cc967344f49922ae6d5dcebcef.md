@@ -1,1 +1,0 @@
-Let me look at the ZK proof parameters and the Fischlin proof system more carefully.
