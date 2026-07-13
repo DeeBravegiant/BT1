@@ -1,0 +1,1 @@
+Let me read the rest of `pve_batch_ac.cpp` to trace the full decryption path.
