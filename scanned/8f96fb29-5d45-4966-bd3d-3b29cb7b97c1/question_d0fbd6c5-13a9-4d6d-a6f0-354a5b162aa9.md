@@ -1,1 +1,0 @@
-[File: 'src/cbmpc/crypto/secret_sharing.cpp -> Scope: Critical'] [Function: verify_share_against_ancestors_pub_data / dkg_or_refresh_ac] Can a malicious Byzantine peer controlling `ac_pub_all._j` supply a `pub_data` map that is missing the root node's entry (empty string key `\
