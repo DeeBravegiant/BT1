@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chia/consensus/prev_transaction_block.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e0b4087-4f6c-429b-94bb-074dc49878dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/consensus/signage_point.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5cdba774-2017-49c8-931e-d7df02c745ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/consensus/stub_mmr_manager.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f32b071-cffc-4c1b-88a6-160b59b6ac7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/consensus/vdf_info_computation.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a2daf73-614a-43db-bdd1-375a1e0d162c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/daemon/client.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ed64007-8192-4614-90f3-de78c00549d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/daemon/keychain_proxy.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f8cd7a6-0065-4e3b-b87e-2a9f1bfa5e2d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/daemon/keychain_server.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23af1427-94be-4570-8c52-e218471ff6ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/daemon/server.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00fbe6fd-b96e-46f6-8dee-b312226f52a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/daemon/windows_signal.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6f0d5f8-5107-40a1-bd42-09ee659e84f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8af856b5-0cf7-4ce3-87ce-60d9987ead3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_api.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51e1b2d0-40e4-4dc9-997a-86bbb59e27a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_errors.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0da7c4b1-83ad-4011-bea6-0e03fef24b6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_rpc_api.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9063f3df-adaa-46a8-b154-47ee8c5f60a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_rpc_util.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4403d69-99bf-4103-9bfc-c951b768562f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_server.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4658c1f6-f9c2-45bc-aac5-f761c5805fb0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_service.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6f3be03-57c1-41a4-a01a-0a1025234f55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_util.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5cdaac5e-6e10-4d02-9bfd-38096b5d8c3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_layer_wallet.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_239e4d8c-15a8-41e8-9544-2d23156d6a25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/data_store.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a24ab60-4371-45f2-9a74-eb9db0480fb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/dl_wallet_store.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30ccac38-ebc2-4963-b1e3-14988e4fbefe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/download_data.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8afbde13-9a9b-4a4b-8f17-0bcd35042224?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/s3_plugin_service.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b09f61fa-db74-45b7-a933-eb12bf6e9f36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/singleton_record.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b92403f0-019b-44c3-8edb-780bdfebdcdc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/data_layer/util/plugin.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7382bc08-b1e5-49a8-8e1f-0f5436aad443?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/farmer/farmer.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bce13d23-3d34-4661-847e-b162fdfa720f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/farmer/farmer_api.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_346ca307-dfa0-4f9a-8112-832ad7095731?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/farmer/farmer_rpc_api.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b22c8b07-de88-4e5f-b1d5-e113304384ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/farmer/farmer_service.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_649ebb12-527c-4aea-991e-edf22a3a91e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/full_node/bitcoin_fee_estimator.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a7cf851-f999-4a99-8b6a-88e9c67405c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/full_node/block_store.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b8c40fe-ee4b-4847-a451-4e36de0cee31?mode=deep",
+    "questions_generated": false
+  }
+]
