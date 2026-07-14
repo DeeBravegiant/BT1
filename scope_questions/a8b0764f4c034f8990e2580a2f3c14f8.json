@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chia/util/bech32m.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06523309-748f-4af8-a711-0945ae436c42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/beta_metrics.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f71f5b46-19ab-468e-a5e2-88dc8b9401ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/block_cache.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0270dde8-d690-4eea-97a1-e4889d970618?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/byte_types.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4c79157-a3dc-4260-95d2-4076e932e71f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/casts.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4be725b-0bdf-4daa-99f4-3e95083743ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/chia_logging.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e4b7986-8879-41a7-a23f-daed76898dc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/chia_version.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5dafe27-5652-4e7a-b442-e1871428e193?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/collection.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f560bb60-e9f2-4e7b-bdb2-01e0279f0ae4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/config.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0133ee96-46f0-4de5-b24f-dfdd9d4c6938?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/cpu.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ecfdce8e-4224-4cb4-ae25-73e002933328?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_synchronous.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be655d31-777e-4050-ac18-ec758594293d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_version.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c73a2eb9-74ce-4181-a8df-943c92e80e68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_wrapper.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18eb7cc3-155d-432f-9edf-c14f361dc7d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/default_root.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ba31fe7-4196-4fdd-9c77-6c3d83770605?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/errors.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d97d2aa8-184a-4f9d-b841-e2c8400c7be4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/file_keyring.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e82ac67-097f-4061-ae84-b2db905f9eb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/files.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d578cac3-d8b4-43df-a567-3b0d22cae71c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/harvester_config.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_daa8458b-6607-415a-848f-691253837581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/hash.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80982f3e-0987-40e1-ae84-abe0cd299444?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/inline_executor.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3dd68e24-5788-49c5-aad6-0d4cbb17b34c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/ip_address.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6564f095-e3e9-4587-8ed8-02f93dc6693e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/json_util.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16e915ac-ed9f-4a5c-a2e2-bd5011b0f4d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/keychain.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76ec6c09-b64e-4813-8d15-4b857a39a0ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/keyring_wrapper.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58e5fbcb-c34e-4ee7-8829-5b784bda0dba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/limited_semaphore.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2f5bf64-0faa-47f5-9aba-95f6a628a368?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/lock.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2f7aed9-b10a-4c3f-8050-611b06d71785?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/log_exceptions.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee2f1173-4b1b-4d3a-8e1c-63ebbb73378b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/logging.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4abc68c-259e-4f1c-9c25-b74e7bec9289?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/lru_cache.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a13a5e9-7c64-4698-8a15-8b9aac1f59c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/math.py -> Scope: High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd526b2c-1d1c-4db1-acbd-b44ec17192b4?mode=deep",
+    "questions_generated": false
+  }
+]
