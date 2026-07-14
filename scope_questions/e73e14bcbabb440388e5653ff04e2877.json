@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chia/harvester/harvester_service.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26cf54c4-4493-4f5c-840b-c09feefeca62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/plot_sync/delta.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c501ec4-e453-45d6-bec9-433d82cfa958?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/plot_sync/exceptions.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f1b6acf-d412-45d6-ba3e-9e75a572f7d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/plot_sync/receiver.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19c3c3d4-1ed8-4b71-a8a6-6b97812c8881?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/plot_sync/sender.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_755c92c0-d5f8-47ac-95e6-285c9569a37d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/plot_sync/util.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e990e2d-cadb-4656-84c0-2dd5ff165cfd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/claim_pool_rewards_dpuz.clsp -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e9627b8-e8b6-49ed-870e-61932e53dd51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/forward_to_pool_puzzle_hash_dpuz.clsp -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea2091c9-71e8-42bb-9dfe-3add2afb4569?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/plotnft_drivers.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f5b04ef-16b2-419d-a572-e3586818bab8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/pool_config.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b38ce35-af0a-440a-b88c-3225b31d75ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/pool_puzzles.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3ed82bf-dece-4378-a211-c90e3e1a6d77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/pool_wallet.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c5d61e8-6dc8-4eb1-9a2a-e50d6b4f877b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/pools/pool_wallet_info.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_957c22ee-ab8f-4f21-b254-8b66933ae906?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/farmer_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1cedd990-ec27-41a8-9edc-5a9b91c3fa90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/fee_estimate.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e634a1a8-49cd-4af2-a8c3-f96a51c28fd8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/full_node_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54424ba3-312d-4240-a333-e518ca031667?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/harvester_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_527c34a9-f180-48eb-9f7f-aae820a7cff4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/introducer_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f97adab-f853-45d2-be40-3c9dc18133fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/outbound_message.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f669e6f-45bf-40b9-b454-941706da8643?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/pool_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4c35d80-1dca-43b2-b9fe-314c2918ccee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/protocol_message_type_to_node_type.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba5babd3-36a9-46d2-8f7a-103f258b1503?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/protocol_message_types.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25961dee-4448-46d4-8ced-51e9a04a9a36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/protocol_state_machine.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b142d321-27f1-4c2c-a14c-f9f77c9887e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/protocol_timing.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_761d5e8f-c015-49d0-9d72-c7c4b770570b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/shared_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_28d67d3a-c431-46b3-8993-0826c5d3ee5e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/solver_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b41f8f49-69a5-4586-873d-40c55390251f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/timelord_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72589ebc-fdc9-4e86-8643-a93faf16ef2c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/protocols/wallet_protocol.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c6737cf-e6f1-4b99-8d75-f92e6052e918?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/rpc/rpc_client.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70ccf258-1b10-45dc-adcf-1a5299b2069f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/rpc/rpc_errors.py -> Scope: High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_639f4dcd-d61a-4b55-9554-de27cbed8904?mode=deep",
+    "questions_generated": false
+  }
+]
