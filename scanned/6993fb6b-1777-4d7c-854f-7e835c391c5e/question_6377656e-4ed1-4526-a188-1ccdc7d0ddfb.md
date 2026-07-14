@@ -1,0 +1,1 @@
+[File: chia/rpc/util.py -> Scope: High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions] [Function: marshal / rpc_endpoint] Can an unprivileged RPC caller sending `{\

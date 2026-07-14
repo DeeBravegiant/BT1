@@ -1,0 +1,1 @@
+[File: 'chia/timelord/timelord_launcher.py'] [Function: spawn_process] Can an unprivileged attacker who can make the vdf_client binary's stdout produce valid UTF-8 log lines containing format-string-like content cause log injection into the timelord launcher's log output via the unsanitized f-string 'log.info(f\

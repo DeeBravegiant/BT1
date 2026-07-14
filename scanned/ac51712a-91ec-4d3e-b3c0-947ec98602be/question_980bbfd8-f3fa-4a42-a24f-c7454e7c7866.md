@@ -1,0 +1,1 @@
+[File: 'chia/data_layer/data_layer_errors.py'] [Function: OfferIntegrityError / verify_offer no roots check] Can an unprivileged DL offer maker craft a StoreProofs where store_proof.proofs is an empty tuple, causing verify_offer to reach the 'if len(roots) < 1: raise OfferIntegrityError(\

@@ -1,0 +1,1 @@
+[File: 'chia/wallet/transaction_sorting.py -> Scope: High'] [Function: WalletTransactionStore.get_transactions_between] Can an unprivileged RPC caller pass type_filter with an empty values list under the precondition that type_filter_str is built as f\
