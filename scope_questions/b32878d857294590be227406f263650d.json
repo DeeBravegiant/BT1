@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chia/util/bech32m.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_043ec409-2c8e-414b-8300-c23d539f7164?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/beta_metrics.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_621ddc47-2c07-4225-ac66-683d24e5ac80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/block_cache.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_460eaaf0-35a4-4d2d-8ef0-ef52957cf558?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/byte_types.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14d8daee-1af6-483e-981b-8e1868a2289d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/casts.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11731b08-d91b-4d02-b731-b2d6dd1e68a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/chia_logging.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db08199f-6986-47cc-8ed5-065c7a6f9104?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/chia_version.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e7acf4f-2c76-41a9-a4b4-6550d4c33839?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/collection.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_932ebb95-9df1-4a6a-afc3-b451046c195b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/config.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8289c8f6-dec5-4732-90db-ac30829ebfd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/cpu.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b65cd169-192c-409a-a1df-f330a98608e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_synchronous.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f04d3372-7f0d-49fc-a5b9-03c15ce33ebe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_version.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29aa931e-2018-443b-9f7d-9e30516858a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/db_wrapper.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_092a2e8a-d516-46eb-96ab-af081a50570c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/default_root.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abb756b0-2408-43ac-abf7-c0f4d99c4776?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/errors.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f6ffa80-2f04-4f06-8849-a0caa3667d9e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/file_keyring.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_702fe8d3-4974-4cda-8586-9a54db089b36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/files.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80958e09-2e7c-4dcc-b925-ab0d69933cae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/harvester_config.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68e871c1-043a-449a-92ab-e07969361ccb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/hash.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a41a4106-4b50-4b68-87a8-f8eaef6ea241?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/inline_executor.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c247800-e4f1-4964-a930-9d3914bc9d58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/ip_address.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cec01bb2-5021-477c-a974-be593a534a98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/json_util.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71ab7cc8-564a-4fc1-aa36-a302795df756?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/keychain.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65bb95b7-90a9-4069-964c-61b010538062?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/keyring_wrapper.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3719780d-23f3-4252-b6fc-53de310e116d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/limited_semaphore.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91080efa-b843-4157-b1ed-083e33373059?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/lock.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92b069ef-fa51-4437-82c3-3b966412ffad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/log_exceptions.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55f212d3-e528-4cce-a494-7e625a11bf58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/logging.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7400a9d4-a378-449c-8245-fddb206729df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/lru_cache.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83e6b5e8-eb1d-4b0b-aa6e-f7756f32fbfb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chia/util/math.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb9103d4-beff-43a8-92f5-84e90b2a7544?mode=deep",
+    "questions_generated": false
+  }
+]
