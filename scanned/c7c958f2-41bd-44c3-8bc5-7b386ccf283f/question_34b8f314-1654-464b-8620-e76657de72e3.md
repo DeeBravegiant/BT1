@@ -1,1 +1,0 @@
-[File: chia/protocols/introducer_protocol.py -> Scope: Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins]
