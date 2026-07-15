@@ -1,0 +1,15 @@
+# Q1579: set deterministic state init data entry receipt ordering invariant
+
+## Question
+
+What can an unprivileged user do by submitting transactions, deploying contracts, calling methods, and creating promise receipts so that `set_deterministic_state_init_data_entry` in `runtime/runtime/src/receipt_manager.rs` processes a contract-created promise graph, receiver account IDs, callback dependencies, and attached gas along the runtime state transition path? User controls a contract-created promise graph, receiver account IDs, callback dependencies, and attached gas -> `set_deterministic_state_init_data_entry` processes that value during receipt creation, local execution, incoming receipt application, and delayed queue draining -> the receipt ordering preserves dependency edges, shard routing, and exactly-once execution invariant might break -> potential in-scope impact is transaction manipulation, balance manipulation, or contract execution flow corruption under the NEAR HackenProof scope. Exploit hypothesis: a user-shaped promise DAG can make this code accept or execute receipts in an order that breaks dependency preservation and changes balances or callback results, violating the actual protocol invariant that receipt ordering preserves dependency edges, shard routing, and exactly-once execution.
+
+## Target
+
+- File/function: runtime/runtime/src/receipt_manager.rs:322::set_deterministic_state_init_data_entry
+- Entrypoint: signed transaction submitted through public RPC and applied by runtime/runtime/src/lib.rs::Runtime::apply
+- User-controlled input: a contract-created promise graph, receiver account IDs, callback dependencies, and attached gas
+- Attack path: User controls a contract-created promise graph, receiver account IDs, callback dependencies, and attached gas -> public entrypoint reaches `set_deterministic_state_init_data_entry` -> receipt creation, local execution, incoming receipt application, and delayed queue draining handles the value -> invariant failure could produce transaction manipulation, balance manipulation, or contract execution flow corruption
+- Security invariant: receipt ordering preserves dependency edges, shard routing, and exactly-once execution
+- Expected bounty impact: transaction manipulation, balance manipulation, or contract execution flow corruption
+- Fast validation approach: build a test-loop scenario with cross-shard promises, callbacks, refunds, and delayed receipts, then compare outcomes, receipt IDs, and final state roots across nodes
