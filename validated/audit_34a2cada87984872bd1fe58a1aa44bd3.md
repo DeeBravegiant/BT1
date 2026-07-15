@@ -1,1 +1,0 @@
-Let me read the critical section of `cat_wallet.py` around the `puzzle_solution_received` function more carefully.

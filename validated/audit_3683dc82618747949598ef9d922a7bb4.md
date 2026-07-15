@@ -1,1 +1,0 @@
-Let me analyze the external bug class (incorrect sender/origin attribution leading to funds going to wrong recipient on refund/failure) and search for analogs in the Chia codebase.

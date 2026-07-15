@@ -1,1 +1,0 @@
-Looking at the Chia codebase, I found a direct analog to the integer division rounding-down vulnerability in NFT royalty settlement.

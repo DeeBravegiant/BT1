@@ -1,1 +1,0 @@
-Let me read the key validation functions more carefully, particularly `_validate_sub_slot_data`, `__validate_pospace`, and how the cc_slot_end VDF is validated when blue-boxed.

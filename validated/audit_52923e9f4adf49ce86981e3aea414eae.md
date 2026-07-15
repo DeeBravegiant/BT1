@@ -1,1 +1,0 @@
-Looking at the actual code in `chia/full_node/weight_proof.py`, I need to trace the exact access pattern.

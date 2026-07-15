@@ -1,1 +1,0 @@
-I need to trace the `coin_added` path and the `LineageProof` construction carefully.

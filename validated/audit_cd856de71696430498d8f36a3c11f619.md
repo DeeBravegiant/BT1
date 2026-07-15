@@ -1,1 +1,0 @@
-Let me read the full `handle_cat` function context and the `convert_to_revocable` guard more carefully.

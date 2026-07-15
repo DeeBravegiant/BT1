@@ -1,1 +1,0 @@
-I found the critical code. Let me now examine the exact call chain and validation around `fetch_coin_spend_for_coin_state` and how `coin_added` is triggered.

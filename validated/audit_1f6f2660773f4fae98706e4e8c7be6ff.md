@@ -1,1 +1,0 @@
-Let me look at the exact lineage proof semantics in the CLVM singleton top layer and the DL store to understand what `lineage_proof.inner_puzzle_hash` is supposed to represent.

@@ -1,1 +1,0 @@
-Let me search more specifically for areas where partial struct fields are signed, and look at the pool singleton puzzle layer.

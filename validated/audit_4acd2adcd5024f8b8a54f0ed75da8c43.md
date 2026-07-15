@@ -1,1 +1,0 @@
-Let me look at the block header validation code more carefully, and also how `sub_epoch_summary_included` is set in block records.
