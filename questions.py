@@ -1,30 +1,30 @@
 import json
 import os
 
-from decouple import config
-
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 25
-# todo: the path from https://github.com/Chia-Network/chia-blockchain
 SOURCE_REPO = "near/nearcore"
-# todo: the name of the repository
 REPO_NAME = "nearcore"
-run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
+run_number = os.environ.get("GITHUB_RUN_NUMBER") or os.environ.get(
+    "CI_PIPELINE_IID", "0"
+)
 
 
 def get_cyclic_index(run_number, max_index=100):
-    """Convert run number to a cyclic index between 1 and max_index"""
+    """Convert run number to a cyclic index between 1 and max_index."""
     return (int(run_number) - 1) % max_index + 1
 
 
 def load_repository_urls():
     """Load repository URLs from repositories.json."""
-    repo_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "repositories.json")
+    repo_file = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "repositories.json"
+    )
     if not os.path.exists(repo_file):
         return []
 
     try:
-        with open(repo_file, 'r', encoding='utf-8') as f:
+        with open(repo_file, "r", encoding="utf-8") as f:
             data = json.load(f)
     except (json.JSONDecodeError, OSError):
         return []
@@ -45,419 +45,326 @@ else:
     else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
 
+
 scope_files = [
-    "chia/consensus/augmented_chain.py",
-    "chia/consensus/block_body_validation.py",
-    "chia/consensus/block_creation.py",
-    "chia/consensus/block_header_validation.py",
-    "chia/consensus/block_height_map.py",
-    "chia/consensus/block_height_map_protocol.py",
-    "chia/consensus/block_record.py",
-    "chia/consensus/block_rewards.py",
-    "chia/consensus/blockchain.py",
-    "chia/consensus/blockchain_interface.py",
-    "chia/consensus/blockchain_mmr.py",
-    "chia/consensus/challenge_tree.py",
-    "chia/consensus/coin_store_protocol.py",
-    "chia/consensus/coinbase.py",
-    "chia/consensus/condition_costs.py",
-    "chia/consensus/condition_tools.py",
-    "chia/consensus/constants.py",
-    "chia/consensus/default_constants.py",
-    "chia/consensus/deficit.py",
-    "chia/consensus/difficulty_adjustment.py",
-    "chia/consensus/find_fork_point.py",
-    "chia/consensus/full_block_to_block_record.py",
-    "chia/consensus/generator_tools.py",
-    "chia/consensus/get_block_challenge.py",
-    "chia/consensus/get_block_generator.py",
-    "chia/consensus/make_sub_epoch_summary.py",
-    "chia/consensus/mmr.py",
-    "chia/consensus/multiprocess_validation.py",
-    "chia/consensus/pos_quality.py",
-    "chia/consensus/pot_iterations.py",
-    "chia/consensus/prev_transaction_block.py",
-    "chia/consensus/signage_point.py",
-    "chia/consensus/stub_mmr_manager.py",
-    "chia/consensus/vdf_info_computation.py",
-    "chia/daemon/client.py",
-    "chia/daemon/keychain_proxy.py",
-    "chia/daemon/keychain_server.py",
-    "chia/daemon/server.py",
-    "chia/daemon/windows_signal.py",
-    "chia/data_layer/data_layer.py",
-    "chia/data_layer/data_layer_api.py",
-    "chia/data_layer/data_layer_errors.py",
-    "chia/data_layer/data_layer_rpc_api.py",
-    "chia/data_layer/data_layer_rpc_util.py",
-    "chia/data_layer/data_layer_server.py",
-    "chia/data_layer/data_layer_service.py",
-    "chia/data_layer/data_layer_util.py",
-    "chia/data_layer/data_layer_wallet.py",
-    "chia/data_layer/data_store.py",
-    "chia/data_layer/dl_wallet_store.py",
-    "chia/data_layer/download_data.py",
-    "chia/data_layer/s3_plugin_service.py",
-    "chia/data_layer/singleton_record.py",
-    "chia/data_layer/util/plugin.py",
-    "chia/farmer/farmer.py",
-    "chia/farmer/farmer_api.py",
-    "chia/farmer/farmer_rpc_api.py",
-    "chia/farmer/farmer_service.py",
-    "chia/full_node/bitcoin_fee_estimator.py",
-    "chia/full_node/block_store.py",
-    "chia/full_node/bundle_tools.py",
-    "chia/full_node/check_fork_next_block.py",
-    "chia/full_node/coin_store.py",
-    "chia/full_node/eligible_coin_spends.py",
-    "chia/full_node/fee_estimate_store.py",
-    "chia/full_node/fee_estimation.py",
-    "chia/full_node/fee_estimator.py",
-    "chia/full_node/fee_estimator_constants.py",
-    "chia/full_node/fee_estimator_interface.py",
-    "chia/full_node/fee_history.py",
-    "chia/full_node/fee_tracker.py",
-    "chia/full_node/full_block_utils.py",
-    "chia/full_node/full_node.py",
-    "chia/full_node/full_node_api.py",
-    "chia/full_node/full_node_rpc_api.py",
-    "chia/full_node/full_node_service.py",
-    "chia/full_node/full_node_store.py",
-    "chia/full_node/hard_fork_utils.py",
-    "chia/full_node/hint_management.py",
-    "chia/full_node/hint_store.py",
-    "chia/full_node/mempool.py",
-    "chia/full_node/mempool_manager.py",
-    "chia/full_node/pending_tx_cache.py",
-    "chia/full_node/subscriptions.py",
-    "chia/full_node/sync_store.py",
-    "chia/full_node/tx_processing_queue.py",
-    "chia/full_node/weight_proof.py",
-    "chia/harvester/harvester.py",
-    "chia/harvester/harvester_api.py",
-    "chia/harvester/harvester_rpc_api.py",
-    "chia/harvester/harvester_service.py",
-    "chia/plot_sync/delta.py",
-    "chia/plot_sync/exceptions.py",
-    "chia/plot_sync/receiver.py",
-    "chia/plot_sync/sender.py",
-    "chia/plot_sync/util.py",
-    "chia/pools/claim_pool_rewards_dpuz.clsp",
-    "chia/pools/forward_to_pool_puzzle_hash_dpuz.clsp",
-    "chia/pools/plotnft_drivers.py",
-    "chia/pools/pool_config.py",
-    "chia/pools/pool_puzzles.py",
-    "chia/pools/pool_wallet.py",
-    "chia/pools/pool_wallet_info.py",
-    "chia/protocols/farmer_protocol.py",
-    "chia/protocols/fee_estimate.py",
-    "chia/protocols/full_node_protocol.py",
-    "chia/protocols/harvester_protocol.py",
-    "chia/protocols/introducer_protocol.py",
-    "chia/protocols/outbound_message.py",
-    "chia/protocols/pool_protocol.py",
-    "chia/protocols/protocol_message_type_to_node_type.py",
-    "chia/protocols/protocol_message_types.py",
-    "chia/protocols/protocol_state_machine.py",
-    "chia/protocols/protocol_timing.py",
-    "chia/protocols/shared_protocol.py",
-    "chia/protocols/solver_protocol.py",
-    "chia/protocols/timelord_protocol.py",
-    "chia/protocols/wallet_protocol.py",
-    "chia/rpc/rpc_client.py",
-    "chia/rpc/rpc_errors.py",
-    "chia/rpc/rpc_server.py",
-    "chia/rpc/util.py",
-    "chia/seeder/crawl_store.py",
-    "chia/seeder/crawler.py",
-    "chia/seeder/crawler_api.py",
-    "chia/seeder/crawler_rpc_api.py",
-    "chia/seeder/crawler_service.py",
-    "chia/seeder/dns_server.py",
-    "chia/seeder/peer_record.py",
-    "chia/server/address_manager.py",
-    "chia/server/address_manager_store.py",
-    "chia/server/api_protocol.py",
-    "chia/server/capabilities.py",
-    "chia/server/chia_policy.py",
-    "chia/server/introducer_peers.py",
-    "chia/server/node_discovery.py",
-    "chia/server/rate_limit_numbers.py",
-    "chia/server/rate_limits.py",
-    "chia/server/rate_limits_v3.py",
-    "chia/server/resolve_peer_info.py",
-    "chia/server/server.py",
-    "chia/server/signal_handlers.py",
-    "chia/server/ssl_context.py",
-    "chia/server/upnp.py",
-    "chia/server/ws_connection.py",
-    "chia/timelord/iters_from_block.py",
-    "chia/timelord/timelord.py",
-    "chia/timelord/timelord_api.py",
-    "chia/timelord/timelord_launcher.py",
-    "chia/timelord/timelord_rpc_api.py",
-    "chia/timelord/timelord_service.py",
-    "chia/timelord/timelord_state.py",
-    "chia/timelord/types.py",
-    "chia/types/block_protocol.py",
-    "chia/types/blockchain_format/classgroup.py",
-    "chia/types/blockchain_format/coin.py",
-    "chia/types/blockchain_format/program.py",
-    "chia/types/blockchain_format/proof_of_space.py",
-    "chia/types/blockchain_format/serialized_program.py",
-    "chia/types/blockchain_format/tree_hash.py",
-    "chia/types/blockchain_format/vdf.py",
-    "chia/types/clvm_cost.py",
-    "chia/types/coin_spend.py",
-    "chia/types/condition_opcodes.py",
-    "chia/types/condition_with_args.py",
-    "chia/types/fee_rate.py",
-    "chia/types/generator_types.py",
-    "chia/types/internal_mempool_item.py",
-    "chia/types/mempool_inclusion_status.py",
-    "chia/types/mempool_item.py",
-    "chia/types/mempool_submission_status.py",
-    "chia/types/mojos.py",
-    "chia/types/peer_info.py",
-    "chia/types/signing_mode.py",
-    "chia/types/unfinished_header_block.py",
-    "chia/types/validation_state.py",
-    "chia/types/weight_proof.py",
-    "chia/util/action_scope.py",
-    "chia/util/async_pool.py",
-    "chia/util/batches.py",
-    "chia/util/bech32m.py",
-    "chia/util/beta_metrics.py",
-    "chia/util/block_cache.py",
-    "chia/util/byte_types.py",
-    "chia/util/casts.py",
-    "chia/util/chia_logging.py",
-    "chia/util/chia_version.py",
-    "chia/util/collection.py",
-    "chia/util/config.py",
-    "chia/util/cpu.py",
-    "chia/util/db_synchronous.py",
-    "chia/util/db_version.py",
-    "chia/util/db_wrapper.py",
-    "chia/util/default_root.py",
-    "chia/util/errors.py",
-    "chia/util/file_keyring.py",
-    "chia/util/files.py",
-    "chia/util/harvester_config.py",
-    "chia/util/hash.py",
-    "chia/util/inline_executor.py",
-    "chia/util/ip_address.py",
-    "chia/util/json_util.py",
-    "chia/util/keychain.py",
-    "chia/util/keyring_wrapper.py",
-    "chia/util/limited_semaphore.py",
-    "chia/util/lock.py",
-    "chia/util/log_exceptions.py",
-    "chia/util/logging.py",
-    "chia/util/lru_cache.py",
-    "chia/util/math.py",
-    "chia/util/network.py",
-    "chia/util/paginator.py",
-    "chia/util/path.py",
-    "chia/util/permissions.py",
-    "chia/util/priority_mutex.py",
-    "chia/util/priority_thread_pool_executor.py",
-    "chia/util/profiler.py",
-    "chia/util/recursive_replace.py",
-    "chia/util/safe_cancel_task.py",
-    "chia/util/service_groups.py",
-    "chia/util/setproctitle.py",
-    "chia/util/significant_bits.py",
-    "chia/util/streamable.py",
-    "chia/util/task_pipeline.py",
-    "chia/util/task_referencer.py",
-    "chia/util/task_timing.py",
-    "chia/util/timing.py",
-    "chia/util/virtual_project_analysis.py",
-    "chia/util/ws_message.py",
-    "chia/wallet/cat_wallet/cat_constants.py",
-    "chia/wallet/cat_wallet/cat_info.py",
-    "chia/wallet/cat_wallet/cat_outer_puzzle.py",
-    "chia/wallet/cat_wallet/cat_utils.py",
-    "chia/wallet/cat_wallet/cat_wallet.py",
-    "chia/wallet/cat_wallet/lineage_store.py",
-    "chia/wallet/cat_wallet/r_cat_wallet.py",
-    "chia/wallet/coin_selection.py",
-    "chia/wallet/conditions.py",
-    "chia/wallet/db_wallet/db_wallet_puzzles.py",
-    "chia/wallet/derivation_record.py",
-    "chia/wallet/derive_keys.py",
-    "chia/wallet/did_wallet/did_info.py",
-    "chia/wallet/did_wallet/did_wallet.py",
-    "chia/wallet/did_wallet/did_wallet_puzzles.py",
-    "chia/wallet/driver_protocol.py",
-    "chia/wallet/estimate_fees.py",
-    "chia/wallet/key_val_store.py",
-    "chia/wallet/lineage_proof.py",
-    "chia/wallet/nft_wallet/metadata_outer_puzzle.py",
-    "chia/wallet/nft_wallet/nft_info.py",
-    "chia/wallet/nft_wallet/nft_puzzle_utils.py",
-    "chia/wallet/nft_wallet/nft_puzzles.py",
-    "chia/wallet/nft_wallet/nft_wallet.py",
-    "chia/wallet/nft_wallet/ownership_outer_puzzle.py",
-    "chia/wallet/nft_wallet/singleton_outer_puzzle.py",
-    "chia/wallet/nft_wallet/transfer_program_puzzle.py",
-    "chia/wallet/nft_wallet/uncurry_nft.py",
-    "chia/wallet/notification_manager.py",
-    "chia/wallet/notification_store.py",
-    "chia/wallet/outer_puzzles.py",
-    "chia/wallet/plotnft_wallet/plotnft_store.py",
-    "chia/wallet/plotnft_wallet/plotnft_wallet.py",
-    "chia/wallet/puzzle_drivers.py",
-    "chia/wallet/puzzles/clawback/drivers.py",
-    "chia/wallet/puzzles/clawback/metadata.py",
-    "chia/wallet/puzzles/clawback/puzzle_decorator.py",
-    "chia/wallet/puzzles/condition_codes.clib",
-    "chia/wallet/puzzles/curry.clib",
-    "chia/wallet/puzzles/custody/custody_architecture.py",
-    "chia/wallet/puzzles/custody/fixed_create_coin_destinations.clsp",
-    "chia/wallet/puzzles/custody/heightlock.clsp",
-    "chia/wallet/puzzles/custody/member_puzzles.py",
-    "chia/wallet/puzzles/custody/restriction_utilities.py",
-    "chia/wallet/puzzles/custody/restrictions.py",
-    "chia/wallet/puzzles/custody/send_message_banned.clsp",
-    "chia/wallet/puzzles/load_clvm.py",
-    "chia/wallet/puzzles/p2_conditions.py",
-    "chia/wallet/puzzles/p2_delegated_conditions.py",
-    "chia/wallet/puzzles/p2_delegated_puzzle.py",
-    "chia/wallet/puzzles/p2_delegated_puzzle_or_hidden_puzzle.py",
-    "chia/wallet/puzzles/p2_m_of_n_delegate_direct.py",
-    "chia/wallet/puzzles/p2_puzzle_hash.py",
-    "chia/wallet/puzzles/puzzle_utils.py",
-    "chia/wallet/puzzles/singleton_top_layer.py",
-    "chia/wallet/puzzles/singleton_top_layer_v1_1.py",
-    "chia/wallet/puzzles/tails.py",
-    "chia/wallet/puzzles/utility_macros.clib",
-    "chia/wallet/remote_wallet/remote_coin_store.py",
-    "chia/wallet/remote_wallet/remote_info.py",
-    "chia/wallet/remote_wallet/remote_wallet.py",
-    "chia/wallet/signer_protocol.py",
-    "chia/wallet/singleton.py",
-    "chia/wallet/singleton_record.py",
-    "chia/wallet/trade_manager.py",
-    "chia/wallet/trade_record.py",
-    "chia/wallet/trading/offer.py",
-    "chia/wallet/trading/trade_status.py",
-    "chia/wallet/trading/trade_store.py",
-    "chia/wallet/transaction_record.py",
-    "chia/wallet/transaction_sorting.py",
-    "chia/wallet/uncurried_puzzle.py",
-    "chia/wallet/util/address_type.py",
-    "chia/wallet/util/blind_signer_tl.py",
-    "chia/wallet/util/clvm_streamable.py",
-    "chia/wallet/util/compute_additions.py",
-    "chia/wallet/util/compute_hints.py",
-    "chia/wallet/util/compute_memos.py",
-    "chia/wallet/util/curry_and_treehash.py",
-    "chia/wallet/util/debug_spend_bundle.py",
-    "chia/wallet/util/merkle_tree.py",
-    "chia/wallet/util/merkle_utils.py",
-    "chia/wallet/util/new_peak_queue.py",
-    "chia/wallet/util/notifications.py",
-    "chia/wallet/util/peer_request_cache.py",
-    "chia/wallet/util/pprint.py",
-    "chia/wallet/util/puzzle_compression.py",
-    "chia/wallet/util/puzzle_decorator.py",
-    "chia/wallet/util/puzzle_decorator_type.py",
-    "chia/wallet/util/query_filter.py",
-    "chia/wallet/util/signing.py",
-    "chia/wallet/util/transaction_type.py",
-    "chia/wallet/util/tx_config.py",
-    "chia/wallet/util/wallet_sync_utils.py",
-    "chia/wallet/util/wallet_types.py",
-    "chia/wallet/vc_wallet/cr_cat_drivers.py",
-    "chia/wallet/vc_wallet/cr_cat_wallet.py",
-    "chia/wallet/vc_wallet/cr_outer_puzzle.py",
-    "chia/wallet/vc_wallet/vc_drivers.py",
-    "chia/wallet/vc_wallet/vc_store.py",
-    "chia/wallet/vc_wallet/vc_wallet.py",
-    "chia/wallet/wallet.py",
-    "chia/wallet/wallet_action_scope.py",
-    "chia/wallet/wallet_blockchain.py",
-    "chia/wallet/wallet_coin_record.py",
-    "chia/wallet/wallet_coin_store.py",
-    "chia/wallet/wallet_info.py",
-    "chia/wallet/wallet_interested_store.py",
-    "chia/wallet/wallet_nft_store.py",
-    "chia/wallet/wallet_node.py",
-    "chia/wallet/wallet_node_api.py",
-    "chia/wallet/wallet_pool_store.py",
-    "chia/wallet/wallet_protocol.py",
-    "chia/wallet/wallet_puzzle_store.py",
-    "chia/wallet/wallet_request_types.py",
-    "chia/wallet/wallet_retry_store.py",
-    "chia/wallet/wallet_rpc_api.py",
-    "chia/wallet/wallet_service.py",
-    "chia/wallet/wallet_singleton_store.py",
-    "chia/wallet/wallet_spend_bundle.py",
-    "chia/wallet/wallet_state_manager.py",
-    "chia/wallet/wallet_transaction_store.py",
-    "chia/wallet/wallet_user_store.py",
-    "chia/wallet/wallet_weight_proof_handler.py",
-    "chia/wallet/wsm_apis.py",
+    "chain/chain/src/approval_verification.rs",
+    "chain/chain/src/block_processing_utils.rs",
+    "chain/chain/src/chain.rs",
+    "chain/chain/src/chain_update.rs",
+    "chain/chain/src/doomslug.rs",
+    "chain/chain/src/lightclient.rs",
+    "chain/chain/src/missing_chunks.rs",
+    "chain/chain/src/orphan.rs",
+    "chain/chain/src/pending.rs",
+    "chain/chain/src/resharding/flat_storage_resharder.rs",
+    "chain/chain/src/resharding/manager.rs",
+    "chain/chain/src/resharding/migrations.rs",
+    "chain/chain/src/resharding/resharding_actor.rs",
+    "chain/chain/src/resharding/trie_state_resharder.rs",
+    "chain/chain/src/runtime/mod.rs",
+    "chain/chain/src/runtime/signer_overlay.rs",
+    "chain/chain/src/runtime/trie_update_wrapper.rs",
+    "chain/chain/src/sharding.rs",
+    "chain/chain/src/signature_verification.rs",
+    "chain/chain/src/spice/block_application.rs",
+    "chain/chain/src/spice/chain.rs",
+    "chain/chain/src/spice/chunk_application.rs",
+    "chain/chain/src/spice/chunk_validation.rs",
+    "chain/chain/src/spice/core.rs",
+    "chain/chain/src/state_sync/adapter.rs",
+    "chain/chain/src/state_sync/mod.rs",
+    "chain/chain/src/state_sync/state_request_tracker.rs",
+    "chain/chain/src/state_sync/utils.rs",
+    "chain/chain/src/stateless_validation/chunk_endorsement.rs",
+    "chain/chain/src/stateless_validation/chunk_validation.rs",
+    "chain/chain/src/stateless_validation/processing_tracker.rs",
+    "chain/chain/src/stateless_validation/state_witness.rs",
+    "chain/chain/src/types.rs",
+    "chain/chain/src/update_shard.rs",
+    "chain/chain/src/validate.rs",
+    "chain/chunks/src/chunk_cache.rs",
+    "chain/chunks/src/client.rs",
+    "chain/chunks/src/logic.rs",
+    "chain/chunks/src/shards_manager_actor.rs",
+    "chain/client/src/chunk_endorsement_handler.rs",
+    "chain/client/src/chunk_inclusion_tracker.rs",
+    "chain/client/src/chunk_producer.rs",
+    "chain/client/src/client.rs",
+    "chain/client/src/client_actor.rs",
+    "chain/client/src/pending_transaction_queue.rs",
+    "chain/client/src/prepare_transactions.rs",
+    "chain/client/src/rpc_handler.rs",
+    "chain/client/src/state_request_actor.rs",
+    "chain/client/src/stateless_validation/chunk_endorsement.rs",
+    "chain/client/src/stateless_validation/chunk_validation_actor.rs",
+    "chain/client/src/stateless_validation/chunk_validator/mod.rs",
+    "chain/client/src/stateless_validation/chunk_validator/orphan_witness_pool.rs",
+    "chain/client/src/stateless_validation/partial_witness/encoding.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_deploys_tracker.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_witness_actor.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_witness_tracker.rs",
+    "chain/client/src/stateless_validation/shadow_validate.rs",
+    "chain/client/src/stateless_validation/state_witness_producer.rs",
+    "chain/client/src/stateless_validation/state_witness_tracker.rs",
+    "chain/client/src/stateless_validation/validate.rs",
+    "chain/client/src/sync/block.rs",
+    "chain/client/src/sync/epoch.rs",
+    "chain/client/src/sync/external.rs",
+    "chain/client/src/sync/handler.rs",
+    "chain/client/src/sync/header.rs",
+    "chain/client/src/sync/state/chain_requests.rs",
+    "chain/client/src/sync/state/downloader.rs",
+    "chain/client/src/sync/state/mod.rs",
+    "chain/client/src/sync/state/network.rs",
+    "chain/client/src/sync/state/shard.rs",
+    "chain/client/src/sync/state/task_tracker.rs",
+    "chain/client/src/sync/state/util.rs",
+    "chain/client/src/view_client_actor.rs",
+    "chain/epoch-manager/src/epoch_info_aggregator.rs",
+    "chain/epoch-manager/src/epoch_sync.rs",
+    "chain/epoch-manager/src/lib.rs",
+    "chain/epoch-manager/src/reward_calculator.rs",
+    "chain/epoch-manager/src/shard_assignment/mod.rs",
+    "chain/epoch-manager/src/shard_assignment/sticky_resharding.rs",
+    "chain/epoch-manager/src/shard_tracker.rs",
+    "chain/epoch-manager/src/validator_selection.rs",
+    "chain/epoch-manager/src/validator_stats.rs",
+    "chain/jsonrpc/src/api/blocks.rs",
+    "chain/jsonrpc/src/api/call_function.rs",
+    "chain/jsonrpc/src/api/chunks.rs",
+    "chain/jsonrpc/src/api/light_client.rs",
+    "chain/jsonrpc/src/api/query.rs",
+    "chain/jsonrpc/src/api/status.rs",
+    "chain/jsonrpc/src/api/transactions.rs",
+    "chain/jsonrpc/src/api/validator.rs",
+    "chain/jsonrpc/src/api/view_access_key.rs",
+    "chain/jsonrpc/src/api/view_account.rs",
+    "chain/jsonrpc/src/api/view_code.rs",
+    "chain/jsonrpc/src/api/view_state.rs",
+    "chain/jsonrpc/src/sharded_rpc.rs",
+    "chain/network/src/accounts_data/mod.rs",
+    "chain/network/src/announce_accounts/mod.rs",
+    "chain/network/src/client.rs",
+    "chain/network/src/network_protocol/edge.rs",
+    "chain/network/src/network_protocol/mod.rs",
+    "chain/network/src/network_protocol/peer.rs",
+    "chain/network/src/network_protocol/state_sync.rs",
+    "chain/network/src/peer/peer_actor.rs",
+    "chain/network/src/peer_manager/peer_manager_actor.rs",
+    "chain/network/src/routing/edge.rs",
+    "chain/network/src/routing/graph/mod.rs",
+    "chain/network/src/shards_manager.rs",
+    "chain/network/src/state_sync.rs",
+    "chain/network/src/state_witness.rs",
+    "chain/network/src/types.rs",
+    "chain/pool/src/lib.rs",
+    "chain/pool/src/types.rs",
+    "core/crypto/src/hash.rs",
+    "core/crypto/src/hash_domain.rs",
+    "core/crypto/src/signature.rs",
+    "core/crypto/src/signer.rs",
+    "core/crypto/src/vrf.rs",
+    "core/primitives-core/src/account.rs",
+    "core/primitives-core/src/apply.rs",
+    "core/primitives-core/src/gas.rs",
+    "core/primitives-core/src/hash.rs",
+    "core/primitives-core/src/serialize.rs",
+    "core/primitives-core/src/trie_key.rs",
+    "core/primitives-core/src/types.rs",
+    "core/primitives/src/action/mod.rs",
+    "core/primitives/src/block.rs",
+    "core/primitives/src/block_body.rs",
+    "core/primitives/src/block_header.rs",
+    "core/primitives/src/challenge.rs",
+    "core/primitives/src/congestion_info.rs",
+    "core/primitives/src/epoch_block_info.rs",
+    "core/primitives/src/epoch_info.rs",
+    "core/primitives/src/epoch_manager.rs",
+    "core/primitives/src/epoch_sync.rs",
+    "core/primitives/src/merkle.rs",
+    "core/primitives/src/optimistic_block.rs",
+    "core/primitives/src/receipt.rs",
+    "core/primitives/src/reed_solomon.rs",
+    "core/primitives/src/shard_layout/mod.rs",
+    "core/primitives/src/shard_layout/v1.rs",
+    "core/primitives/src/shard_layout/v2.rs",
+    "core/primitives/src/shard_layout/v3.rs",
+    "core/primitives/src/sharding.rs",
+    "core/primitives/src/sharding/shard_chunk_header_inner.rs",
+    "core/primitives/src/spice/chunk_endorsement.rs",
+    "core/primitives/src/spice/partial_data.rs",
+    "core/primitives/src/spice/state_witness.rs",
+    "core/primitives/src/state.rs",
+    "core/primitives/src/state_part.rs",
+    "core/primitives/src/state_record.rs",
+    "core/primitives/src/state_sync.rs",
+    "core/primitives/src/stateless_validation/chunk_endorsement.rs",
+    "core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs",
+    "core/primitives/src/stateless_validation/contract_distribution.rs",
+    "core/primitives/src/stateless_validation/partial_witness.rs",
+    "core/primitives/src/stateless_validation/state_witness.rs",
+    "core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs",
+    "core/primitives/src/stateless_validation/validator_assignment.rs",
+    "core/primitives/src/transaction.rs",
+    "core/primitives/src/trie_key.rs",
+    "core/primitives/src/trie_split.rs",
+    "core/primitives/src/types.rs",
+    "core/primitives/src/upgrade_schedule.rs",
+    "core/primitives/src/validator_mandates/compute_price.rs",
+    "core/primitives/src/validator_signer.rs",
+    "core/store/src/adapter/chain_store.rs",
+    "core/store/src/adapter/chunk_store.rs",
+    "core/store/src/adapter/epoch_store.rs",
+    "core/store/src/adapter/flat_store.rs",
+    "core/store/src/adapter/trie_store.rs",
+    "core/store/src/flat/delta.rs",
+    "core/store/src/flat/manager.rs",
+    "core/store/src/flat/storage.rs",
+    "core/store/src/flat/types.rs",
+    "core/store/src/merkle_proof.rs",
+    "core/store/src/trie/from_flat.rs",
+    "core/store/src/trie/iterator.rs",
+    "core/store/src/trie/mem/loading.rs",
+    "core/store/src/trie/mem/memtries.rs",
+    "core/store/src/trie/mem/memtrie_update.rs",
+    "core/store/src/trie/ops/insert_delete.rs",
+    "core/store/src/trie/ops/interface.rs",
+    "core/store/src/trie/ops/iter.rs",
+    "core/store/src/trie/ops/resharding.rs",
+    "core/store/src/trie/ops/squash.rs",
+    "core/store/src/trie/raw_node.rs",
+    "core/store/src/trie/receipts_column_helper.rs",
+    "core/store/src/trie/shard_tries.rs",
+    "core/store/src/trie/split.rs",
+    "core/store/src/trie/state_parts.rs",
+    "core/store/src/trie/state_snapshot.rs",
+    "core/store/src/trie/trie_recording.rs",
+    "core/store/src/trie/trie_storage.rs",
+    "core/store/src/trie/trie_storage_update.rs",
+    "core/store/src/trie/update.rs",
+    "nearcore/src/config_validate.rs",
+    "nearcore/src/state_sync.rs",
+    "neard/src/cli.rs",
+    "neard/src/main.rs",
+    "runtime/near-vm-runner/src/cache.rs",
+    "runtime/near-vm-runner/src/features.rs",
+    "runtime/near-vm-runner/src/imports.rs",
+    "runtime/near-vm-runner/src/logic/alt_bn128.rs",
+    "runtime/near-vm-runner/src/logic/bls12381.rs",
+    "runtime/near-vm-runner/src/logic/context.rs",
+    "runtime/near-vm-runner/src/logic/gas_counter.rs",
+    "runtime/near-vm-runner/src/logic/logic.rs",
+    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
+    "runtime/near-vm-runner/src/logic/vmstate.rs",
+    "runtime/near-vm-runner/src/prepare.rs",
+    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
+    "runtime/near-vm-runner/src/prepare/prepare_v2.rs",
+    "runtime/near-vm-runner/src/prepare/prepare_v3.rs",
+    "runtime/near-vm-runner/src/runner.rs",
+    "runtime/near-vm-runner/src/wasmtime_runner/logic.rs",
+    "runtime/near-vm-runner/src/wasmtime_runner/mod.rs",
+    "runtime/runtime/src/access_keys.rs",
+    "runtime/runtime/src/action_validation.rs",
+    "runtime/runtime/src/actions.rs",
+    "runtime/runtime/src/adapter.rs",
+    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
+    "runtime/runtime/src/bandwidth_scheduler/scheduler.rs",
+    "runtime/runtime/src/cache_warming.rs",
+    "runtime/runtime/src/congestion_control.rs",
+    "runtime/runtime/src/contract_code.rs",
+    "runtime/runtime/src/conversions.rs",
+    "runtime/runtime/src/deterministic_account_id.rs",
+    "runtime/runtime/src/ext.rs",
+    "runtime/runtime/src/function_call.rs",
+    "runtime/runtime/src/global_contracts.rs",
+    "runtime/runtime/src/pipelining.rs",
+    "runtime/runtime/src/prefetch.rs",
+    "runtime/runtime/src/receipt_manager.rs",
+    "runtime/runtime/src/types.rs",
+    "runtime/runtime/src/verifier.rs",
 ]
 
 target_scopes = [
-    "Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins",
-    "Critical: Consensus divergence, deterministic validation mismatch, invalid block or spend acceptance, forged weight proof trust, or chain halt caused by an unprivileged block, spend bundle, protocol message, sync path, or mempool interaction",
-    "High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions",
-    "High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact",
-    "High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions",
+    "Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.",
+    "Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.",
+    "Critical. Unprivileged-user-triggered State trie, flat storage, state parts, Merkle proofs, state witness, stateless validation, or chunk endorsement logic accepts forged state/chunks or rejects valid state in a consensus path.",
+    "Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.",
+    "Critical. Unprivileged-user-triggered Signature, account key, validator signer, approval, endorsement, VRF, light client, epoch sync proof, or hash-domain bug verifies an invalid proof/signature or rejects a valid one in consensus code.",
+    "High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.",
+    "High. Unprivileged-user-triggered Network protocol, peer routing, chunk/state witness distribution, partial witness encoding, Reed-Solomon reconstruction, or state sync messages can be forged, replayed, misrouted, or misattributed with chain safety impact.",
+    "High. Unprivileged-user-triggered Sync, epoch sync, header sync, block sync, state sync, orphan handling, or missing-chunk logic can make a node follow invalid data, skip required validation, or fail to recover canonical state.",
+    "High. Unprivileged-user-triggered Congestion control, bandwidth scheduler, delayed/buffered/postponed receipts, outgoing limits, or cross-shard routing loses, duplicates, reorders, or over-admits work with state-transition impact.",
 ]
 
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit + fuzzing questions for one Chia target.
+    Generate exploit-focused audit and fuzzing questions for one nearcore target.
 
-    ```
     target_file format:
-    "'File Name: chia/full_node/mempool_manager.py -> Scope: Critical: Consensus divergence, deterministic validation mismatch, invalid block or spend acceptance, forged weight proof trust, or chain halt caused by an unprivileged block, spend bundle, protocol message, sync path, or mempool interaction'"
-    ```
+    "'File Name: chain/chain/src/validate.rs -> Scope: Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit and fuzzing questions for this exact Chia target:
+    Generate exploit-focused security audit and fuzzing questions for this exact nearcore target:
 
     {target_file}
 
-    Project context:
-    Chia is a proof-of-space-and-time blockchain with a full node, wallet, farmer/harvester, timelord, pool wallet, Data Layer, CLVM puzzle stack, mempool, and peer-to-peer protocol surfaces. In-scope production logic includes consensus and block validation, spend bundle admission, wallet/state managers, singleton lineage, CAT/NFT/DID/VC flows, offers/trades, pool and farmer/harvester interactions, Data Layer stores, daemon/keychain/RPC boundaries, and protocol message handling.
+    Project focus:
+    This repository is `nearcore`, the Rust reference implementation of NEAR Protocol. Security impact is consensus or consensus-adjacent correctness: block/chunk/header validity, Doomslug approvals/finality, epoch and validator assignment, shard layouts and dynamic resharding, runtime state transitions, gas/accounting, receipts, trie/state roots, state sync, stateless validation, signatures, peer messages, RPC transaction admission, and protocol feature gates.
+
+    Use concrete mechanisms when relevant: `Chain::start_process_block_async`, `preprocess_block`, `validate_block`, `validate_chunk_with_chunk_extra_and_roots`, `Doomslug`, approvals, `EpochManager`, `ShardLayoutV3`, `get_upcoming_shard_split`, `NightshadeRuntime::apply`, `TrieUpdate`, `ShardTries`, `find_trie_split`, `StateRoot`, receipts, access keys, gas keys, congestion control, bandwidth scheduler, state witnesses, chunk endorsements, partial witnesses, sync handlers, and Borsh/JSON/RPC/network message boundaries.
+
+    Analyst mindset:
+    * Think like an exploit engineer finding chain splits or invalid state transitions, not a linter.
+    * Infer the file's role first, then generate only questions that fit that role and the given scope.
+    * Reason in transitions: peer/RPC input -> validation -> epoch/shard/runtime/sync state -> persisted roots/outcomes/messages.
+    * Prefer multi-step questions about adversarial blocks, chunks, receipts, transactions, witnesses, state parts, epoch proofs, shard splits, gas limits, protocol versions, and cache/store reuse.
+    * If the file is a helper, target production callers that rely on its exact output.
 
     Core invariants:
-    * XCH, CAT, NFT, DID, VC, pool, and singleton-controlled balances or ownership must remain conserved and authorization-bound.
-    * Block validation, mempool admission, sync, weight proof handling, and protocol decoding must be deterministic across honest nodes.
-    * Wallet, daemon, keychain, pool, and Data Layer operations must not let unprivileged actors sign, redirect rewards, mutate roots, or move coins they do not control.
-    * Coin records, lineage proofs, puzzle hashes, spend conditions, offer settlement state, and Data Layer roots must remain canonical and unforgeable.
+    * The same valid block/chunk/receipt/state input must produce the same state root, outcome root, gas/balance changes, receipts, and head/finality on all honest nodes.
+    * Invalid signatures, approvals, endorsements, epoch proofs, state parts, witnesses, chunks, headers, shard splits, and transactions must be rejected before state changes.
+    * Runtime apply must preserve gas, refunds, nonces, permissions, receipt DAG dependencies, congestion limits, and account/storage invariants.
+    * Trie, flat storage, memtrie, state sync, stateless validation, and resharding must agree on keys, roots, memory usage, shard ownership, and state parts.
+    * Protocol features, epoch boundaries, shard layouts, validator assignment, and sync/catchup must be deterministic from chain state.
 
     Rules:
-    * Treat `File Name:` as the exact file/module and `Scope:` as the only impact to target.
-    * Assume full repo context is accessible; do not ask for code or say files are missing.
-    * Generate 20 to 30 high-signal questions focused only on Critical or High impact.
-    * At least 70% must be multi-step flow, invariant, fuzz, accounting, state-transition, or cross-module questions.
-    * Every question must be testable by PoC, unit test, fuzz test, invariant test, differential test, or local integration test.
-    * Avoid generic checklists, repeated root causes, best-practice items, and low/medium findings.
-    * Do not generate resource-exhaustion questions unless the realistic result is consensus failure, invalid-chain acceptance, wallet corruption, or long-lived inability to process valid protocol actions.
-    * Attacker is unprivileged: remote peer, spend-bundle submitter, wallet user, malicious CLVM/offer counterparty, pool participant, Data Layer client, or RPC caller operating within normal protocol rules.
-    * Exclude leaked keys, farmer/validator host compromise, trusted key compromise, dependency compromise, local misconfiguration, phishing, malicious app changes, tests, mocks, generated files, scripts, and docs.
+    * Treat `File Name:` as the exact file/module.
+    * Treat `Scope:` as the ONLY impact to target.
+    * Assume full repo context is accessible.
+    * Do not ask for code or say anything is missing.
+    * Attacker must be an unprivileged external user: ordinary account holder, contract deployer/caller, public RPC client, or unauthenticated/low-trust peer using public protocol inputs.
+    * Unprivileged attacker may control RPC transactions, signed tx fields for their own keys/accounts, contract code/input, public network messages, peer-supplied blocks/chunks/state data, or timing/order of data they are allowed to send.
+    * Do not grant the attacker validator, block producer, chunk producer, chunk validator, signer, relayer operator, node admin, or trusted infrastructure privileges unless the bug lets an unprivileged user bypass that requirement.
+    * A malicious peer sending malformed, stale, conflicting, oversized, or unsolicited data is not a finding by itself; only ask about cases where nearcore accepts it as valid, skips a required check, corrupts canonical state, or makes a wrong scoped decision.
+    * Do not rely on malicious maintainers, admin/operator mistakes, validator/chunk-producer equivocation, compromised validator supermajorities, unsupported local config, unsafe manual DB edits, bad genesis files outside the threat model, social engineering, dependency-only bugs, or downstream misuse outside nearcore APIs.
+    * Exclude ordinary crashes, pure DoS/performance, unbounded CPU/memory/disk/cache/queue growth, Rust allocation/lifetime/clone issues, OOM, leaks, logs, docs, tests, mocks, benches, generated data, tooling, and best practices without scoped impact.
+    * Do not turn resource exhaustion into High/Critical unless it deterministically causes an accepted invalid block/chunk/state, wrong state transition, wrong finality/head, or invalid transaction admission that survives normal validation.
+    * Generate 18 to 26 high-signal questions.
+    * At least 70% must trace across 2+ modules or state transitions.
+    * Every question must be testable by `cargo test --features test_features`, a Rust property/fuzz test, a test-loop test, or a focused local reproducer.
+    * Avoid generic checklist questions and repeated root causes.
+    * Each question must target a plausible issue class for the exact file and scope.
+    * Anchor to concrete symbols when possible: functions, structs, protocol features, columns, roots, caches, fields, message types, or DB keys.
+    * Name the exact value that may diverge: state root, outcome root, block/chunk validity, finality, epoch id, shard id/layout, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC admission result.
 
     High-value attack surfaces:
-    * Spend bundle parsing, CLVM condition handling, puzzle reveal execution, coin announcement/assertion logic, and mempool conflict or replacement rules.
-    * Block header/body validation, reward coin creation, fork handling, weight proof verification, sync state transitions, and protocol message decoding.
-    * Wallet state manager flows for CAT/NFT/DID/VC/offer/clawback/pool/Data Layer state, singleton lineage, and cross-wallet settlement.
-    * Daemon, keychain, RPC, and remote wallet boundaries around signing, key use, subscriptions, and privileged state mutation.
-    * Farmer/harvester/pool/timelord interactions including partial proof handling, reward target enforcement, plot sync state, and pool singleton transitions.
+    * `chain/chain`: block processing, Doomslug, validation, state sync, stateless validation, SPICE, resharding.
+    * `runtime/runtime` and `runtime/near-vm-runner`: runtime apply, receipts, actions, gas, permissions, storage, WASM host functions.
+    * `core/primitives` and `core/primitives-core`: consensus data types, serialization, hashes, shard layouts, transactions, receipts, state parts.
+    * `core/store`: trie, flat storage, memtrie, state parts, Merkle proofs, resharding state.
+    * `chain/client`, `chain/epoch-manager`, `chain/chunks`, `chain/network`, `chain/pool`, `chain/jsonrpc`: sync, epoch proofs, chunk production, peer/RPC entrypoints, mempool.
+
+    Impact mapping:
+    * High/Critical only: consensus divergence, invalid block/chunk/state acceptance, wrong runtime result, forged proof/signature acceptance, incorrect shard/epoch/validator assignment, invalid transaction admission, or cross-shard/state sync corruption.
 
     Each question must include:
+
     1. target function/module;
-    2. attacker action;
+    2. attacker-controlled input;
     3. preconditions;
     4. call sequence;
     5. invariant tested;
@@ -467,7 +374,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: symbol_or_module] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: fuzz/state-test PARAMETERS and assert EXPECTED_PROPERTY.",
+    "[File: {target_file}] [Function: symbol_or_module] Can attacker-controlled INPUT under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: run a Rust unit/property/fuzz/test-loop reproducer over PARAMETERS and assert EXPECTED_PROPERTY.",
     ]
     """
     return prompt
@@ -475,7 +382,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(question: str) -> str:
     """
-    Generate a focused Chia exploit-question validation prompt.
+    Generate a focused nearcore exploit-question validation prompt.
     """
     return f"""# QUESTION SCAN PROMPT
 
@@ -483,35 +390,40 @@ def audit_format(question: str) -> str:
 {question}
 
 ## Scope Rules
-- Audit only production Chia code in scope: consensus, full node, server, wallet, pools, Data Layer, daemon/keychain, farmer/harvester/timelord, protocol handlers, CLVM puzzle sources, and supporting types/utilities with direct protocol impact.
-- Ignore tests, docs, mocks, generated files, scripts, local fixtures, vendored code, package metadata, and operator-only local setup unless the claim proves direct Critical/High chain impact.
-- This protocol pays only High and Critical issues; reject low, medium, best-practice, and pure resource-exhaustion reports.
+- Audit only production nearcore repository code listed in `scope_files`.
+- Do not ask for repo contents or claim files are missing.
+- Ignore tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, repo automation, packaging metadata, and local-only tooling.
 
 ## Objective
-Decide whether the question leads to a real, reachable Chia vulnerability.
-The attacker must be unprivileged and enter through a spend bundle, block, protocol message, wallet or RPC request, pool/Data Layer action, or peer/mempool/sync path implemented in this repo.
-Prefer #NoVulnerability unless the path is concrete, local-testable, and bounty-grade.
-
-## Allowed Impact Scope
-Only these impacts are valid:
-- Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins
-- Critical: Consensus divergence, deterministic validation mismatch, invalid block or spend acceptance, forged weight proof trust, or chain halt caused by an unprivileged block, spend bundle, protocol message, sync path, or mempool interaction
-- High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions
-- High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact
-- High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions
+Decide whether the question leads to a real, reachable nearcore vulnerability.
+The attacker must be an unprivileged external user entering through supported production behavior: public RPC transactions, transaction fields signed by their own keys, contract input/code they can deploy or call, public peer messages, peer-supplied blocks/chunks/state data, or repeated public API/cache use.
+Do not assume validator, block producer, chunk producer, chunk validator, node admin, relayer operator, or trusted-service privileges unless the claim proves an unprivileged user can bypass that authority boundary.
+The impact must match the provided target scope.
+Prefer #NoVulnerability unless the path is concrete, locally testable, and proves High/Critical consensus, runtime, mempool, sync, stateless validation, or RPC admission impact.
+Malicious peer behavior is only a trigger, not an impact: reject reports where the whole issue is that a peer can send malformed, stale, duplicated, conflicting, oversized, or unsolicited data and nearcore rejects, ignores, rate-limits, disconnects, retries, or only wastes resources.
+Treat the question as a hypothesis. Look for the exact state root, outcome root, finality/head, block/chunk validity, epoch id, shard layout, validator assignment, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result that would make it real.
 
 ## Method
 1. Trace the attacker-controlled entrypoint.
-2. Map it to exact production Chia files/functions.
-3. Check guards for signatures, puzzle/lineage validation, ownership, key authorization, spend conditions, coin accounting, protocol decoding, sync invariants, and deterministic execution.
-4. Prove root cause with file/function/line references and a reproducible PoC or test plan.
-5. Reject if existing validation prevents the exploit or the final impact is not one allowed High/Critical impact.
+2. Map it to exact production repository files and functions.
+3. Check relevant guards: signatures, stakes, approvals, chunk endorsements, epoch boundaries, protocol features, shard layouts, gas/accounting, access-key permissions, nonce checks, receipt dependencies, trie roots, state-part proofs, witness validation, sync proof checks, cache keys, and DB column invariants.
+4. Identify the exact state or output that must change for the exploit to work.
+5. Decide whether the questioned invariant can actually break under intended API use.
+6. Prove root cause with file, function, and line references.
+7. Confirm realistic likelihood and exact scoped impact.
+8. Reject if current validation already prevents the exploit.
 
 ## Reject Immediately
-- Requires leaked keys, validator/admin/gov compromise, trusted host compromise, dependency compromise, broken cryptography, phishing, malicious integrator behavior, or unsupported external assumptions.
-- Only affects tests, docs, configs, scripts, mocks, generated code, local fixtures, CLI ergonomics, logs, observability, or non-security correctness.
-- External dependency behavior is the only cause.
-- Impact is only rejected tx, harmless revert, local misconfiguration, temporary spam, theoretical risk, or unbounded resource use without Critical/High protocol impact.
+- Requires malicious maintainers, compromised nodes, downstream misuse outside this API contract, unsupported local configuration, social engineering, or dependency-only behavior.
+- Requires admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, or non-production flags.
+- Requires validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges not obtainable by an unprivileged user.
+- Is only malicious-peer noise: malformed/stale/duplicated/conflicting/oversized/unsolicited peer data without accepted invalid protocol state or skipped required validation.
+- Only affects tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, automation, packaging, or local tooling.
+- Impact is ordinary crash, denial of service, performance-only degradation, unbounded CPU/memory/disk/cache/queue growth, memory leak/OOM/allocation pressure, logging/display issue, harmless rejection, style, or best practice.
+- Depends only on Rust memory-management concerns such as clones, drops, lifetimes, reference counts, buffer growth, or cache retention without a concrete scoped state/consensus result.
+- No concrete scoped impact or no realistic attacker-controlled API path.
+- No exact state root, outcome root, block/chunk validity, finality/head, epoch id, shard id/layout, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC admission delta can be named.
+- The question depends on impossible NEAR protocol behavior or privileges not granted by the scoped code path.
 
 ## Output
 If valid:
@@ -533,7 +445,7 @@ If invalid, output exactly:
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for Chia.
+    Generate a short cross-project analog scan prompt for the nearcore repository.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -541,35 +453,40 @@ def scan_format(report: str) -> str:
 {report}
 
 ## Access Rules (Strict)
-- Treat production Chia files in the provided scope as accessible context.
-- Do not claim missing/inaccessible files.
-- Do not scan tests, docs, build files, generated files, mocks, scripts, fixtures, vendored code, package metadata, or CLI-only behavior as audited targets.
-- Only High and Critical protocol/security impacts are payable; do not report medium/low/resource-only analogs.
+- Treat production nearcore repository files in the provided scope as accessible context.
+- Do not claim missing or inaccessible files.
+- Do not ask for repository contents.
+- Do not scan tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, repo automation, packaging metadata, or local-only tooling as audited targets.
 
 ## Objective
-Use the external report's vulnerability class only as a hint.
-Find an analog only if Chia has its own reachable root cause in consensus, full node, wallet, CLVM puzzle, pool, Data Layer, daemon/keychain, RPC, or protocol-handling code.
-The attacker must be unprivileged and the impact must match the allowed Chia impacts below.
-
-## Allowed Impact Scope
-Only these impacts are valid:
-- Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins
-- Critical: Consensus divergence, deterministic validation mismatch, invalid block or spend acceptance, forged weight proof trust, or chain halt caused by an unprivileged block, spend bundle, protocol message, sync path, or mempool interaction
-- High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions
-- High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact
-- High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions
+Use the external report's vulnerability class as a hint to find valid issues based on this repository's security impact.
+Focus on issues triggered by an unprivileged external user through public RPC transactions, their own signed transaction fields, deployable/callable contract code/input, public peer messages, peer-supplied protocol data, or repeated public API/cache use.
+Do not use analogs that require validator, block producer, chunk producer, chunk validator, node admin, relayer operator, or trusted-service privileges unless the analog is precisely an unprivileged bypass of that boundary.
+Only report an analog if this repository has its own reachable root cause and the impact matches the provided target scope.
+Be strict about analog quality: similarity of bug class is not enough. This repository must have its own concrete trigger, broken invariant, and scoped impact.
+Do not report analogs that amount to admin/operator mistakes, malicious-peer noise, ordinary resource exhaustion, unbounded memory/storage/cache/queue growth, or Rust memory-management cleanup concerns without a concrete High/Critical protocol result.
 
 ## Method
-1. Classify the external bug class: auth bypass, accounting bug, CLVM/puzzle flaw, consensus nondeterminism, protocol parsing bug, wallet settlement bug, pool/Data Layer bug, or state corruption.
-2. Map only to exact Chia production files/functions.
-3. Prove attacker path, missing/insufficient guard, and exact High/Critical impact.
-4. Reject if Chia validation blocks it or the analogy is only superficial.
+1. Classify vuln type: consensus divergence, invalid block/chunk acceptance, runtime state mismatch, gas/refund bug, signature/proof bypass, shard/epoch transition bug, trie/state root mismatch, sync/stateless validation bypass, mempool/RPC admission bug, or network message confusion.
+2. Map to exact production files and modules.
+3. Identify the exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result that the analog would corrupt.
+4. Prove root cause with exact file, function, module, and line references.
+5. Confirm concrete scoped impact and realistic likelihood.
+6. Explain the attacker-controlled entry path and why repository code is a necessary vulnerable step.
+7. Reject if the impact does not match the provided target scope.
 
 ## Disqualify Immediately
-- No reachable unprivileged entry path.
-- Requires leaked keys, admin/gov/validator compromise, host compromise, dependency compromise, cryptographic break, or unsupported assumptions.
-- Test/docs/config/build/generated/mock/local-only issue.
-- Impact is temporary spam, logging, observability, CLI behavior, rejected tx, harmless revert, non-security correctness, or theory without protocol impact.
+- No reachable attacker-controlled entry path.
+- Requires malicious maintainers, compromised nodes, unsupported local configuration, social engineering, or dependency-only behavior.
+- Requires admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, or non-production flags.
+- Requires validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges not obtainable by an unprivileged user.
+- Only shows that a malicious peer can send malformed, stale, duplicate, conflicting, oversized, or unsolicited data that nearcore rejects, ignores, rate-limits, disconnects, retries, or treats as non-canonical.
+- Test, docs, mocks, fuzz harness, bench, generated data, automation, packaging, or local-tooling issue.
+- Theoretical-only issue with no consensus, runtime, sync, mempool, stateless validation, or RPC admission impact.
+- Impact is ordinary crash, denial of service, performance-only degradation, unbounded CPU/memory/disk/cache/queue growth, memory leak/OOM/allocation pressure, logging/display noise, harmless rejection, style, or best practice.
+- Root cause is only Rust memory-management hygiene such as clones, drops, lifetimes, reference counts, retained buffers, cache sizing, or queue growth without corrupting a scoped protocol value.
+- Impact or likelihood missing.
+- No exact corrupted state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result can be identified.
 
 ## Output (Strict)
 If valid analog exists, output:
@@ -594,7 +511,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict Chia bounty-style validation prompt for security claims.
+    Generate a strict nearcore validation prompt for security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -602,36 +519,60 @@ def validation_format(report: str) -> str:
 {report}
 
 ## Rules
-- Validate only the submitted claim against Chia production code and SECURITY.md.
-- Do not invent a new vulnerability or upgrade severity unless the evidence proves it.
-- This protocol pays only High and Critical issues; reject low, medium, informational, best-practice, resource-only, and speculative reports.
-- A valid report must be triggerable by an unprivileged spend-bundle submitter, remote peer, wallet or RPC caller, malicious CLVM/offer counterparty, pool participant, Data Layer client, or sync/mempool actor through code in this repo.
-- Reject validator/farmer-key compromise, leaked keys, host compromise, dependency-only behavior, cryptographic breaks, phishing, victim mistakes, malicious integrator behavior, local misconfiguration, and unsupported protocol assumptions.
-
-## In-Scope Protocol Areas
-- Consensus and block validation, spend bundle admission, mempool/recheck behavior, sync/weight proof handling, and deterministic state transitions.
-- Wallet, singleton, CAT/NFT/DID/VC, offer/trade, pool wallet, and Data Layer logic where direct High/Critical impact is proven.
-- Daemon, keychain, RPC, remote wallet, farmer/harvester/timelord, and peer protocol handling when they enable a production exploit path.
-- CLVM puzzle sources, lineage/ownership checks, reward handling, and supporting type/utility code used by production validation paths.
-- Reject tests, docs, mocks, generated files, scripts, configs, local fixtures, vendored libraries, CLI-only behavior, and non-security correctness unless the claim proves direct High/Critical chain impact.
+- Validate only the submitted claim.
+- Validate against this repository's production nearcore scope and the allowed impact classes below.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- Reject malicious-maintainer, compromised-node, downstream-misuse, unsupported-config, docs/style, ordinary-crash, denial-of-service, performance-only, dependency-only, and purely theoretical issues.
+- Reject admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, non-production flags, and environment-specific deployment mistakes.
+- Reject claims requiring validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges unless the report proves an unprivileged user can bypass that boundary.
+- Reject malicious-peer-only claims where peers send malformed, stale, duplicated, conflicting, oversized, or unsolicited data but nearcore rejects, ignores, rate-limits, disconnects, retries, or only wastes resources.
+- Reject unbounded CPU/memory/disk/cache/queue growth, leaks, OOM, allocation pressure, and Rust memory-management cleanup issues unless the evidence proves a deterministic accepted invalid block/chunk/state, wrong state transition, wrong finality/head, or invalid transaction admission.
+- Reject if the exploit requires unrealistic assumptions, victim mistakes, missing external context, or unsupported NEAR protocol behavior.
+- A valid report must be triggerable by an unprivileged external user through public RPC transactions, transaction fields signed by their own keys, contract input/code they can deploy or call, public peer messages, peer-supplied protocol data, or repeated public API/cache use.
+- The final impact must match one of the High/Critical `target_scopes`, not just a generic code bug.
+- Prefer #NoVulnerability over speculative reports.
+- Be skeptical of reports that describe a bug class without naming the exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result produced by the exploit.
 
 ## Allowed Impact Scope
 Only these impacts are valid:
-- Critical: Unauthorized creation, spend, clawback bypass, reward diversion, offer settlement, or accounting change affecting XCH, CATs, NFTs, DIDs, VCs, pool wallets, singleton-controlled assets, or Data Layer-linked coins
-- Critical: Consensus divergence, deterministic validation mismatch, invalid block or spend acceptance, forged weight proof trust, or chain halt caused by an unprivileged block, spend bundle, protocol message, sync path, or mempool interaction
-- High: Bypass of wallet, daemon, keychain, RPC, pool, or Data Layer authorization that enables unauthorized signing, key use, coin control, payout redirection, singleton mutation, or protected state transitions
-- High: Corruption of coin records, lineage, puzzle ownership, offer/trade settlement state, mempool or hint indexes, wallet sync state, pool membership state, or Data Layer root/store state with direct security impact
-- High: Permanent or long-lived inability for honest nodes, wallets, farmers, harvesters, or timelords to process valid blocks, spend bundles, sync updates, pool actions, or Data Layer updates under normal network assumptions
+- Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.
+- Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.
+- Critical. Unprivileged-user-triggered State trie, flat storage, state parts, Merkle proofs, state witness, stateless validation, or chunk endorsement logic accepts forged state/chunks or rejects valid state in a consensus path.
+- Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.
+- Critical. Unprivileged-user-triggered Signature, account key, validator signer, approval, endorsement, VRF, light client, epoch sync proof, or hash-domain bug verifies an invalid proof/signature or rejects a valid one in consensus code.
+- High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.
+- High. Unprivileged-user-triggered Network protocol, peer routing, chunk/state witness distribution, partial witness encoding, Reed-Solomon reconstruction, or state sync messages can be forged, replayed, misrouted, or misattributed with chain safety impact.
+- High. Unprivileged-user-triggered Sync, epoch sync, header sync, block sync, state sync, orphan handling, or missing-chunk logic can make a node follow invalid data, skip required validation, or fail to recover canonical state.
+- High. Unprivileged-user-triggered Congestion control, bandwidth scheduler, delayed/buffered/postponed receipts, outgoing limits, or cross-shard routing loses, duplicates, reorders, or over-admits work with state-transition impact.
+
+If the submitted claim does not concretely prove one of the allowed impacts above, it is invalid.
 
 ## Required Validation Checks
 All must pass:
-1. Exact in-scope file, function, and line/code references.
-2. Clear root cause and broken authorization/accounting/state/consensus/IBC/EVM/precompile invariant.
-3. Reachable exploit path: preconditions -> attacker action -> trigger -> bad result.
-4. Existing guards reviewed and shown insufficient.
-5. Concrete allowed High/Critical impact with realistic likelihood.
-6. Reproducible proof path: unit PoC, deterministic integration test, invariant test, fuzz test, fork test, or exact local steps.
-7. No rejection reason from SECURITY.md, privileges, scope exclusions, or known intended behavior.
+1. Exact in-scope file, function, and line or code references.
+2. Clear root cause and broken consensus, runtime, serialization, hashing, signature, epoch, shard, trie, sync, witness, gas, mempool, or routing assumption.
+3. Reachable exploit path: preconditions -> attacker input -> trigger -> bad result.
+4. Existing checks or guards reviewed and shown insufficient.
+5. Exact corrupted value identified: what state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result changed incorrectly.
+6. Concrete impact that exactly matches one allowed repository impact above, with realistic likelihood.
+7. Reproducible proof path: Rust unit/property test, fuzz target, test-loop test, protocol state test, or justified local reproducer.
+8. No obvious rejection reason from assumptions, privileged-role requirements, admin/operator error, malicious-peer-only behavior, resource-only behavior, dependency-only behavior, or scope exclusions.
+
+## Silent Triage Questions
+Before output, internally answer:
+- Can attacker-controlled peer/RPC/contract/state-sync input trigger this?
+- Can an unprivileged user trigger this without validator, block producer, chunk producer, node admin, relayer operator, or trusted-service privileges?
+- Is the issue more than a malicious peer sending bad data that is rejected or only wastes resources?
+- Is the issue more than admin/operator misconfiguration or local environment setup?
+- Is the issue more than unbounded resource growth, OOM, cache retention, queue growth, or Rust memory-management hygiene?
+- Does the code actually behave as claimed?
+- Is the impact caused by this repository, not by an external dependency alone?
+- Is the consensus/runtime/sync/mempool impact concrete, not hypothetical?
+- What exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result is wrong after the exploit?
+- What consensus, runtime, gas, trie, signature, epoch, shard, sync, witness, mempool, routing, or serialization rule is broken?
+- Would a security triager accept the proof?
+- What exact test would prove it?
 
 ## Output
 If valid, output exactly:
@@ -648,7 +589,7 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete allowed Chia security impact and severity rationale]
+[Concrete allowed repository impact and severity rationale]
 
 ## Likelihood Explanation
 [Attacker capability, required conditions, feasibility, repeatability]
@@ -657,7 +598,7 @@ Audit Report
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or fuzz/invariant/fork test plan]
+[Minimal reproducible steps or fuzz, differential, property, or state test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
