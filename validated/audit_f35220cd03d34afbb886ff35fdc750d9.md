@@ -1,0 +1,1 @@
+Let me check the `BlockCache` implementation and `validate_recent_blocks` to complete the analysis.
