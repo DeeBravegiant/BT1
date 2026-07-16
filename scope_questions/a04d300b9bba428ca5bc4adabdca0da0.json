@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/primitives/src/state_sync.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dae12a0d-b4c0-4aa5-9770-c3cf9d1ca8ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsement.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f613cc9-d100-41a8-94e7-0245454f2e02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d7c519f-b1d3-4a38-a18c-51c5f8dc6bda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/contract_distribution.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37d9bdbd-5c90-4601-b508-88749c2add51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/partial_witness.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ded58824-854b-4dc2-98cb-9c73d5df8754?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/state_witness.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b70a2f5-6aa0-4448-a088-40d6bbd31cd6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e5970a8-7da9-4ff4-863d-5f12eed3e01b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/validator_assignment.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d268c207-c4db-4c02-adf6-87a9d4f657ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0cf56fe8-737e-4ff6-9bbd-03412acf52d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5441f8aa-5003-47f5-b625-3bfdb04afd94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_split.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e833bb57-527a-44b6-8f12-6cca6741736b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/types.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_493a796d-f9f7-4a1d-b024-448f60cd7b2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/upgrade_schedule.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f0b9bb0-1d9b-4d2b-b4c8-df65446101ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/validator_mandates/compute_price.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a4a8428-fa30-435c-a4e1-103ddbc62838?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/validator_signer.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c10ba3f7-8605-4088-8332-6da943b21c4f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/adapter/chain_store.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_673d69b7-9fb2-441d-84db-be4045487ea6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/adapter/chunk_store.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_933efa59-29d4-438e-9054-3f213f00284b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/adapter/epoch_store.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e112847-548b-452b-9ca5-0fb2e8eb1a20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/adapter/flat_store.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1fa320f8-9a56-4df6-92b9-85fc17471dda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/adapter/trie_store.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13a2e372-6f11-4866-9c7c-4767d4c77bfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/delta.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7764eda9-5ec2-4315-b571-8224f926adab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/manager.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c7e88bb-848d-4d85-824d-a48ba84fa9c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/storage.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49258dd7-a074-49be-8c14-a69b7c80a253?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/types.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5dd917a0-d191-4fc5-a64c-7b4fe24c3353?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/merkle_proof.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae0953db-6ae5-4241-9fe2-a714edf833c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/from_flat.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa879337-6aab-4ebd-90b6-dfe90e8de43b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/iterator.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_caa4b969-5ee9-4d47-970d-08677bc1a9d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/loading.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc9e8648-2af2-4fe5-8630-bd2f22b26785?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtries.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e65097b-6d0e-4a8d-9db8-c869c237ab28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtrie_update.rs -> Scope: High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81674cb7-b756-4f0d-92a1-871179b305ac?mode=deep",
+    "questions_generated": false
+  }
+]
