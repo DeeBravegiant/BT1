@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chain/chain/src/approval_verification.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa220973-4a8f-4fe7-a59c-80f2ed35b84b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/block_processing_utils.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ef61cd8-ca42-4a0a-bf22-bf9ebf929e33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf1d17db-beac-4687-8210-6cb959923160?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain_update.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a5c63a3-7709-4511-929b-8d8265b45f9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/doomslug.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0738ba21-bf39-432d-81e2-b409e45a144f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/lightclient.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99a2a3e5-a072-4712-b831-d0c6e7d4dfc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/missing_chunks.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8671216e-a673-4faf-8af5-d2bd29358c7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/orphan.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_723e00e4-9e2e-4642-9528-9c0384d5eded?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/pending.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1cdb3762-be21-47d9-a2b8-11bfa82a944d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/flat_storage_resharder.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83db95cd-dd87-4fef-9a55-f7645cf87d8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/manager.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_56d406d0-1529-4774-86aa-3bc6203f5d68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/migrations.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d4b0b21-fca9-435d-851e-a218542fac20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/resharding_actor.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9214dede-faeb-44ae-a325-36fb0ac77818?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/trie_state_resharder.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4d214f9-ebc9-45dd-a170-11e3e37c35e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/mod.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1df0e1b-6480-491e-ac38-13dae9beb6ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/signer_overlay.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ff6aba4-5f4d-4b65-8177-e6724eacc25b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/trie_update_wrapper.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf59092a-759c-4e96-868c-7587926ee64e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/sharding.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b18f9df4-ff5f-4b23-b439-252c1abf0ae8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/signature_verification.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_afdc9709-bfcc-4bd1-87c4-8e375fc75943?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/block_application.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_202328f6-1b5c-4230-9c21-56cb5c680a39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chain.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d6cf677-f39e-4a5c-9823-081001ce0517?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chunk_application.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5928a94b-2aea-4019-8fbd-cba0f10ed274?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chunk_validation.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24533f73-1631-4726-ac49-7291123e895a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/core.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9119bc53-83c6-4df5-b903-fc332d0c2809?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/adapter.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ef92e3d-508d-4484-8105-d6b0e117797c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/mod.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80410951-1111-4017-b390-95a842339c89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/state_request_tracker.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bef13c1-516a-4713-988c-1aa2b240ef55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/utils.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d01cf633-1ba7-472a-9cb8-2c70d869fa50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dfa162af-7e9d-4b66-a671-42b69e14440c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_validation.rs -> Scope: Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24f69883-157e-4137-a859-bb6d7941bc5d?mode=deep",
+    "questions_generated": false
+  }
+]
