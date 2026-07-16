@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chain/chain/src/approval_verification.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d02eeee-92f8-4642-be9e-db1c070f1f97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/block_processing_utils.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_114b10b4-2bf8-49dd-8066-eb5916e9fb58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48dc82fd-2254-4b86-a566-d0001c12f8c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain_update.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64c1763d-1895-4f34-b606-df4e034610f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/doomslug.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e506fa0-2d9f-432d-8dc6-38f784f91d0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/lightclient.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb9b1dc4-b3f9-4343-b406-13a08b713bfa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/missing_chunks.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_226a34a8-2746-41b9-aafe-7b126d4573cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/orphan.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11979d61-b831-4727-8bd8-3d256abb17a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/pending.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77d33cce-ff1b-43ca-8014-e622b8505bcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/flat_storage_resharder.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ab4cd1c-d283-4763-b28c-b0e05d92c265?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/manager.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5af80725-7fc8-4a9c-aad6-32fcc6a865e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/migrations.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_639e5af1-a3b3-44a7-b91e-c3bfdadde88c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/resharding_actor.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7a8f322-5935-4b80-b88b-f4c5038b89b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/trie_state_resharder.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43669ae3-4870-46b6-86dc-7f0e7ad8b3ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/mod.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4f21da9-2818-41b3-bccb-6a31d5349d66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/signer_overlay.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67b11174-928b-406e-b74a-8874a27f11e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/trie_update_wrapper.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_631e3eab-3d6b-4f31-8258-67e69b8ff1ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/sharding.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91196b8f-7a62-4c60-adcf-360d2ccef5d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/signature_verification.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_769c8a3a-1ae8-49fd-b838-11dc1236bcaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/block_application.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ead873a7-8431-45f2-be43-d8075eb91b09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chain.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9cbe0ef3-7e6f-49cc-afdb-6abf8d54c19a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chunk_application.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_983a1c87-ba14-448a-a890-e51942d194de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/chunk_validation.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5eaa1161-0641-47eb-b9fa-c0a21a235e0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/spice/core.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40282fb6-c30f-46c0-ae6c-8e1e35296d67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/adapter.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de2f548c-90cf-4e06-8c59-69697413f26d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/mod.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8091e83b-862f-4624-9734-ccf39b1c3130?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/state_request_tracker.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_acaa2645-b797-4f94-9a88-792e476f8bdf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/utils.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b097a98a-fcc0-486c-b0b8-bda749d834f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c93e89bd-f2a2-484c-8f65-bd3f747dc701?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_validation.rs -> Scope: Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2349a837-f77f-48ac-a10b-412f40bb9839?mode=deep",
+    "questions_generated": false
+  }
+]
