@@ -1,1 +1,0 @@
-[File: 'core/crypto/src/hash.rs -> Scope: Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.'] [Function: hash! macro / BlockHeader::compute_hash in core/primitives/src/block_header.rs] Does the fact that hash!(b\
