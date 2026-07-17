@@ -1,0 +1,1 @@
+Looking at the vulnerability class — a security mechanism that is declared/wired up but never actually enforced — I need to find an analog in nearcore where a permission or validation is defined but the enforcement call is missing from a critical code path.
