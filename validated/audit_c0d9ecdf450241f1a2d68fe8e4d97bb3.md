@@ -1,0 +1,1 @@
+Let me look at the full `verify_and_charge_gas_key_tx_ephemeral` function and the `add_chunk_transactions` deposit cost tracking more carefully.
