@@ -1,0 +1,1 @@
+Looking at the external report's vulnerability class — **no recipient parameter in withdrawal/refund functions, causing funds to be permanently frozen when the original recipient is restricted** — I need to find a concrete analog in nearcore.
