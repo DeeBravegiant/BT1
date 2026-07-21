@@ -1,1 +1,0 @@
-[File: 'crates/apollo_http_server/src/http_server.rs -> Scope: High'] [Symbol: validate_supported_tx_version_str] Can an attacker POST to /gateway/add_transaction with a crafted JSON body where a string-valued field (e.g., the `abi` field of a DeprecatedGatewayDeclareTransactionV3) lexically precedes the real `version` field and contains the substring `\
