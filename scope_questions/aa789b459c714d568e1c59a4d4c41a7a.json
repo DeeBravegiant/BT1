@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/apollo_http_server/src/deprecated_gateway_transaction.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d3af295-66e3-4252-b03f-9f90f96e4504?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_http_server/src/http_server.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23a0f6c2-cd20-4cf5-9121-c9ff16702d4b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/catchupper.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_35babcd5-3f1e-40ff-acc8-7bcc6120cb99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/l1_provider.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f472e1f1-05dc-4e8a-a05f-2204856bbfaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/l1_scraper.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c1bb7e1-e439-4805-8fc7-37e19772568c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/transaction_manager.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd900756-4724-4490-807f-01942649157d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/transaction_record.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc6f7fc0-af40-471c-b594-f189080ca8be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/fee_transaction_queue.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bafcec0-7402-4c9e-b66c-9c2ad3e371e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/fifo_transaction_queue.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c984efda-b96f-40d3-8215-219e2bce42e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/mempool.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b478b643-7665-49d4-87a3-af91fe2ede7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/transaction_pool.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c6e9165-0983-4250-9b92-ada5cffd3071?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool_p2p/src/propagator/mod.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea17a4e2-245f-4b6f-8e19-d9c8dc16b98d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool_p2p/src/runner/mod.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51b8241c-92c2-408b-8358-666973aaf9ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/authentication/negotiator.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37b8247c-f2e4-4f67-99d1-6adfaf62eb6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/gossipsub_impl.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5e16b14-993a-464c-99b8-3957334f7a29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/misconduct_score.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2855def0-45c4-48b2-a5ae-4a1f4c8d968a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/mixed_behaviour.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4f430fe-f2a2-4965-ab97-48d6a8b135b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/network_manager/mod.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91e3c223-0298-46ce-b4e3-2461f398e73c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/peer_manager/behaviour_impl.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96ecc9c7-6ef1-435c-8835-5f938b4cba42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/peer_manager/peer.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d94a3f9f-bbc5-4e0f-995b-ee7bc574a6b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/behaviour.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48244c59-1a5c-4dbd-9aef-90578ce57ea5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/handler.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5e6b30f-8c5b-4999-9a7c-d1ec84ea286a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/handler/inbound_session.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_707df137-418b-4f0c-9127-b9579ed1af3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/messages.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a35de355-dbba-4a02-9d68-0f21b2c41ef4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/protocol.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11b046e8-770f-4ce9-9f4e-fcbff852cb08?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/clients.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3154a805-238e-4355-b1f4-a137f2a7213b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/components.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c61173e-a381-4018-94a7-23838331265e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/main.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6d2f3f0-6e94-40e8-a6da-52cff1e24f96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/servers.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_503701d0-da58-4980-a679-e3b29decd909?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_p2p_sync/src/client/block_data_stream_builder.rs -> Scope: Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b056f4a6-da74-438a-b006-a6ce029ece27?mode=deep",
+    "questions_generated": false
+  }
+]
