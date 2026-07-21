@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/apollo_http_server/src/deprecated_gateway_transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d01fe4b-7e32-4a09-8b78-740e231014c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_http_server/src/http_server.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1146d3e5-f7c4-47e9-9851-eb0d46716a0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/catchupper.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6c10c84-ffe1-42b7-be22-c0c598c3e2d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/l1_provider.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6646d65d-d596-4565-9c06-12ccdbd188c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/l1_scraper.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9af2cabb-47bf-41ec-8dec-14d9840634bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/transaction_manager.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27b9218a-69ce-4d98-83bf-c3b37de9ea36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_l1_provider/src/transaction_record.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_703cb239-983f-4820-ad4c-aa55abdff45a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/fee_transaction_queue.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49094cee-998a-4ea3-b051-9fb2945b8ed0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/fifo_transaction_queue.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50de658f-8211-4fa3-8bf3-6ec3266483e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/mempool.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52ea4ef2-bac4-433b-8008-4f886c09d64e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool/src/transaction_pool.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6e39607-0da0-42ac-8f04-4966e114bfb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool_p2p/src/propagator/mod.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_747593f6-1e13-4c9c-a2a6-2b3fc3c67969?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_mempool_p2p/src/runner/mod.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fae6c394-68bc-4363-ba96-588904dddbf7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/authentication/negotiator.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d953d9ed-d505-494b-8c5d-3ba36b8492b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/gossipsub_impl.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06abe991-8fd4-4845-83a4-b18619f53c72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/misconduct_score.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f265165-b691-48b7-b02d-b9f69180e178?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/mixed_behaviour.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30509dcb-13de-4026-a05c-8d87f8f4a8bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/network_manager/mod.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9762e4f4-ddb3-4fe1-8021-dc81ee1458ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/peer_manager/behaviour_impl.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_291e5ae3-91d3-4b06-976a-05a0646bd691?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/peer_manager/peer.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8aee4837-f318-46e1-b86e-213aee22dd18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/behaviour.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af2f938e-0ac5-4bd2-b4e9-083e6735be81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/handler.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a095f874-aa3e-43ad-b96f-8f69ddf40d03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/handler/inbound_session.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83d2a3bc-fd79-41fa-94f8-ae51a6c84437?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/messages.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88802278-e7cd-452d-a439-e26ea4e43527?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_network/src/sqmr/protocol.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_36004a95-e940-40b7-8ec8-83558b807f12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/clients.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfc31bc8-6cc6-4541-af71-2444aba34610?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/components.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b5bc154-a21b-4f36-9163-8f28e3198668?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/main.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10dad381-e643-468c-a0ab-40eb88a897ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_node/src/servers.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe057236-6a95-4872-8d3c-acc62fe89e46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_p2p_sync/src/client/block_data_stream_builder.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bcbe3d1-7b6b-4673-9ac6-7344aab66f08?mode=deep",
+    "questions_generated": false
+  }
+]
