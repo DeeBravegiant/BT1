@@ -1,0 +1,102 @@
+[
+  {
+    "question": "'File Name: crates/blockifier/src/blockifier/transaction_executor.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea63d162-e0a8-4a8b-aa68-9c9a907002d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/context.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7691b653-ebcd-40a6-b519-21a2c6811ae6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/transaction/account_transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a20b78b3-1e4c-4b9f-9b90-53a3c3393615?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/transaction/l1_handler_transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb8b5ebe-02c4-4eee-891b-23d424288ee1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/transaction/transaction_execution.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92b0efbc-cf42-4907-9fd5-eb36f3b4d590?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/shared_execution_objects/src/central_objects.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4a2cc88-29c0-4dc4-9ca8-f0e39dcc9ba1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a169dd22-eeae-43e4-b325-62bed7c8e926?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ede408e-3ee1-41aa-8fa5-2abc2bc7030c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash/block_hash_calculator.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62b69d1c-06e3-46fb-8759-e41bb51772e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash/event_commitment.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0de5ce5a-a954-4a1f-8583-b472c0c655ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash/receipt_commitment.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fc717df-2c91-46f6-b8f6-34dbee8f7401?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash/state_diff_hash.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91f18966-8073-4523-8ac6-0060e4c7ce7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash/transaction_commitment.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_705ccec9-b16a-4413-bd78-a3dc780c8a06?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/consensus_transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b30ce982-391f-4ead-a575-214ff87891e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/data_availability.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8a75d75-4403-44c7-8615-1505d013dc92?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/executable_transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ce9f7d6-cc99-47ae-80ef-6dc1d2d26f42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/state.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dae63957-ac27-42f3-9fc8-b6bc9a26d5b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/transaction.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fde4bc69-b9cd-47f0-92c2-27d3f8037821?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/transaction_hash.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6a8e037-b507-4f11-a09d-e4a38a3d271a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/versioned_constants_logic.rs -> Scope: Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d42e20e-e4e9-4805-8184-6be562f9105f?mode=deep",
+    "questions_generated": false
+  }
+]
