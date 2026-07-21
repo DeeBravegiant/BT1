@@ -47,334 +47,179 @@ else:
 
 
 scope_files = [
-    "chain/chain/src/approval_verification.rs",
-    "chain/chain/src/block_processing_utils.rs",
-    "chain/chain/src/chain.rs",
-    "chain/chain/src/chain_update.rs",
-    "chain/chain/src/doomslug.rs",
-    "chain/chain/src/lightclient.rs",
-    "chain/chain/src/missing_chunks.rs",
-    "chain/chain/src/orphan.rs",
-    "chain/chain/src/pending.rs",
-    "chain/chain/src/resharding/flat_storage_resharder.rs",
-    "chain/chain/src/resharding/manager.rs",
-    "chain/chain/src/resharding/migrations.rs",
-    "chain/chain/src/resharding/resharding_actor.rs",
-    "chain/chain/src/resharding/trie_state_resharder.rs",
-    "chain/chain/src/runtime/mod.rs",
-    "chain/chain/src/runtime/signer_overlay.rs",
-    "chain/chain/src/runtime/trie_update_wrapper.rs",
-    "chain/chain/src/sharding.rs",
-    "chain/chain/src/signature_verification.rs",
-    "chain/chain/src/spice/block_application.rs",
-    "chain/chain/src/spice/chain.rs",
-    "chain/chain/src/spice/chunk_application.rs",
-    "chain/chain/src/spice/chunk_validation.rs",
-    "chain/chain/src/spice/core.rs",
-    "chain/chain/src/state_sync/adapter.rs",
-    "chain/chain/src/state_sync/mod.rs",
-    "chain/chain/src/state_sync/state_request_tracker.rs",
-    "chain/chain/src/state_sync/utils.rs",
-    "chain/chain/src/stateless_validation/chunk_endorsement.rs",
-    "chain/chain/src/stateless_validation/chunk_validation.rs",
-    "chain/chain/src/stateless_validation/processing_tracker.rs",
-    "chain/chain/src/stateless_validation/state_witness.rs",
-    "chain/chain/src/types.rs",
-    "chain/chain/src/update_shard.rs",
-    "chain/chain/src/validate.rs",
-    "chain/chunks/src/chunk_cache.rs",
-    "chain/chunks/src/client.rs",
-    "chain/chunks/src/logic.rs",
-    "chain/chunks/src/shards_manager_actor.rs",
-    "chain/client/src/chunk_endorsement_handler.rs",
-    "chain/client/src/chunk_inclusion_tracker.rs",
-    "chain/client/src/chunk_producer.rs",
-    "chain/client/src/client.rs",
-    "chain/client/src/client_actor.rs",
-    "chain/client/src/pending_transaction_queue.rs",
-    "chain/client/src/prepare_transactions.rs",
-    "chain/client/src/rpc_handler.rs",
-    "chain/client/src/state_request_actor.rs",
-    "chain/client/src/stateless_validation/chunk_endorsement.rs",
-    "chain/client/src/stateless_validation/chunk_validation_actor.rs",
-    "chain/client/src/stateless_validation/chunk_validator/mod.rs",
-    "chain/client/src/stateless_validation/chunk_validator/orphan_witness_pool.rs",
-    "chain/client/src/stateless_validation/partial_witness/encoding.rs",
-    "chain/client/src/stateless_validation/partial_witness/partial_deploys_tracker.rs",
-    "chain/client/src/stateless_validation/partial_witness/partial_witness_actor.rs",
-    "chain/client/src/stateless_validation/partial_witness/partial_witness_tracker.rs",
-    "chain/client/src/stateless_validation/shadow_validate.rs",
-    "chain/client/src/stateless_validation/state_witness_producer.rs",
-    "chain/client/src/stateless_validation/state_witness_tracker.rs",
-    "chain/client/src/stateless_validation/validate.rs",
-    "chain/client/src/sync/block.rs",
-    "chain/client/src/sync/epoch.rs",
-    "chain/client/src/sync/external.rs",
-    "chain/client/src/sync/handler.rs",
-    "chain/client/src/sync/header.rs",
-    "chain/client/src/sync/state/chain_requests.rs",
-    "chain/client/src/sync/state/downloader.rs",
-    "chain/client/src/sync/state/mod.rs",
-    "chain/client/src/sync/state/network.rs",
-    "chain/client/src/sync/state/shard.rs",
-    "chain/client/src/sync/state/task_tracker.rs",
-    "chain/client/src/sync/state/util.rs",
-    "chain/client/src/view_client_actor.rs",
-    "chain/epoch-manager/src/epoch_info_aggregator.rs",
-    "chain/epoch-manager/src/epoch_sync.rs",
-    "chain/epoch-manager/src/lib.rs",
-    "chain/epoch-manager/src/reward_calculator.rs",
-    "chain/epoch-manager/src/shard_assignment/mod.rs",
-    "chain/epoch-manager/src/shard_assignment/sticky_resharding.rs",
-    "chain/epoch-manager/src/shard_tracker.rs",
-    "chain/epoch-manager/src/validator_selection.rs",
-    "chain/epoch-manager/src/validator_stats.rs",
-    "chain/jsonrpc/src/api/blocks.rs",
-    "chain/jsonrpc/src/api/call_function.rs",
-    "chain/jsonrpc/src/api/chunks.rs",
-    "chain/jsonrpc/src/api/light_client.rs",
-    "chain/jsonrpc/src/api/query.rs",
-    "chain/jsonrpc/src/api/status.rs",
-    "chain/jsonrpc/src/api/transactions.rs",
-    "chain/jsonrpc/src/api/validator.rs",
-    "chain/jsonrpc/src/api/view_access_key.rs",
-    "chain/jsonrpc/src/api/view_account.rs",
-    "chain/jsonrpc/src/api/view_code.rs",
-    "chain/jsonrpc/src/api/view_state.rs",
-    "chain/jsonrpc/src/sharded_rpc.rs",
-    "chain/network/src/accounts_data/mod.rs",
-    "chain/network/src/announce_accounts/mod.rs",
-    "chain/network/src/client.rs",
-    "chain/network/src/network_protocol/edge.rs",
-    "chain/network/src/network_protocol/mod.rs",
-    "chain/network/src/network_protocol/peer.rs",
-    "chain/network/src/network_protocol/state_sync.rs",
-    "chain/network/src/peer/peer_actor.rs",
-    "chain/network/src/peer_manager/peer_manager_actor.rs",
-    "chain/network/src/routing/edge.rs",
-    "chain/network/src/routing/graph/mod.rs",
-    "chain/network/src/shards_manager.rs",
-    "chain/network/src/state_sync.rs",
-    "chain/network/src/state_witness.rs",
-    "chain/network/src/types.rs",
-    "chain/pool/src/lib.rs",
-    "chain/pool/src/types.rs",
-    "core/crypto/src/hash.rs",
-    "core/crypto/src/hash_domain.rs",
-    "core/crypto/src/signature.rs",
-    "core/crypto/src/signer.rs",
-    "core/crypto/src/vrf.rs",
-    "core/primitives-core/src/account.rs",
-    "core/primitives-core/src/apply.rs",
-    "core/primitives-core/src/gas.rs",
-    "core/primitives-core/src/hash.rs",
-    "core/primitives-core/src/serialize.rs",
-    "core/primitives-core/src/trie_key.rs",
-    "core/primitives-core/src/types.rs",
-    "core/primitives/src/action/mod.rs",
-    "core/primitives/src/block.rs",
-    "core/primitives/src/block_body.rs",
-    "core/primitives/src/block_header.rs",
-    "core/primitives/src/challenge.rs",
-    "core/primitives/src/congestion_info.rs",
-    "core/primitives/src/epoch_block_info.rs",
-    "core/primitives/src/epoch_info.rs",
-    "core/primitives/src/epoch_manager.rs",
-    "core/primitives/src/epoch_sync.rs",
-    "core/primitives/src/merkle.rs",
-    "core/primitives/src/optimistic_block.rs",
-    "core/primitives/src/receipt.rs",
-    "core/primitives/src/reed_solomon.rs",
-    "core/primitives/src/shard_layout/mod.rs",
-    "core/primitives/src/shard_layout/v1.rs",
-    "core/primitives/src/shard_layout/v2.rs",
-    "core/primitives/src/shard_layout/v3.rs",
-    "core/primitives/src/sharding.rs",
-    "core/primitives/src/sharding/shard_chunk_header_inner.rs",
-    "core/primitives/src/spice/chunk_endorsement.rs",
-    "core/primitives/src/spice/partial_data.rs",
-    "core/primitives/src/spice/state_witness.rs",
-    "core/primitives/src/state.rs",
-    "core/primitives/src/state_part.rs",
-    "core/primitives/src/state_record.rs",
-    "core/primitives/src/state_sync.rs",
-    "core/primitives/src/stateless_validation/chunk_endorsement.rs",
-    "core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs",
-    "core/primitives/src/stateless_validation/contract_distribution.rs",
-    "core/primitives/src/stateless_validation/partial_witness.rs",
-    "core/primitives/src/stateless_validation/state_witness.rs",
-    "core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs",
-    "core/primitives/src/stateless_validation/validator_assignment.rs",
-    "core/primitives/src/transaction.rs",
-    "core/primitives/src/trie_key.rs",
-    "core/primitives/src/trie_split.rs",
-    "core/primitives/src/types.rs",
-    "core/primitives/src/upgrade_schedule.rs",
-    "core/primitives/src/validator_mandates/compute_price.rs",
-    "core/primitives/src/validator_signer.rs",
-    "core/store/src/adapter/chain_store.rs",
-    "core/store/src/adapter/chunk_store.rs",
-    "core/store/src/adapter/epoch_store.rs",
-    "core/store/src/adapter/flat_store.rs",
-    "core/store/src/adapter/trie_store.rs",
-    "core/store/src/flat/delta.rs",
-    "core/store/src/flat/manager.rs",
-    "core/store/src/flat/storage.rs",
-    "core/store/src/flat/types.rs",
-    "core/store/src/merkle_proof.rs",
-    "core/store/src/trie/from_flat.rs",
-    "core/store/src/trie/iterator.rs",
-    "core/store/src/trie/mem/loading.rs",
-    "core/store/src/trie/mem/memtries.rs",
-    "core/store/src/trie/mem/memtrie_update.rs",
-    "core/store/src/trie/ops/insert_delete.rs",
-    "core/store/src/trie/ops/interface.rs",
-    "core/store/src/trie/ops/iter.rs",
-    "core/store/src/trie/ops/resharding.rs",
-    "core/store/src/trie/ops/squash.rs",
-    "core/store/src/trie/raw_node.rs",
-    "core/store/src/trie/receipts_column_helper.rs",
-    "core/store/src/trie/shard_tries.rs",
-    "core/store/src/trie/split.rs",
-    "core/store/src/trie/state_parts.rs",
-    "core/store/src/trie/state_snapshot.rs",
-    "core/store/src/trie/trie_recording.rs",
-    "core/store/src/trie/trie_storage.rs",
-    "core/store/src/trie/trie_storage_update.rs",
-    "core/store/src/trie/update.rs",
-    "nearcore/src/config_validate.rs",
-    "nearcore/src/state_sync.rs",
-    "neard/src/cli.rs",
-    "neard/src/main.rs",
-    "runtime/near-vm-runner/src/cache.rs",
-    "runtime/near-vm-runner/src/features.rs",
-    "runtime/near-vm-runner/src/imports.rs",
-    "runtime/near-vm-runner/src/logic/alt_bn128.rs",
-    "runtime/near-vm-runner/src/logic/bls12381.rs",
-    "runtime/near-vm-runner/src/logic/context.rs",
-    "runtime/near-vm-runner/src/logic/gas_counter.rs",
-    "runtime/near-vm-runner/src/logic/logic.rs",
-    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
-    "runtime/near-vm-runner/src/logic/vmstate.rs",
-    "runtime/near-vm-runner/src/prepare.rs",
-    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
-    "runtime/near-vm-runner/src/prepare/prepare_v2.rs",
-    "runtime/near-vm-runner/src/prepare/prepare_v3.rs",
-    "runtime/near-vm-runner/src/runner.rs",
-    "runtime/near-vm-runner/src/wasmtime_runner/logic.rs",
-    "runtime/near-vm-runner/src/wasmtime_runner/mod.rs",
-    "runtime/runtime/src/access_keys.rs",
-    "runtime/runtime/src/action_validation.rs",
-    "runtime/runtime/src/actions.rs",
-    "runtime/runtime/src/adapter.rs",
-    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
-    "runtime/runtime/src/bandwidth_scheduler/scheduler.rs",
-    "runtime/runtime/src/cache_warming.rs",
-    "runtime/runtime/src/congestion_control.rs",
-    "runtime/runtime/src/contract_code.rs",
-    "runtime/runtime/src/conversions.rs",
-    "runtime/runtime/src/deterministic_account_id.rs",
-    "runtime/runtime/src/ext.rs",
-    "runtime/runtime/src/function_call.rs",
-    "runtime/runtime/src/global_contracts.rs",
-    "runtime/runtime/src/pipelining.rs",
-    "runtime/runtime/src/prefetch.rs",
-    "runtime/runtime/src/receipt_manager.rs",
-    "runtime/runtime/src/types.rs",
-    "runtime/runtime/src/verifier.rs",
+    "crates/apollo_batcher/src/batcher.rs",
+    "crates/apollo_batcher/src/block_builder.rs",
+    "crates/apollo_batcher/src/commitment_manager/commitment_manager_impl.rs",
+    "crates/apollo_batcher/src/commitment_manager/state_committer.rs",
+    "crates/apollo_batcher/src/pre_confirmed_block_writer.rs",
+    "crates/apollo_batcher/src/pre_confirmed_cende_client.rs",
+    "crates/apollo_batcher/src/transaction_executor.rs",
+    "crates/apollo_batcher/src/transaction_provider.rs",
+    "crates/apollo_batcher_types/src/batcher_types.rs",
+    "crates/apollo_consensus/src/manager.rs",
+    "crates/apollo_consensus/src/single_height_consensus.rs",
+    "crates/apollo_consensus/src/state_machine.rs",
+    "crates/apollo_consensus/src/storage.rs",
+    "crates/apollo_consensus/src/stream_handler.rs",
+    "crates/apollo_consensus/src/types.rs",
+    "crates/apollo_consensus/src/votes_threshold.rs",
+    "crates/apollo_consensus_manager/src/consensus_manager.rs",
+    "crates/apollo_consensus_orchestrator/src/build_proposal.rs",
+    "crates/apollo_consensus_orchestrator/src/cende/central_objects.rs",
+    "crates/apollo_consensus_orchestrator/src/cende/mod.rs",
+    "crates/apollo_consensus_orchestrator/src/fee_market/mod.rs",
+    "crates/apollo_consensus_orchestrator/src/orchestrator_versioned_constants.rs",
+    "crates/apollo_consensus_orchestrator/src/sequencer_consensus_context.rs",
+    "crates/apollo_consensus_orchestrator/src/validate_proposal.rs",
+    "crates/apollo_gateway/src/gateway.rs",
+    "crates/apollo_gateway/src/state_reader.rs",
+    "crates/apollo_gateway/src/stateful_transaction_validator.rs",
+    "crates/apollo_gateway/src/stateless_transaction_validator.rs",
+    "crates/apollo_gateway/src/sync_state_reader.rs",
+    "crates/apollo_gateway_types/src/gateway_types.rs",
+    "crates/apollo_http_server/src/deprecated_gateway_transaction.rs",
+    "crates/apollo_http_server/src/http_server.rs",
+    "crates/apollo_l1_provider/src/catchupper.rs",
+    "crates/apollo_l1_provider/src/l1_provider.rs",
+    "crates/apollo_l1_provider/src/l1_scraper.rs",
+    "crates/apollo_l1_provider/src/transaction_manager.rs",
+    "crates/apollo_l1_provider/src/transaction_record.rs",
+    "crates/apollo_mempool/src/fee_transaction_queue.rs",
+    "crates/apollo_mempool/src/fifo_transaction_queue.rs",
+    "crates/apollo_mempool/src/mempool.rs",
+    "crates/apollo_mempool/src/transaction_pool.rs",
+    "crates/apollo_mempool_p2p/src/propagator/mod.rs",
+    "crates/apollo_mempool_p2p/src/runner/mod.rs",
+    "crates/apollo_network/src/authentication/negotiator.rs",
+    "crates/apollo_network/src/gossipsub_impl.rs",
+    "crates/apollo_network/src/misconduct_score.rs",
+    "crates/apollo_network/src/mixed_behaviour.rs",
+    "crates/apollo_network/src/network_manager/mod.rs",
+    "crates/apollo_network/src/peer_manager/behaviour_impl.rs",
+    "crates/apollo_network/src/peer_manager/peer.rs",
+    "crates/apollo_network/src/sqmr/behaviour.rs",
+    "crates/apollo_network/src/sqmr/handler.rs",
+    "crates/apollo_network/src/sqmr/handler/inbound_session.rs",
+    "crates/apollo_network/src/sqmr/messages.rs",
+    "crates/apollo_network/src/sqmr/protocol.rs",
+    "crates/apollo_node/src/clients.rs",
+    "crates/apollo_node/src/components.rs",
+    "crates/apollo_node/src/main.rs",
+    "crates/apollo_node/src/servers.rs",
+    "crates/apollo_p2p_sync/src/client/block_data_stream_builder.rs",
+    "crates/apollo_p2p_sync/src/client/class.rs",
+    "crates/apollo_p2p_sync/src/client/header.rs",
+    "crates/apollo_p2p_sync/src/client/state_diff.rs",
+    "crates/apollo_p2p_sync/src/client/transaction.rs",
+    "crates/apollo_p2p_sync/src/server/mod.rs",
+    "crates/apollo_p2p_sync/src/server/utils.rs",
+    "crates/apollo_protobuf/src/codec.rs",
+    "crates/apollo_protobuf/src/consensus.rs",
+    "crates/apollo_protobuf/src/converters/consensus.rs",
+    "crates/apollo_protobuf/src/converters/header.rs",
+    "crates/apollo_protobuf/src/converters/state_diff.rs",
+    "crates/apollo_protobuf/src/converters/transaction.rs",
+    "crates/apollo_protobuf/src/mempool.rs",
+    "crates/apollo_protobuf/src/sync.rs",
+    "crates/apollo_rpc/src/api.rs",
+    "crates/apollo_rpc/src/pending.rs",
+    "crates/apollo_rpc/src/syncing_state.rs",
+    "crates/apollo_rpc/src/v0_8/api/api_impl.rs",
+    "crates/apollo_rpc/src/v0_8/broadcasted_transaction.rs",
+    "crates/apollo_rpc/src/v0_8/transaction.rs",
+    "crates/apollo_state_sync/src/runner/mod.rs",
+    "crates/apollo_storage/src/base_layer.rs",
+    "crates/apollo_storage/src/block_hash.rs",
+    "crates/apollo_storage/src/consensus.rs",
+    "crates/apollo_storage/src/global_root.rs",
+    "crates/apollo_storage/src/header.rs",
+    "crates/apollo_storage/src/state/data.rs",
+    "crates/blockifier/src/blockifier.rs",
+    "crates/blockifier/src/blockifier/block.rs",
+    "crates/blockifier/src/blockifier/stateful_validator.rs",
+    "crates/blockifier/src/blockifier/transaction_executor.rs",
+    "crates/blockifier/src/context.rs",
+    "crates/blockifier/src/transaction/account_transaction.rs",
+    "crates/blockifier/src/transaction/l1_handler_transaction.rs",
+    "crates/blockifier/src/transaction/transaction_execution.rs",
+    "crates/shared_execution_objects/src/central_objects.rs",
+    "crates/starknet_api/src/block.rs",
+    "crates/starknet_api/src/block_hash.rs",
+    "crates/starknet_api/src/block_hash/block_hash_calculator.rs",
+    "crates/starknet_api/src/block_hash/event_commitment.rs",
+    "crates/starknet_api/src/block_hash/receipt_commitment.rs",
+    "crates/starknet_api/src/block_hash/state_diff_hash.rs",
+    "crates/starknet_api/src/block_hash/transaction_commitment.rs",
+    "crates/starknet_api/src/consensus_transaction.rs",
+    "crates/starknet_api/src/data_availability.rs",
+    "crates/starknet_api/src/executable_transaction.rs",
+    "crates/starknet_api/src/state.rs",
+    "crates/starknet_api/src/transaction.rs",
+    "crates/starknet_api/src/transaction_hash.rs",
+    "crates/starknet_api/src/versioned_constants_logic.rs",
 ]
 
 target_scopes = [
-    "Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.",
-    "Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.",
-    "Critical. Unprivileged-user-triggered State trie, flat storage, state parts, Merkle proofs, state witness, stateless validation, or chunk endorsement logic accepts forged state/chunks or rejects valid state in a consensus path.",
-    "Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.",
-    "Critical. Unprivileged-user-triggered Signature, account key, validator signer, approval, endorsement, VRF, light client, epoch sync proof, or hash-domain bug verifies an invalid proof/signature or rejects a valid one in consensus code.",
-    "High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.",
-    "High. Unprivileged-user-triggered Network protocol, peer routing, chunk/state witness distribution, partial witness encoding, Reed-Solomon reconstruction, or state sync messages can be forged, replayed, misrouted, or misattributed with chain safety impact.",
-    "High. Unprivileged-user-triggered Sync, epoch sync, header sync, block sync, state sync, orphan handling, or missing-chunk logic can make a node follow invalid data, skip required validation, or fail to recover canonical state.",
-    "High. Unprivileged-user-triggered Congestion control, bandwidth scheduler, delayed/buffered/postponed receipts, outgoing limits, or cross-shard routing loses, duplicates, reorders, or over-admits work with state-transition impact.",
+    "Critical. Unprivileged-user-triggered consensus proposal, vote, certificate, height/round, or validator-set bug makes honest sequencer nodes decide, commit, or sync different Starknet block histories.",
+    "Critical. Unprivileged-user-triggered proposal validation, batch construction, block hash, state diff, commitment, or storage update bug lets an invalid block be accepted or a valid block be rejected by honest nodes.",
+    "Critical. Unprivileged-user-triggered transaction execution, class declaration, L1 handler, fee market, gas price, or block context mismatch produces a different post-state root, block hash, receipt, event, fee, or message commitment for the same accepted input.",
+    "Critical. Unprivileged-user-triggered L1 provider, central sync, state sync, or p2p sync path causes a node to anchor to the wrong L1 event, block number, state diff, class, transaction, or finality view.",
+    "High. Unprivileged-user-triggered mempool, gateway, RPC, or p2p transaction path admits transactions that proposal validation or canonical execution must reject, or drops valid transactions for protocol-invalid reasons.",
+    "High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.",
+    "High. Unprivileged-user-triggered storage, header, global root, pending block, or syncing-state bug serves stale, inconsistent, or cross-block data as authoritative to RPC, sync, or proposal code.",
 ]
+
+EXECUTION_ALLOWED_IMPACT_SCOPE = """## Allowed Impact Scope
+Only these impacts are valid:
+- Critical. Invalid or unauthorized Starknet transaction accepted through account validation, signature, nonce, chain id, fee/resource bound, paymaster, or account-deployment logic.
+- Critical. Wrong state, receipt, event, L1 message, class hash, storage value, or revert result from blockifier/syscall/execution logic for accepted input.
+- Critical. Incorrect fee, gas, bouncer, resource accounting, refund, balance, or L1 gas price effect with economic impact.
+- Critical. Wrong compiled class, CASM/native artifact, class hash, or contract code selected for execution.
+- High. Mempool/gateway/RPC admission accepts invalid transactions or rejects valid transactions before sequencing.
+- High. RPC execution, fee estimation, tracing, simulation, or pending view returns an authoritative-looking wrong value.
+- High. Transaction conversion or signature/hash logic binds the wrong signer, hash, type, or executable payload."""
+
+SMART_AUDIT_PIVOTS = """## Sequencer-Specific Audit Pivots
+- Proposal validation path: `validate_proposal` -> `is_block_info_valid` -> `initiate_validation` -> `handle_proposal_part` -> `BatcherClient::send_proposal_content` -> `ProposalFin` comparison. Attack questions should bind `ProposalInit.height/timestamp/l1_da_mode/l2_gas_price_fri/l1_gas_price_fri/l1_data_gas_price_fri`, `retrospective_block_hash`, `executed_transaction_count`, proof verification tasks, and `ProposalCommitment`.
+- Block building path: `BlockBuilder::build_block_inner` -> `add_txs_to_executor` -> `handle_executed_txs` -> `close_block(final_n_executed_txs)` -> `BlockExecutionArtifacts::new`. Look for mismatches between started, executed, truncated, streamed, and committed transactions, not mere queue growth.
+- Commitment path: `prepare_txs_hashing_data` -> `calculate_block_commitments` -> `PartialBlockHashComponents::new` -> `PartialBlockHash::from_partial_block_hash_components`. Bind transaction order, signatures, execution outputs, state diff length, L1 DA mode, gas prices, Starknet version, and final partial block hash.
+- Admission-to-consensus bridge: `TransactionConverter` converts RPC/consensus/internal/executable transactions, computes transaction hashes with `chain_id`, verifies/stores proof facts, loads Sierra/executable classes, and maps L1 handlers. Look for cross-flow disagreement between gateway, mempool, batcher, validator, and consensus."""
 
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one nearcore target.
-
-    target_file format:
-    "'File Name: chain/chain/src/validate.rs -> Scope: Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.'"
+    Generate exploit-focused audit and fuzzing questions for one Sequencer target.
     """
 
     prompt = f"""
-    ```
-
-    Generate exploit-focused security audit and fuzzing questions for this exact nearcore target:
+    Generate exploit-focused security audit and fuzzing questions for this exact Starknet Sequencer target:
 
     {target_file}
 
     Project focus:
-    This repository is `nearcore`, the Rust reference implementation of NEAR Protocol. Security impact is consensus or consensus-adjacent correctness: block/chunk/header validity, Doomslug approvals/finality, epoch and validator assignment, shard layouts and dynamic resharding, runtime state transitions, gas/accounting, receipts, trie/state roots, state sync, stateless validation, signatures, peer messages, RPC transaction admission, and protocol feature gates.
+    This repository is `sequencer`, Starkware's Apollo/Starknet sequencer workspace. Focus on consensus and consensus-adjacent correctness: proposals, votes, validator sets, batch building, block hashes, state diffs, transaction execution, mempool/gateway admission, L1/L2 sync, p2p messages, protobuf boundaries, storage roots, and RPC views used by production node code.
 
-    Use concrete mechanisms when relevant: `Chain::start_process_block_async`, `preprocess_block`, `validate_block`, `validate_chunk_with_chunk_extra_and_roots`, `Doomslug`, approvals, `EpochManager`, `ShardLayoutV3`, `get_upcoming_shard_split`, `NightshadeRuntime::apply`, `TrieUpdate`, `ShardTries`, `find_trie_split`, `StateRoot`, receipts, access keys, gas keys, congestion control, bandwidth scheduler, state witnesses, chunk endorsements, partial witnesses, sync handlers, and Borsh/JSON/RPC/network message boundaries.
+    Execution/admission impact gate:
+    {EXECUTION_ALLOWED_IMPACT_SCOPE}
 
-    Analyst mindset:
-    * Think like an exploit engineer finding chain splits or invalid state transitions, not a linter.
-    * Infer the file's role first, then generate only questions that fit that role and the given scope.
-    * Reason in transitions: peer/RPC input -> validation -> epoch/shard/runtime/sync state -> persisted roots/outcomes/messages.
-    * Prefer multi-step questions about adversarial blocks, chunks, receipts, transactions, witnesses, state parts, epoch proofs, shard splits, gas limits, protocol versions, and cache/store reuse.
-    * If the file is a helper, target production callers that rely on its exact output.
-
-    Core invariants:
-    * The same valid block/chunk/receipt/state input must produce the same state root, outcome root, gas/balance changes, receipts, and head/finality on all honest nodes.
-    * Invalid signatures, approvals, endorsements, epoch proofs, state parts, witnesses, chunks, headers, shard splits, and transactions must be rejected before state changes.
-    * Runtime apply must preserve gas, refunds, nonces, permissions, receipt DAG dependencies, congestion limits, and account/storage invariants.
-    * Trie, flat storage, memtrie, state sync, stateless validation, and resharding must agree on keys, roots, memory usage, shard ownership, and state parts.
-    * Protocol features, epoch boundaries, shard layouts, validator assignment, and sync/catchup must be deterministic from chain state.
+    {SMART_AUDIT_PIVOTS}
 
     Rules:
-    * Treat `File Name:` as the exact file/module.
-    * Treat `Scope:` as the ONLY impact to target.
-    * Assume full repo context is accessible.
-    * Do not ask for code or say anything is missing.
-    * Attacker must be an unprivileged external user: ordinary account holder, contract deployer/caller, public RPC client, or unauthenticated/low-trust peer using public protocol inputs.
-    * Unprivileged attacker may control RPC transactions, signed tx fields for their own keys/accounts, contract code/input, public network messages, peer-supplied blocks/chunks/state data, or timing/order of data they are allowed to send.
-    * Do not grant the attacker validator, block producer, chunk producer, chunk validator, signer, relayer operator, node admin, or trusted infrastructure privileges unless the bug lets an unprivileged user bypass that requirement.
-    * A malicious peer sending malformed, stale, conflicting, oversized, or unsolicited data is not a finding by itself; only ask about cases where nearcore accepts it as valid, skips a required check, corrupts canonical state, or makes a wrong scoped decision.
-    * Do not rely on malicious maintainers, admin/operator mistakes, validator/chunk-producer equivocation, compromised validator supermajorities, unsupported local config, unsafe manual DB edits, bad genesis files outside the threat model, social engineering, dependency-only bugs, or downstream misuse outside nearcore APIs.
-    * Exclude ordinary crashes, pure DoS/performance, unbounded CPU/memory/disk/cache/queue growth, Rust allocation/lifetime/clone issues, OOM, leaks, logs, docs, tests, mocks, benches, generated data, tooling, and best practices without scoped impact.
-    * Do not turn resource exhaustion into High/Critical unless it deterministically causes an accepted invalid block/chunk/state, wrong state transition, wrong finality/head, or invalid transaction admission that survives normal validation.
-    * Generate 18 to 26 high-signal questions.
-    * At least 70% must trace across 2+ modules or state transitions.
-    * Every question must be testable by `cargo test --features test_features`, a Rust property/fuzz test, a test-loop test, or a focused local reproducer.
-    * Avoid generic checklist questions and repeated root causes.
-    * Each question must target a plausible issue class for the exact file and scope.
-    * Anchor to concrete symbols when possible: functions, structs, protocol features, columns, roots, caches, fields, message types, or DB keys.
-    * Name the exact value that may diverge: state root, outcome root, block/chunk validity, finality, epoch id, shard id/layout, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC admission result.
-
-    High-value attack surfaces:
-    * `chain/chain`: block processing, Doomslug, validation, state sync, stateless validation, SPICE, resharding.
-    * `runtime/runtime` and `runtime/near-vm-runner`: runtime apply, receipts, actions, gas, permissions, storage, WASM host functions.
-    * `core/primitives` and `core/primitives-core`: consensus data types, serialization, hashes, shard layouts, transactions, receipts, state parts.
-    * `core/store`: trie, flat storage, memtrie, state parts, Merkle proofs, resharding state.
-    * `chain/client`, `chain/epoch-manager`, `chain/chunks`, `chain/network`, `chain/pool`, `chain/jsonrpc`: sync, epoch proofs, chunk production, peer/RPC entrypoints, mempool.
-
-    Impact mapping:
-    * High/Critical only: consensus divergence, invalid block/chunk/state acceptance, wrong runtime result, forged proof/signature acceptance, incorrect shard/epoch/validator assignment, invalid transaction admission, or cross-shard/state sync corruption.
-
-    Each question must include:
-
-    1. target function/module;
-    2. attacker-controlled input;
-    3. preconditions;
-    4. call sequence;
-    5. invariant tested;
-    6. scoped impact;
-    7. proof idea.
+    * Treat `File Name:` as the exact file/module and `Scope:` as the only impact.
+    * Assume repo context is accessible; do not ask for code or claim files are missing.
+    * Attacker must be unprivileged: public RPC client, ordinary account, contract deployer/caller, unauthenticated or low-trust peer, or sender of public L1/L2 data paths.
+    * Do not grant validator, sequencer operator, block proposer, node admin, trusted central service, oracle, database, or deployment privileges unless the question proves an unprivileged bypass.
+    * Malicious-peer-only behavior and malformed peer data are out of scope when the data is rejected, ignored, disconnected, retried, rate-limited, or only wastes resources.
+    * Unbounded CPU/memory/disk/cache/queue growth, crashes, OOM, leaks, performance-only degradation, logging, metrics, tests, mocks, benches, generated data, scripts, and local tooling are not valid unless one allowed impact above is concretely reached.
+    * Generate 18 to 24 high-signal questions; at least two thirds should cross modules or persisted state.
+    * Anchor to concrete symbols, message types, storage columns, hashes, commitments, config values, transaction fields, or block/state identifiers.
+    * Name the exact value at risk: decided block, proposal validity, state root, block hash, transaction hash, event/receipt commitment, class hash, nonce, fee, gas price, L1 handler message, validator set, sync cursor, storage row, RPC result, or peer identity.
+    * Every question must be testable with a Rust unit/property/fuzz test, integration-style local reproducer, or deterministic protocol-state test.
 
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: symbol_or_module] Can attacker-controlled INPUT under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: run a Rust unit/property/fuzz/test-loop reproducer over PARAMETERS and assert EXPECTED_PROPERTY.",
+    "[File: {target_file}] [Symbol: symbol_or_module] Can attacker-controlled INPUT under PRECONDITIONS reach CALL_PATH and violate INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: build a Rust unit/property/fuzz/local reproducer over PARAMETERS and assert EXPECTED_PROTOCOL_PROPERTY.",
     ]
     """
     return prompt
@@ -382,7 +227,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(question: str) -> str:
     """
-    Generate a focused nearcore exploit-question validation prompt.
+    Generate a focused Sequencer exploit-question validation prompt.
     """
     return f"""# QUESTION SCAN PROMPT
 
@@ -390,40 +235,33 @@ def audit_format(question: str) -> str:
 {question}
 
 ## Scope Rules
-- Audit only production nearcore repository code listed in `scope_files`.
+- Audit only production Sequencer files listed in `scope_files`.
 - Do not ask for repo contents or claim files are missing.
-- Ignore tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, repo automation, packaging metadata, and local-only tooling.
+- Ignore tests, mocks, fixtures, generated data, docs, benches, metrics-only noise, scripts, deployment scaffolding, and local tooling.
 
 ## Objective
-Decide whether the question leads to a real, reachable nearcore vulnerability.
-The attacker must be an unprivileged external user entering through supported production behavior: public RPC transactions, transaction fields signed by their own keys, contract input/code they can deploy or call, public peer messages, peer-supplied blocks/chunks/state data, or repeated public API/cache use.
-Do not assume validator, block producer, chunk producer, chunk validator, node admin, relayer operator, or trusted-service privileges unless the claim proves an unprivileged user can bypass that authority boundary.
-The impact must match the provided target scope.
-Prefer #NoVulnerability unless the path is concrete, locally testable, and proves High/Critical consensus, runtime, mempool, sync, stateless validation, or RPC admission impact.
-Malicious peer behavior is only a trigger, not an impact: reject reports where the whole issue is that a peer can send malformed, stale, duplicated, conflicting, oversized, or unsolicited data and nearcore rejects, ignores, rate-limits, disconnects, retries, or only wastes resources.
-Treat the question as a hypothesis. Look for the exact state root, outcome root, finality/head, block/chunk validity, epoch id, shard layout, validator assignment, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result that would make it real.
+Decide whether the question leads to a real, reachable Sequencer vulnerability. The attacker must enter through public RPC/gateway transaction submission, transaction fields signed by their own keys, contract code/input, unauthenticated or low-trust p2p messages, public sync data, or L1/L2 data paths.
+
+Reject claims needing validator, sequencer operator, block proposer, node admin, trusted central service, oracle, database, or deployment privileges unless the issue proves an unprivileged bypass. Prefer #NoVulnerability unless the path is concrete and proves High/Critical consensus, execution, admission, sync, storage, or RPC-authority impact.
+
+## Required Execution/Admission Impacts
+{EXECUTION_ALLOWED_IMPACT_SCOPE}
+
+{SMART_AUDIT_PIVOTS}
 
 ## Method
 1. Trace the attacker-controlled entrypoint.
-2. Map it to exact production repository files and functions.
-3. Check relevant guards: signatures, stakes, approvals, chunk endorsements, epoch boundaries, protocol features, shard layouts, gas/accounting, access-key permissions, nonce checks, receipt dependencies, trie roots, state-part proofs, witness validation, sync proof checks, cache keys, and DB column invariants.
-4. Identify the exact state or output that must change for the exploit to work.
-5. Decide whether the questioned invariant can actually break under intended API use.
-6. Prove root cause with file, function, and line references.
-7. Confirm realistic likelihood and exact scoped impact.
-8. Reject if current validation already prevents the exploit.
+2. Map it to exact production files and functions.
+3. Check signatures, nonces, fees, class hashes, chain ids, block numbers, validator sets, vote thresholds, protobuf decoding, storage keys, L1 event ordering, sync cursors, and RPC admission guards.
+4. Name the exact accepted or served value that becomes wrong.
+5. Reject if existing validation already prevents the exploit.
 
 ## Reject Immediately
-- Requires malicious maintainers, compromised nodes, downstream misuse outside this API contract, unsupported local configuration, social engineering, or dependency-only behavior.
-- Requires admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, or non-production flags.
-- Requires validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges not obtainable by an unprivileged user.
-- Is only malicious-peer noise: malformed/stale/duplicated/conflicting/oversized/unsolicited peer data without accepted invalid protocol state or skipped required validation.
-- Only affects tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, automation, packaging, or local tooling.
-- Impact is ordinary crash, denial of service, performance-only degradation, unbounded CPU/memory/disk/cache/queue growth, memory leak/OOM/allocation pressure, logging/display issue, harmless rejection, style, or best practice.
-- Depends only on Rust memory-management concerns such as clones, drops, lifetimes, reference counts, buffer growth, or cache retention without a concrete scoped state/consensus result.
-- No concrete scoped impact or no realistic attacker-controlled API path.
-- No exact state root, outcome root, block/chunk validity, finality/head, epoch id, shard id/layout, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC admission delta can be named.
-- The question depends on impossible NEAR protocol behavior or privileges not granted by the scoped code path.
+- Privileged operator/admin/validator/oracle/trusted-service assumptions.
+- Malicious-peer-only or bad peer data that is rejected, ignored, disconnected, retried, rate-limited, or only wastes resources.
+- Ordinary crash, DoS, performance, unbounded CPU/memory/disk/cache/queue growth, OOM, leaks, logs, style, or dependency-only behavior.
+- Tests, mocks, benches, generated files, docs, scripts, deployments, or local tooling.
+- No concrete unprivileged path or no exact corrupted block/state/admission/sync/RPC value.
 
 ## Output
 If valid:
@@ -445,48 +283,29 @@ If invalid, output exactly:
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for the nearcore repository.
+    Generate a cross-project analog scan prompt for Sequencer protocol-safety issues.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
 ## External Report
 {report}
 
-## Access Rules (Strict)
-- Treat production nearcore repository files in the provided scope as accessible context.
-- Do not claim missing or inaccessible files.
-- Do not ask for repository contents.
-- Do not scan tests, docs, mocks, test utilities, fuzz harnesses, benches, generated data, repo automation, packaging metadata, or local-only tooling as audited targets.
+## Task
+Use the external report only as a bug-class seed. Search production `scope_files` for a Sequencer-native analog in consensus decisions, proposal validation, execution results, block/state commitments, mempool/gateway admission, p2p/sync routing, L1 anchoring, storage roots, or authoritative RPC views.
 
-## Objective
-Use the external report's vulnerability class as a hint to find valid issues based on this repository's security impact.
-Focus on issues triggered by an unprivileged external user through public RPC transactions, their own signed transaction fields, deployable/callable contract code/input, public peer messages, peer-supplied protocol data, or repeated public API/cache use.
-Do not use analogs that require validator, block producer, chunk producer, chunk validator, node admin, relayer operator, or trusted-service privileges unless the analog is precisely an unprivileged bypass of that boundary.
-Only report an analog if this repository has its own reachable root cause and the impact matches the provided target scope.
-Be strict about analog quality: similarity of bug class is not enough. This repository must have its own concrete trigger, broken invariant, and scoped impact.
-Do not report analogs that amount to admin/operator mistakes, malicious-peer noise, ordinary resource exhaustion, unbounded memory/storage/cache/queue growth, or Rust memory-management cleanup concerns without a concrete High/Critical protocol result.
+## Required Execution/Admission Impacts
+{EXECUTION_ALLOWED_IMPACT_SCOPE}
 
-## Method
-1. Classify vuln type: consensus divergence, invalid block/chunk acceptance, runtime state mismatch, gas/refund bug, signature/proof bypass, shard/epoch transition bug, trie/state root mismatch, sync/stateless validation bypass, mempool/RPC admission bug, or network message confusion.
-2. Map to exact production files and modules.
-3. Identify the exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result that the analog would corrupt.
-4. Prove root cause with exact file, function, module, and line references.
-5. Confirm concrete scoped impact and realistic likelihood.
-6. Explain the attacker-controlled entry path and why repository code is a necessary vulnerable step.
-7. Reject if the impact does not match the provided target scope.
+{SMART_AUDIT_PIVOTS}
 
-## Disqualify Immediately
-- No reachable attacker-controlled entry path.
-- Requires malicious maintainers, compromised nodes, unsupported local configuration, social engineering, or dependency-only behavior.
-- Requires admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, or non-production flags.
-- Requires validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges not obtainable by an unprivileged user.
-- Only shows that a malicious peer can send malformed, stale, duplicate, conflicting, oversized, or unsolicited data that nearcore rejects, ignores, rate-limits, disconnects, retries, or treats as non-canonical.
-- Test, docs, mocks, fuzz harness, bench, generated data, automation, packaging, or local-tooling issue.
-- Theoretical-only issue with no consensus, runtime, sync, mempool, stateless validation, or RPC admission impact.
-- Impact is ordinary crash, denial of service, performance-only degradation, unbounded CPU/memory/disk/cache/queue growth, memory leak/OOM/allocation pressure, logging/display noise, harmless rejection, style, or best practice.
-- Root cause is only Rust memory-management hygiene such as clones, drops, lifetimes, reference counts, retained buffers, cache sizing, or queue growth without corrupting a scoped protocol value.
-- Impact or likelihood missing.
-- No exact corrupted state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result can be identified.
+Report only if this repository has its own reachable root cause, unprivileged trigger, broken invariant, exact corrupted value, and matching target scope or one of the impacts above. Reject privileged operations, malicious-peer-only noise, resource-only issues, unbounded growth, dependency-only behavior, and anything outside production scope.
+
+## Work Plan
+1. Classify the external bug into one Sequencer invariant.
+2. Map it to exact files/functions.
+3. Trace attacker input through production validation.
+4. Identify the wrong decided block, accepted proposal, state root, block hash, receipt/event commitment, class hash, nonce, fee, validator set, sync cursor, storage value, RPC result, or admission decision.
+5. Reject if existing guards preserve the invariant.
 
 ## Output (Strict)
 If valid analog exists, output:
@@ -511,7 +330,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict nearcore validation prompt for security claims.
+    Generate a strict Sequencer validation prompt for security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -519,60 +338,25 @@ def validation_format(report: str) -> str:
 {report}
 
 ## Rules
-- Validate only the submitted claim.
-- Validate against this repository's production nearcore scope and the allowed impact classes below.
-- Do not create a new vulnerability if the submitted claim is weak or invalid.
-- Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject malicious-maintainer, compromised-node, downstream-misuse, unsupported-config, docs/style, ordinary-crash, denial-of-service, performance-only, dependency-only, and purely theoretical issues.
-- Reject admin/operator mistakes, unsafe manual DB/config/genesis edits, wrong key management, debug/adversarial modes, non-production flags, and environment-specific deployment mistakes.
-- Reject claims requiring validator, block producer, chunk producer, chunk validator, relayer operator, node admin, or trusted infrastructure privileges unless the report proves an unprivileged user can bypass that boundary.
-- Reject malicious-peer-only claims where peers send malformed, stale, duplicated, conflicting, oversized, or unsolicited data but nearcore rejects, ignores, rate-limits, disconnects, retries, or only wastes resources.
-- Reject unbounded CPU/memory/disk/cache/queue growth, leaks, OOM, allocation pressure, and Rust memory-management cleanup issues unless the evidence proves a deterministic accepted invalid block/chunk/state, wrong state transition, wrong finality/head, or invalid transaction admission.
-- Reject if the exploit requires unrealistic assumptions, victim mistakes, missing external context, or unsupported NEAR protocol behavior.
-- A valid report must be triggerable by an unprivileged external user through public RPC transactions, transaction fields signed by their own keys, contract input/code they can deploy or call, public peer messages, peer-supplied protocol data, or repeated public API/cache use.
-- The final impact must match one of the High/Critical `target_scopes`, not just a generic code bug.
-- Prefer #NoVulnerability over speculative reports.
-- Be skeptical of reports that describe a bug class without naming the exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result produced by the exploit.
+- Validate only the submitted claim against production Sequencer files in `scope_files`.
+- Do not invent a stronger claim, change target scope, or upgrade severity without evidence.
+- A valid issue must be triggered by an unprivileged RPC client, ordinary account, contract caller/deployer, low-trust peer, or public L1/L2 data path.
+- Reject operator/admin/validator/proposer/oracle/trusted-service assumptions unless the report proves an unprivileged bypass.
+- Reject malicious-peer-only behavior, bad data that is rejected/ignored/rate-limited, ordinary crash/DoS, unbounded CPU/memory/disk/cache/queue growth, OOM, leaks, logs, style, dependency-only bugs, tests, mocks, generated data, docs, scripts, deployments, and tooling.
+- The final impact must exactly match one High/Critical `target_scopes` item or one execution/admission impact below, and identify the exact corrupted protocol-visible value.
 
-## Allowed Impact Scope
-Only these impacts are valid:
-- Critical. Unprivileged-user-triggered Consensus divergence in block, chunk, header, approval, finality, epoch, or shard-layout validation lets honest nearcore nodes accept different canonical chains or finalized blocks.
-- Critical. Unprivileged-user-triggered Runtime apply, transaction, receipt, action, gas, refund, storage, promise, yield/resume, or WASM host logic produces a different state root, outcome, balance, nonce, or receipt set for the same valid input.
-- Critical. Unprivileged-user-triggered State trie, flat storage, state parts, Merkle proofs, state witness, stateless validation, or chunk endorsement logic accepts forged state/chunks or rejects valid state in a consensus path.
-- Critical. Unprivileged-user-triggered Dynamic resharding, shard assignment, epoch transition, protocol feature gating, or shard tracking computes an invalid shard layout, split boundary, validator assignment, or catchup requirement.
-- Critical. Unprivileged-user-triggered Signature, account key, validator signer, approval, endorsement, VRF, light client, epoch sync proof, or hash-domain bug verifies an invalid proof/signature or rejects a valid one in consensus code.
-- High. Unprivileged-user-triggered Mempool, RPC transaction submission, access-key permission, nonce, gas-key, or transaction validation path admits invalid transactions or rejects valid transactions before block inclusion.
-- High. Unprivileged-user-triggered Network protocol, peer routing, chunk/state witness distribution, partial witness encoding, Reed-Solomon reconstruction, or state sync messages can be forged, replayed, misrouted, or misattributed with chain safety impact.
-- High. Unprivileged-user-triggered Sync, epoch sync, header sync, block sync, state sync, orphan handling, or missing-chunk logic can make a node follow invalid data, skip required validation, or fail to recover canonical state.
-- High. Unprivileged-user-triggered Congestion control, bandwidth scheduler, delayed/buffered/postponed receipts, outgoing limits, or cross-shard routing loses, duplicates, reorders, or over-admits work with state-transition impact.
+## Required Execution/Admission Impacts
+{EXECUTION_ALLOWED_IMPACT_SCOPE}
 
-If the submitted claim does not concretely prove one of the allowed impacts above, it is invalid.
+{SMART_AUDIT_PIVOTS}
 
-## Required Validation Checks
-All must pass:
-1. Exact in-scope file, function, and line or code references.
-2. Clear root cause and broken consensus, runtime, serialization, hashing, signature, epoch, shard, trie, sync, witness, gas, mempool, or routing assumption.
-3. Reachable exploit path: preconditions -> attacker input -> trigger -> bad result.
-4. Existing checks or guards reviewed and shown insufficient.
-5. Exact corrupted value identified: what state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result changed incorrectly.
-6. Concrete impact that exactly matches one allowed repository impact above, with realistic likelihood.
-7. Reproducible proof path: Rust unit/property test, fuzz target, test-loop test, protocol state test, or justified local reproducer.
-8. No obvious rejection reason from assumptions, privileged-role requirements, admin/operator error, malicious-peer-only behavior, resource-only behavior, dependency-only behavior, or scope exclusions.
-
-## Silent Triage Questions
-Before output, internally answer:
-- Can attacker-controlled peer/RPC/contract/state-sync input trigger this?
-- Can an unprivileged user trigger this without validator, block producer, chunk producer, node admin, relayer operator, or trusted-service privileges?
-- Is the issue more than a malicious peer sending bad data that is rejected or only wastes resources?
-- Is the issue more than admin/operator misconfiguration or local environment setup?
-- Is the issue more than unbounded resource growth, OOM, cache retention, queue growth, or Rust memory-management hygiene?
-- Does the code actually behave as claimed?
-- Is the impact caused by this repository, not by an external dependency alone?
-- Is the consensus/runtime/sync/mempool impact concrete, not hypothetical?
-- What exact state root, outcome root, validity decision, finality/head, epoch/shard value, validator set, gas, balance, nonce, receipt, state part, witness, signature result, DB entry, or RPC result is wrong after the exploit?
-- What consensus, runtime, gas, trie, signature, epoch, shard, sync, witness, mempool, routing, or serialization rule is broken?
-- Would a security triager accept the proof?
-- What exact test would prove it?
+## Required Checks
+1. Exact file/function/line references.
+2. Clear broken consensus, execution, admission, sync, storage, serialization, signature, or RPC-authority invariant.
+3. Reachable exploit path: preconditions -> attacker input -> production call path -> bad value.
+4. Existing guards reviewed and shown insufficient.
+5. Exact wrong value named: decided block, proposal validity, state root, block hash, transaction hash, event/receipt commitment, class hash, nonce, fee, gas price, L1 message, validator set, sync cursor, storage row, RPC result, or peer identity.
+6. Reproducible proof path: Rust unit/property/fuzz test, integration-style local reproducer, or deterministic protocol-state test.
 
 ## Output
 If valid, output exactly:
@@ -598,7 +382,7 @@ Audit Report
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or fuzz, differential, property, or state test plan]
+[Minimal reproducible steps or test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
