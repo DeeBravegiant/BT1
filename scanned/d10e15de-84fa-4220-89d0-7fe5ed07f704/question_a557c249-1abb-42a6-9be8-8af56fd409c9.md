@@ -1,1 +1,0 @@
-[File: 'crates/apollo_http_server/src/http_server.rs -> Scope: High'] [Symbol: add_tx_inner / CLIENT_REGION_HEADER / record_added_transactions info! macro] add_tx_inner extracts the X-Client-Region header via headers.get(CLIENT_REGION_HEADER).and_then(|region| region.to_str().ok()).unwrap_or(\
