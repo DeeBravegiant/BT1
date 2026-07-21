@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/apollo_batcher/src/batcher.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f7b1f4d-5612-46dc-82cc-dadbda3a3c5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/block_builder.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10d6e086-3cf9-4680-b023-aab5a619336e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/commitment_manager/commitment_manager_impl.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2f2aca3-e67b-4b41-9d37-a63187066a0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/commitment_manager/state_committer.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d7da8f2-3f21-4aa4-89c3-39d15ca37bdf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/pre_confirmed_block_writer.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_180588a1-a8bb-45b2-a4de-80433c37d911?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/pre_confirmed_cende_client.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_628dba49-5073-436c-b2c9-15db7e002764?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/transaction_executor.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_884f7fa6-e2c8-40c2-95f1-c7bbda16ea44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher/src/transaction_provider.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2519b2a-d563-45c0-8a9a-ad7547113513?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_batcher_types/src/batcher_types.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a480904f-d5ea-4efc-9493-10471abe9d64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/manager.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9600e3f7-ae17-464d-b5fe-596f8caa80eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/single_height_consensus.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7d48fea-4420-4ff0-9545-6560ce079261?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/state_machine.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_760c27d6-0f7d-4a05-8e5e-98d13db12032?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/storage.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97ee605b-7a79-47f0-9f38-7cfac71e8fa1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/stream_handler.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2759864a-cc40-4b98-b8e7-d715a6c9168e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/types.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ed262c3-09c5-46ac-81f2-9e2bfa7e379b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus/src/votes_threshold.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32d01e48-9ee7-410b-9f58-07854f849b82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_manager/src/consensus_manager.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2011e7be-f9c0-427a-be3a-440f124c1821?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/build_proposal.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea7655cb-3e18-4e5a-9d41-c1a9e6ea6b18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/cende/central_objects.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_461fc968-3fe8-4d7b-ac62-ce67f945ab40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/cende/mod.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bc8f6bf-8317-4fbb-930a-9f6445aca974?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/fee_market/mod.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a5c986b-3089-4e29-b4c6-0df9cb513353?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/orchestrator_versioned_constants.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_678bc315-baf4-4686-8c42-05264c53e4f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/sequencer_consensus_context.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cea8d5f9-58c0-4490-8d25-ecb6464d0a9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_consensus_orchestrator/src/validate_proposal.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_842ade24-acdd-496c-bf13-c08c0ee19e68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway/src/gateway.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1358366-644a-4710-a336-8d82abb7d94e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway/src/state_reader.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65194fb9-9fcd-41e2-bac5-e9194d53e272?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway/src/stateful_transaction_validator.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f4873ee-e083-47b5-a6d6-822183cff679?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway/src/stateless_transaction_validator.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_daaf23e5-1cac-4d24-833d-b8034a02bfd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway/src/sync_state_reader.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06de9346-b786-4dbf-aa08-4259ff53b185?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_gateway_types/src/gateway_types.rs -> Scope: High. Unprivileged-user-triggered network, SQMR, gossipsub, protobuf, or peer authentication bug forges, replays, misattributes, or routes consensus/sync/mempool data with chain-safety consequences.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ca68e87-c6b3-41ad-8a14-0f9aff64c52d?mode=deep",
+    "questions_generated": false
+  }
+]
