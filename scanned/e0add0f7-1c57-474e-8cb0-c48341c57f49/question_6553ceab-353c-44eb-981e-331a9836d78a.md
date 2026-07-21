@@ -1,1 +1,0 @@
-[File: 'crates/starknet_api/src/transaction_hash.rs -> Scope: High'] [Symbol: get_concat_resource / resource_name byte layout / L1_GAS vs L2_GAS vs L1_DATA_GAS] Can an unprivileged user craft a ResourceBounds where the packed 32-byte felt for L1_GAS (b\
