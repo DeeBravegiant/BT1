@@ -1,0 +1,1 @@
+Let me look at the `finish_proposal` function and the batcher's handling of `final_n_executed_txs` to complete my analysis.
