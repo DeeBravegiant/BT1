@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmModifyLiquidityCallback.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_8af8b65b-bb29-4ea2-b9cf-a4f7041d6a2c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmSwapCallback.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_c8a8b5f5-bec1-427f-8367-a73729b2c580?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/extensions/IMetricOmmExtensions.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_e003eb5e-e1d5-47ee-aecd-36e9d33cc4b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IExtsload.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_884ea5c6-3160-4ca3-aace-8e60b0cc6de5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryOwner.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_3d78dee0-54be-43c0-8836-30f7f6f6c049?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryPoolAdmin.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_25d90372-d11f-4865-9aed-4988d1d62a70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactory.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_e21e93f7-8173-442d-819d-3299a3492954?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolActions.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_67afef04-9a93-4949-bb37-261531112d7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolCollectFees.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_3dcf3767-7ff5-42c4-aaf6-4b9a84866da6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolFactoryActions.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_415165d2-5391-4e11-9db0-15cc046c4cd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPool.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_ec44d148-9df1-4ae7-b21c-1f5ad449595f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IPriceProvider/IPriceProvider.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_fb32f5b3-d64a-4fdc-897a-c71521e72b7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/BinDataLibrary.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_3100d73a-8e6d-49e0-9cb4-020e666333a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/CallExtension.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_606bbc69-349e-4a9c-83c6-8a2c3a0c078d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/LiquidityLib.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_43d8577d-855c-4a86-a19e-7d1df89403ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolActions.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_50fa29ba-1ae2-4b67-9bed-d4539cc9780d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolStateLibrary.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_5ef27a47-c02e-4633-bd8e-4a1da0a7f428?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SignedMath.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_c4a32f92-d674-4607-b7dd-d3198ea4b21b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/Slot0Library.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_83d6d2a9-0f4a-4ae9-ad5e-4d38b710bfc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SwapMath.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_99e176f0-564c-41df-b76a-04e1c7cfee95?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/ValidateExtensionsConfig.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_798dd06a-4414-48d1-9a17-1f52b1d22dbc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolDeployer.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_7a2fc21a-142f-4a7c-82b1-e704cbb3abb5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolFactory.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_595e6832-afff-4ed6-8259-9496fed62c39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPool.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_688af8d2-64c5-4de8-9b97-8f0542a10524?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryOperation.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_76c995b3-9c64-4075-8cf2-679301d634df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryStorage.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_484edcc3-5441-4780-8e0c-2423f383929e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolExtensionsConfig.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_ae8d81b5-991b-4d90-b8b5-1986ddb4d325?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolOperation.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_4e923706-0154-4501-b6fa-97475e78893e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolStorage.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_12c7d2e9-8161-4251-be4c-61f3207c64ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/Slot0.sol -> Scope: Critical. Unprivileged swap or liquidity flow drains more tokens than bin reserves, LP shares, or callback settlement allow.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_f32a57f8-5ef4-4e32-aceb-45776fadc845?mode=deep",
+    "questions_generated": false
+  }
+]
