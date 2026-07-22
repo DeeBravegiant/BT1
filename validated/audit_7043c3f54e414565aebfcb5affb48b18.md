@@ -1,1 +1,0 @@
-Based on my investigation, I need to look at one more critical piece — how the validator uses `next_l2_gas_price_fri` from `ProposalFin` to update its own state.

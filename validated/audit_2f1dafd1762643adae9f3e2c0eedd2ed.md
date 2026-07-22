@@ -1,5 +1,0 @@
-### Title
-Unconstrained `fee_proposal_fri` During Initiation Period Poisons `fee_proposals_window` and Corrupts Future L2 Gas Price - (File: crates/apollo_consensus_orchestrator/src/validate_proposal.rs)
-
-### Summary
-`is_proposal_init_valid` enforces that `fee_proposal_fri` lies within a geometric margin of `fee_actual`, but only when `fee_actual` is `Some`. For the first `window_size` (10) blocks, `compute_fee_actual` returns `None` because `height < window_size`, so the bounds check is silently skipped. Any proposer during this initiation window can broadcast an arbitrary `fee_proposal_fri` value; validators accept it without complaint, commit it to the block, and store it in `fee_proposals_window`. After 10 blocks the median of those stored values becomes `fee_actual`, which then drives `l2_gas_price` for all subsequent blocks. This is the direct sequencer analog of the Rubicon `offer()` bug: the before/after balance guard was applied in `_deposit()` but omitted in `offer()`; here the `fee_proposal_fri` bounds guard is applied when `

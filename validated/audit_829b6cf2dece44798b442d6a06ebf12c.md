@@ -1,1 +1,0 @@
-Let me look at the `get_proposal_content` function and how the commitment is computed on the proposer side.

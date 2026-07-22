@@ -1,1 +1,0 @@
-I need to verify the `compute_fee_target` formula, the oracle decimal handling, and any double-scaling or division-by-zero paths before concluding.

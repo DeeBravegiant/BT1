@@ -1,1 +1,0 @@
-Let me look at the transaction handling in `handle_proposal_part` and the batcher's `send_txs_for_proposal` path more carefully.

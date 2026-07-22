@@ -1,1 +1,0 @@
-Let me look at `execute_requests` to understand how `StartValidateProposal` is handled and whether the content stream is removed.

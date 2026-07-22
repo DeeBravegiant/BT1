@@ -1,1 +1,0 @@
-Let me look at the post-loop commitment comparison in `validate_proposal` and the `valid_proposals` cache to understand the full flow.

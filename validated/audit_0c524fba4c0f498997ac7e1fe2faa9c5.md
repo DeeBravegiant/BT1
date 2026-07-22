@@ -1,1 +1,0 @@
-Let me look at the `decision_reached` function in the consensus context to trace the full flow.

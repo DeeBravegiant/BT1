@@ -1,1 +1,0 @@
-Let me look at the `send_reproposal` function and the `try_sync` path more carefully.

@@ -1,1 +1,0 @@
-Let me look at the `fee_proposal_bounds` function and the `within_margin` function for potential overflow issues.

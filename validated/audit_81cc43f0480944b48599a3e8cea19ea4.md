@@ -1,1 +1,0 @@
-Let me look deeper at the `get_txs` skip_while logic and the `rollback_staging` function, as well as the `validate_proposal` insert-before-check pattern.

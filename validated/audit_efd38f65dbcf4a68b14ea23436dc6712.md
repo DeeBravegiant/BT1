@@ -1,1 +1,0 @@
-Let me look at one more critical area before concluding — the `FinishedProposalInfo` and fee/gas accounting path.
