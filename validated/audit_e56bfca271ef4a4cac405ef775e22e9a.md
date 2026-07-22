@@ -1,0 +1,1 @@
+Let me look at the batcher's `decision_reached` function to check if `active_height` is cleared there.
