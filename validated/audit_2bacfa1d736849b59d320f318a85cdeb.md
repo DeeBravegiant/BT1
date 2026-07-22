@@ -1,0 +1,3 @@
+Looking at the external bug's core class — **an entity exempt from a critical check accumulates bad state that eventually blocks valid operations** — I need to find the sequencer analog where a condition bypasses a bound check, allowing committed values to corrupt downstream state.
+
+Let me search for the specific function that handles the fee_actual bypass and the downstream L2 gas price computation.
