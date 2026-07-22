@@ -1,0 +1,1 @@
+Let me look more carefully at the `CommitmentParts` and `FinishedProposalInfo` to trace the commitment path.
