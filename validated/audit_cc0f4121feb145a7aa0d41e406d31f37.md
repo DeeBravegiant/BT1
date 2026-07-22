@@ -1,0 +1,1 @@
+Let me look at the rest of `validate_proposal` after the loop, and how `CommitmentParts` from `ProposalFinPayload` is used.
