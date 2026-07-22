@@ -1,0 +1,1 @@
+Let me look at the `add_tx` function to understand the declare delay mechanism fully.
