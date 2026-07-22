@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmModifyLiquidityCallback.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_82f11b8e-84c1-4361-a3a4-651c193dd1ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmSwapCallback.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_6fe79ea2-a2ac-4e2e-b90c-c5f45cbebafa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/extensions/IMetricOmmExtensions.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_7791985f-94fb-4d30-a7e5-e841e9d49f15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IExtsload.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_17d8b62e-26e8-4831-a889-da918ebb7332?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryOwner.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_9d125f7c-adff-4d75-b710-1f729e6cf85a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryPoolAdmin.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_87534377-c1f6-4178-acfe-84d0d19d2f66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactory.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_4efe3255-73e8-44c8-b714-ae2b90942c22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolActions.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_79f786ba-9eb2-4659-9720-fc6e2e8b8824?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolCollectFees.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_a2538d9f-2541-4b29-ad1f-bd6175065744?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolFactoryActions.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_79829b12-d871-486a-b248-6c61402a4862?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPool.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_766545dd-f730-40e1-b3b3-6f68cff998ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IPriceProvider/IPriceProvider.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_cef7691f-8f2a-4cb8-af75-e531543a7604?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/BinDataLibrary.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_80923d07-cfb7-42b7-9ba7-ffad160aba17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/CallExtension.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_6dc86c8c-5fed-417e-a590-84ca11596f59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/LiquidityLib.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_fc15642e-9ed7-4766-bb3d-c25b3115be97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolActions.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_6ee8e2e9-2eac-4c35-afa4-c8c93ea23482?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolStateLibrary.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_abc12a54-06c7-4f55-9ee2-66c4239dc118?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SignedMath.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_ef9355d2-d397-4b1d-ab23-5bf95c046439?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/Slot0Library.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_f0a3fab2-6e3b-4233-93fb-cb0d92ca9e68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SwapMath.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_0445dfea-05a1-409c-812f-b46a571f1880?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/ValidateExtensionsConfig.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_790a4da7-279e-4b07-9150-ecbc36cc0c40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolDeployer.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_f1adccd1-f6cc-4397-9c51-9f7403f0528b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolFactory.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_9ebb12be-1c49-48a9-a7c2-f69439d2b2dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPool.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_d783709b-d86d-40c1-bd5d-17c83db82f9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryOperation.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_87909b91-a98c-4945-b443-98b5cf190500?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryStorage.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_df3f75ea-907d-452a-8d0c-8ae76a3998f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolExtensionsConfig.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_927e1d37-a085-4512-9aee-a4e34e627e01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolOperation.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_a508c631-efca-453a-97c1-53eb99178de2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolStorage.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_f0a2db06-5116-443e-9f1b-910a29d8d326?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/Slot0.sol -> Scope: High. `IncorrectDelta`, callback, transient reentrancy, or transfer ordering allows underpayment, double settlement, or stale callback context to affect pool balances.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_9a3fef4c-da90-4d3d-9dc9-d129d0d43b36?mode=deep",
+    "questions_generated": false
+  }
+]
