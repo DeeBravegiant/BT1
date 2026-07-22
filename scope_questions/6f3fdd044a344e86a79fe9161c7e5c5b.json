@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/utils/MetricReentrancyGuardTransient.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_0292d88b-62e8-4910-8b2f-5cc5bf599b5e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/MetricOmmSwapRouterBase.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_11ec6389-cc89-493d-91c6-f6282049b0ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/PeripheryPayments.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_b560dd11-5eef-4db6-bee8-7549dc025e75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/SelfPermit.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_9c99aabe-33c1-4ea1-ad24-e7740f639d0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/common/MetricOmmPoolStateView.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_ae386d3e-62bc-47ea-b2f1-3c95fa78ed56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/base/BaseMetricExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_96a1fdd5-667c-4ec5-9a0e-5fe8b0e64bd6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/DepositAllowlistExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_af403ef0-ddde-4633-a4f9-4260cac81022?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/OracleValueStopLossExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_0d3b4919-d320-4a6c-a326-6a268ccfa7c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/PriceVelocityGuardExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_c46da64c-982b-4bca-8958-5990db89a7f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/SwapAllowlistExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_d89c0660-a98d-49c6-8b09-81e7f8fe0b59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IDepositAllowlistExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_fe4a1cc1-68f7-462a-887c-af53a6c42441?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IOracleValueStopLossExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_3174077b-b052-4d0a-9805-9a4ef5220f61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IPriceVelocityGuardExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_b3e0d102-8e2b-4561-81d8-33a27bc5b0d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/ISwapAllowlistExtension.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_0cfd2ff3-7798-4cbb-8db8-5464e1c1ef6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/external/IERC20PermitAllowed.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_b3da41a0-452e-4e23-b2fd-1c3784b1ca45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmPoolLiquidityAdder.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_fe23db83-3d09-46e7-96bc-57d1ce593dae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmSimpleRouter.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_00e60a3d-d57e-4179-9adc-27d03ec5fe5d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmSwapQuoter.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_57e139f9-eb9d-4070-a7e6-9bab5d7a14c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMulticall.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_107e5ff9-aaae-45ab-b0c0-2be55bfa7273?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IPeripheryPayments.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_b1fd07ce-f5b9-4766-a632-12c9d9028ece?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/ISelfPermit.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_552c99cb-0ecf-4abf-99ba-ec01c1f28bb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IWETH9.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_18d18eaf-2274-4f0e-b7a4-062a9bbbcb79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapInputs.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_2428071d-1072-429d-afd2-1be4b7b06f05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapPath.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_1f2fd34f-60b3-4137-a448-610c99aea1f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapQuoteDecode.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_263dda18-0359-4665-bfb3-a94ee08a6aa9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapResults.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_befe48ac-2f1b-4af3-a8af-18485517d0a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/TransientCallbackPool.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_1d65fd17-e725-492d-948c-13ceba97d34a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/MetricOmmPoolLiquidityAdder.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_82898814-6bc5-4f8d-8b24-1ec643117e36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/MetricOmmSimpleRouter.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_966157a5-0d2a-4a36-b850-65f30c59908d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/AnchoredPriceProvider.sol -> Scope: High. Pause, remove-liquidity, collect-fee, or per-bin share accounting blocks legitimate LP exits or misallocates principal/fees.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_df889e35-0cfd-45fa-ab6d-3b4a32832298?mode=deep",
+    "questions_generated": false
+  }
+]
