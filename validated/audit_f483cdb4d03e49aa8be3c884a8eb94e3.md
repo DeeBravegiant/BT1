@@ -1,0 +1,1 @@
+Let me check the `BinTotals` struct and `Slot0Library` to verify the storage packing.
