@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/AnchoredProviderFactory.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_44ae9804-0128-4d23-91bd-ccba8ea35a1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/IAnchoredProviderFactory.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_2ea376a4-7e13-442b-b41c-b65f178f1c36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/IAnchorSource.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_dbfe8e9d-250b-41c1-820f-dea56cd97baf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/ICompressedOracleV1.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_9d633d19-0f4d-44c5-91f9-d5a7e28f84e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/compressed/CompressedOracle.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_bb6a7c4e-d592-43c0-a0d0-c4e7d935b7aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/compressed/OracleBase.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_b98aefc0-ba73-4869-91c1-ceef42ae2c26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/ChainlinkOracle.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_5839c121-3ca7-403e-8244-f2a59cef2574?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/docs/en/abuse-protection-integration.md -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_688955f9-6cd4-4e41-a0cf-4b60292584d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/docs/ru/abuse-protection-integration.md -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_5df992ed-6471-4b95-85a1-fbf750114500?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/OracleBase.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_70c2d94e-44cf-453b-be02-bda03ada0bd6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/PythOracle.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_455dc4a7-17bb-4527-82a3-b1314ec0853d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/Codebook256.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_88d1e65a-7be0-4392-8e63-a1fdd957b3d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/LazerConsumer.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_bd52f90b-aa03-4e8c-b226-47eb761e84ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/TimeMs.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_1936d7ab-1fd6-4956-a210-a6713ec62240?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/U64x32.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_45fe188f-1844-43d9-9d20-56a052b48b6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/PriceProviderFactory.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_2166128f-c820-4c37-87e3-a8fe1dffb42a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/PriceProvider.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_77305bc5-4750-4211-a310-3b556b75e796?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/ProtectedPriceProviderL2.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_94a14ab1-12da-44b9-892e-85f8c519902e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/ProtectedPriceProvider.sol -> Scope: Critical. Rounding, scaling, or bin-position math breaks pool solvency or lets repeated trades/LP operations extract value from standard ERC20 pools.'",
+    "url": "https://deepwiki.com/search/-generate-pool-swapliquidity-s_e0bf1888-7ab8-4af9-84cd-9489111ac7fb?mode=deep",
+    "questions_generated": false
+  }
+]
