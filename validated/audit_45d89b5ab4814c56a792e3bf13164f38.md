@@ -1,0 +1,1 @@
+Let me look at the `handle_executed_txs` function and the sequential executor's `add_transaction` to check for missing accumulations.
