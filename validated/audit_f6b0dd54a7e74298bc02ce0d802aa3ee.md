@@ -1,0 +1,1 @@
+Let me check one more critical area — how queued proposals are eventually processed:
