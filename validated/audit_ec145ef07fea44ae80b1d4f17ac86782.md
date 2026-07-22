@@ -1,0 +1,1 @@
+Let me look at the queued proposals processing and the `validate_current_round_proposal` path to check for asymmetry.
