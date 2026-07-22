@@ -1,0 +1,1 @@
+I'll analyze the external bug (identity-based allocation where a manipulable flag redirects all revenue to the wrong party) and search for a Sequencer-native analog.
