@@ -1,1 +1,0 @@
-Looking at the `DepositAllowlistExtension` and how `addLiquidity` passes arguments to it, I can identify a concrete analog.

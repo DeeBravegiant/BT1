@@ -1,1 +1,0 @@
-Let me look at the full `LiquidityLib.addLiquidity` function to understand the balance verification flow.

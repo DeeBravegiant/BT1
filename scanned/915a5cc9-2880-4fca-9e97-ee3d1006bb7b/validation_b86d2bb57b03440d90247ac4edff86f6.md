@@ -1,1 +1,0 @@
-Based on my analysis of the codebase, I need to look at the full swap function and callback settlement to check for double-application patterns.

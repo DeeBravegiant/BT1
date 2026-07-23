@@ -1,1 +1,0 @@
-Let me look at the `_executeSwap` function and how notional fees are tracked, plus the `collectFees` surplus calculation more carefully.
