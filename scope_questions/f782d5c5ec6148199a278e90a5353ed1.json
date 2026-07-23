@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: near/omni-types/src/utils.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0a8109e-7214-45ca-9468-c1de8e925495?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: near/token-deployer/src/lib.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0be73eb1-0b31-4eb8-a808-7c2f3bdd6ba6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: near/token-deployer/src/migrate.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e853a58d-20c9-4405-ae4e-d6de84b34fa7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/Borsh.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ba2c401-84c1-4444-8b56-d1c3ae4a9383?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/IBridgeToken.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5f66ac1-75be-459f-bf95-6a66181a2e30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/ICustomMinter.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_861fd9e8-b87a-4c2e-ad17-f46ad9003fec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/eNear/contracts/ENearProxy.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5727237c-264a-4bc8-b6da-7a557b45235c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/eNear/contracts/IENear.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_089f25d4-78ec-43b4-ba61-25e629992d26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/BridgeToken.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_289b3e05-3784-4cbf-a4de-90c163398f22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/BridgeTypes.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3af21d6-f56b-4db2-8eb4-463f88da0edd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/HlBridgeToken.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_31f437ff-0125-41f2-8cca-36c6c5aa57ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/OmniBridge.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dc2fae1-2c41-4ac8-a47c-89c247443054?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/OmniBridgeWormhole.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0037ff1-b8b2-43cf-9b38-c313a8a1b074?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/SelectivePausableUpgradable.sol -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_150fb88a-ad35-4a00-affb-becf0a16476c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/constants.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af286868-a6ad-432a-b89c-4e6500297545?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/error.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8df87904-bb78-4e30-acdc-0057a9cfcb90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/change_config.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fccc861d-5991-4b28-9e84-b58893c97f44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/initialize.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a5dd5e7-0550-4ffb-b45a-ccec0a42cf5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/mod.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7d26767-c704-4d75-8a1b-9fd4e49a4cda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/pause.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbb15155-ffa9-4f38-85aa-5fa4fac2a159?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/update_metadata.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a321668-fd07-4603-9ea0-9f5850a0714d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/mod.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04798bcb-dd80-4829-9156-ac680323a7ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/deploy_token.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_678a59ce-284d-4022-a009-855eda28b104?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/finalize_transfer.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29fdd0b9-d0e1-42b9-a5da-63f79242db27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/finalize_transfer_sol.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c3fe230-aa8d-4369-9863-ee53df1f7bee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/get_version.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c912712b-96e8-4537-b83a-ee6135852a75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/init_transfer.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6dca96fc-53f9-4ef0-9109-9fd894535bd5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/init_transfer_sol.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec003166-0f71-42ee-9b62-d71638791f84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/log_metadata.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e38f8f4d-04f0-49ed-9752-2a6e18824913?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/mod.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2290b52f-df47-4412-8cf5-ab11ec7e168c?mode=deep",
+    "questions_generated": false
+  }
+]
