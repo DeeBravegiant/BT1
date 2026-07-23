@@ -1,0 +1,1 @@
+Let me look at the full `addLiquidity` function and the `LiquidityLib.sol` beginning to understand the current-bin handling:
