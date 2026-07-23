@@ -1,1 +1,0 @@
-Let me look at the reentrancy guard implementation and the `MetricOmmPoolLiquidityAdder` to understand the full picture.
