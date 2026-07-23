@@ -1,1 +1,0 @@
-Let me look at the router callback and payment functions more carefully.

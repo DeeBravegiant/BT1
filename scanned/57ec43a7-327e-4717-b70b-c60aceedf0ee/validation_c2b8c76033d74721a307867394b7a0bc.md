@@ -1,1 +1,0 @@
-Looking at the external bug class (duplicate registry entry → shared balance double-counted → incorrect accounting), I need to trace through Metric OMM's pool creation, liquidity accounting, bin share tracking, and fee collection for a native analog.

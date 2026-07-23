@@ -1,1 +1,0 @@
-Let me look at the swap callback settlement and the `_executeSwap` function more carefully.
