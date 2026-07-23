@@ -1,1 +1,0 @@
-Let me look at the swap function and callback handling more carefully.

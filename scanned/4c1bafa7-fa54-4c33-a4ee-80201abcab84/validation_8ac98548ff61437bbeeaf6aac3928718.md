@@ -1,1 +1,0 @@
-Let me check the `PriceVelocityGuardExtension` before concluding.
