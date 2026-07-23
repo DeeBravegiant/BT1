@@ -1,0 +1,1 @@
+Let me look at the extensions and the `LiquidityLib.removeLiquidity` to check for any missing ownership validation in the full call path.
