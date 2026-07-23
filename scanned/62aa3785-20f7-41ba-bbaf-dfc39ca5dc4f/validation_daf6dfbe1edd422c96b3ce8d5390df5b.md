@@ -1,1 +1,0 @@
-Let me look at the `deltasScaledToExternal` function and the scaling conversion to check for rounding issues.

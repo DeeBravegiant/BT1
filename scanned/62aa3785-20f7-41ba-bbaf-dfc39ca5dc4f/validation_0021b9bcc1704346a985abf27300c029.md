@@ -1,1 +1,0 @@
-Let me look at the `midAndSpreadFeeX64FromBidAsk` function and the full swap fee path to understand how `addFeeBuyE6`/`addFeeSellE6` interact with the global fee caps.

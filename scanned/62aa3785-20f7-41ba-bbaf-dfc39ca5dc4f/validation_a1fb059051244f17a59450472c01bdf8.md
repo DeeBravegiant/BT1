@@ -1,1 +1,0 @@
-Let me look at the extensions and the swap allowlist to check for any signature-based authorization patterns.
