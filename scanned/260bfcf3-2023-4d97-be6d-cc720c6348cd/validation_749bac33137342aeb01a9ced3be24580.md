@@ -1,1 +1,0 @@
-Let me look at the `SignedMath` library and the `SwapMath` functions for exact-output to understand the `feeExclusiveInputScaled` computation.
