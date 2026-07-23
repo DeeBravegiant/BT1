@@ -1,1 +1,0 @@
-Let me read the `LiquidityLib.sol` and `SwapMath.sol` files directly to look for any "set instead of accumulate" patterns.
