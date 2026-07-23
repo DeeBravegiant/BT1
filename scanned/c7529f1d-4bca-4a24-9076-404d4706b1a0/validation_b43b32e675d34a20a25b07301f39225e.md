@@ -1,1 +1,0 @@
-Let me look at the `LiquidityLib` more carefully, particularly the `addLiquidity` function and how it handles the conversion between scaled and external amounts.

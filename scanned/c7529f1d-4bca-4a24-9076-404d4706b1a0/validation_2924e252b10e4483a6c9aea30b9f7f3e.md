@@ -1,1 +1,0 @@
-Let me look at the `BinState` struct and the remaining parts of `MetricOmmPool.sol` to complete my analysis.
