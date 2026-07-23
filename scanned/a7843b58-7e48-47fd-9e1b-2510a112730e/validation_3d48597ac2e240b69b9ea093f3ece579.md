@@ -1,1 +1,0 @@
-Searching the codebase for the analog pattern — tautological `uint >= 0` conditions or missing zero-amount guards on unsigned types.
