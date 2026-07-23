@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: near/omni-types/src/utils.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c00cd9ec-36d8-4144-830f-58207156fa45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: near/token-deployer/src/lib.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20868913-5b6b-45f0-aa79-1a304e4d5f1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: near/token-deployer/src/migrate.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7137c1e5-a071-4a58-a553-455e39fe6c1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/Borsh.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_775d52ec-6501-4f6a-8900-2f69ab9a64bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/IBridgeToken.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c2e270e-2a3b-4998-828a-95298e7252a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/common/ICustomMinter.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_160cfc53-a39c-4cde-a8b9-8bd4d4191dc4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/eNear/contracts/ENearProxy.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5da6713b-d43b-4650-b416-227c079460da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/eNear/contracts/IENear.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_524455c6-eac6-411f-86a0-b15e82c94870?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/BridgeToken.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4fcb1960-2824-469b-bd67-402f822ea5b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/BridgeTypes.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9592d357-ab83-4911-bd6e-99bae6adbf43?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/HlBridgeToken.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5451dddb-ad64-456f-9a97-10115e842954?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/OmniBridge.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8b1bf45-9141-4a86-938a-6feaec34f40c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/OmniBridgeWormhole.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_259eb8dc-853b-46a2-a239-4292c624e6c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: evm/src/omni-bridge/contracts/SelectivePausableUpgradable.sol -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82a6128f-62d6-4ab9-8746-2e1e8717d678?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/constants.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dc2c6ec-dcd5-46f4-b6e5-be4bb940ace2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/error.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_302acb42-6584-4e06-b521-a1f28302f310?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/change_config.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bee9120e-997d-432b-9091-bdac608e7d4f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/initialize.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33dec994-698d-4589-860c-ee10e2638bfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/mod.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6ea4f98-d14b-49db-a607-4dce82ebf1f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/pause.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50ae5ba0-13ee-49e2-8baa-2bb83e730d92?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/admin/update_metadata.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bd9723a-017e-4064-a9f3-71208051b895?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/mod.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfd9762d-11cb-449f-91f5-a94e6fb7a647?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/deploy_token.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71518934-0ddd-4746-b84c-293b5e72f179?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/finalize_transfer.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f82af0f-5147-4435-a580-72d8843a9657?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/finalize_transfer_sol.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8021e1d7-4a47-462c-b436-a1745d0117a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/get_version.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e489ddf-bae6-450d-b9e2-e9cba7b688ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/init_transfer.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26f689af-b86f-41e1-9a2e-0190e0951768?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/init_transfer_sol.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2148a26-d796-4fa0-b2b5-ceae46f9e64e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/log_metadata.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c3a30ad-ab65-4ff9-8896-1194fd0e94a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: solana/programs/bridge_token_factory/src/instructions/user/mod.rs -> Scope: High. Asset-identity, token-mapping, decimals, fee-routing, refund, or balance-accounting divergence that breaks backing guarantees or sends value to the wrong party'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8297282-fe38-476d-9d44-3c97e979e716?mode=deep",
+    "questions_generated": false
+  }
+]
