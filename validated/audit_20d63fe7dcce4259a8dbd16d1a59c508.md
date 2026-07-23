@@ -1,0 +1,1 @@
+Let me look at the `_finalizeSwap` function and the swap state management more carefully.
