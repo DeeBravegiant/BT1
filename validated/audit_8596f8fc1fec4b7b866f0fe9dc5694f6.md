@@ -1,0 +1,1 @@
+Let me look at the `sign_transfer` function and how the signed amount relates to the fee accounting.
