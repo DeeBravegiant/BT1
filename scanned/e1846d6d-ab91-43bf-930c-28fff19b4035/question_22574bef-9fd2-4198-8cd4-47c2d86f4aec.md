@@ -1,1 +1,0 @@
-[File: 'evm/src/common/IBridgeToken.sol -> Scope: Critical. Irreversible fund lock, frozen redemption path, or permanently unclaimable user or protocol value in bridge, token, fee, vault, fast-transfer, or UTXO flows'] [Function: OmniBridge.finTransfer / Borsh.encodeString (feeRecipient Option encoding)] Can a NEAR-side transfer signed with fee_recipient = Some(\

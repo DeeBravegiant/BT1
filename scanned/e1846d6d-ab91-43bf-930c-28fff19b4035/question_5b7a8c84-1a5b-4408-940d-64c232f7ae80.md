@@ -1,1 +1,0 @@
-[File: 'evm/src/common/IBridgeToken.sol -> Scope: Critical. Irreversible fund lock, frozen redemption path, or permanently unclaimable user or protocol value in bridge, token, fee, vault, fast-transfer, or UTXO flows'] [Function: OmniBridge.finTransfer / Borsh encoding (message field)] Can a NEAR-side transfer signed with msg = Some(b\
