@@ -1,1 +1,0 @@
-[File: 'near/omni-types/src/utils.rs -> Scope: Critical. Irreversible fund lock, frozen redemption path, or permanently unclaimable user or protocol value'] [Function: sha256 / TransferMessageStorageAccount::id] Can an unprivileged user submit an InitTransferMsg with external_id = Some(\
