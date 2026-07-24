@@ -1,0 +1,1 @@
+Let me check the `deploy_token_internal` function and whether there's any deduplication guard.
