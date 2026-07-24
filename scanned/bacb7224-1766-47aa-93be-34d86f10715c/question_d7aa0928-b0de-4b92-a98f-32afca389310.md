@@ -1,1 +1,0 @@
-[File: 'near/omni-token/src/migrate.rs -> Scope: Critical. Unauthorized creation, release, withdrawal, or custody escape of native, locked, or wrapped bridge assets through settlement, deployment, or verification failure'] [Function: migrate_from_poa] Can an unprivileged ATTACKER under the precondition that `migrate_from_poa` reads `NearIntentsState` from `STATE_KEY` (b\
