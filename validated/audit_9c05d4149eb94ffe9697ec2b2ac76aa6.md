@@ -1,0 +1,1 @@
+Let me look at the `verify_proof` function in the bridge contract and the `parse_evm_proof` function to complete the analysis.

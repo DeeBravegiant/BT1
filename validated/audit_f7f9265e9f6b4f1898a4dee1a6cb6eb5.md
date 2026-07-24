@@ -1,0 +1,1 @@
+Let me look at the EVM `initTransfer` and the `OmniBridgeWormhole` contract for any amount scaling logic.
