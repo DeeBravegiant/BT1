@@ -1,1 +1,0 @@
-Let me look at the `get_token_origin_chain` function and the `deployed_tokens_v2` interaction, which is the most promising analog.

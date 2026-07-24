@@ -1,1 +1,0 @@
-Let me look at `amount_without_fee()` and the fee accounting in the `fin_transfer` path more carefully.

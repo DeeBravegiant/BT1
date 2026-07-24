@@ -1,1 +1,0 @@
-I need to trace the exact call sequence through the production code to verify each step of the proposed exploit.

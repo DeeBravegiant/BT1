@@ -1,1 +1,0 @@
-Let me look at the `init_transfer` function to understand how `sender_id` is used there.

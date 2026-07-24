@@ -1,1 +1,0 @@
-Based on my investigation, let me look at the `claim_fee` flow and the `get_native_token_id` function more carefully to determine if there's a real analog.
